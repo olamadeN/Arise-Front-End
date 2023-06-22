@@ -1,0 +1,42 @@
+.details .contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 7%;
+    margin-top: 10%;
+}
+.details .contacts .socials{
+    text-align: center;
+}
+.details .contacts .socials img{
+    margin-bottom: 10px;
+}
+.details .map img{
+    width: 100%;
+}
+.redirect{
+    text-align: center;
+    padding:4% 10%;
+    width:100%;
+    background:#F2F2F2;
+}
+.redirect h3{
+   margin-bottom: 3%;
+}
+.redirect button{
+   margin: 3% auto;
+   margin-bottom: 0;
+}
+
+@media screen and (max-width:480px) {
+    .details .contacts{
+        grid-template-columns: 1fr;
+    }
+    .redirect h3{
+        margin-bottom: 5%;
+     }
+     .redirect button{
+        margin: 5% auto;
+        
+     }
+     
+}

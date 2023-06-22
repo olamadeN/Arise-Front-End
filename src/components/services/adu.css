@@ -1,0 +1,11 @@
+.Adu{
+    width: 100%;
+    overflow: hidden;
+}
+.aduList ul{
+    padding: 0% 5%;
+}
+.aduList ul li{
+    padding: 0;
+    margin: 4% 0;
+}

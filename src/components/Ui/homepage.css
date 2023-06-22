@@ -1,0 +1,487 @@
+
+.Hbanner .bannertxt1{
+    padding:26px 0;
+    width: 100%;
+    background: #006AAA;
+    text-align: center;
+    color: #F2F2F2;
+}
+.Hbanner .bannertxt2{
+    padding:18px 0;
+    width: 100%;    
+    background: #006AAA;
+    color: #F2F2F2;
+    text-align: center;
+} 
+/* service */
+.service{
+    height: 653px;
+    width: 82.8%;
+    margin:50px 9%;
+    border-radius: [object Object]px;
+/*     border: 5px solid #006AAA; */
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap:5%;
+    row-gap:0;
+    
+}
+.service .panel{
+    margin-top: 15px;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5%;
+}
+.service .panel:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+}
+.service .panel h4{
+    font-weight: 800;
+
+}
+.service .panel .lead{
+    color: #0F172A;
+
+}
+.service .panel .vector{
+    height: 78.66666412353516px;
+    width: 70.80000305175781px;
+    margin:12px 0;  
+}
+/* Portfolio Gallery*/
+.portfolioGal{
+    text-align: center;
+}
+#portfolioGal{
+    width:70%;
+    margin:50px 15%;
+}
+.portfolioGal .homeGallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3%;
+}
+.portfolioGal .homeGallery .hgPack img{
+    width:100%;
+    z-index:-1;
+    display: inline;
+    
+}
+.portfolioGal .homeGallery .hgPack{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.hgOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#00000000;
+    text-align: center;
+    color: #f2f2f200;
+    transition: background-color 0.3s ease;
+}
+.hgOverlay p{
+    position: relative;
+    top: 150px;
+    font-size: 1.5rem;
+}
+.hgOverlay:hover{
+    background:#0000008f;
+    color: #f2f2f2;
+}
+/* home about us */
+.homeAboutUs{
+    width: 82.8%;
+    margin:120px 9%;
+    display: grid;
+    grid-template-columns: 41% 35%;
+}
+.homeAboutUs .aboutTxt{
+    text-align: left;
+
+}
+.homeAboutUs .aboutImg{
+    height: 656px;
+    margin-top: -100px;  
+}
+
+.homeAboutUs button{
+    margin-top: 40px;
+}
+/*home our process*/
+.processTxt{
+    margin-top: 85px;
+    text-align: left;
+    margin-left: 15%;
+
+}
+.processImg{
+    height: 728px;
+    border-radius: 0px;
+    
+}
+/* newsletter*/
+section.newsletter{
+    width: 82.8%;
+    margin: 60px 9%;
+    border-radius: 37px;
+    background: #006AAA;
+    padding-inline: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+}
+.HnewsImg{
+    margin-top: -80px;
+    width:100%;
+}
+.newsletter .HnewsTxt{
+    color: white;
+    margin-top: 50px;
+}
+form.Hnews input{
+    height: 48px;
+    width: 60%;
+    border-radius: 4px;
+    border:none;
+    background: #F2F2F2;
+
+}
+form.Hnews input:active {
+    border:none;
+}
+form.Hnews input::placeholder{
+    text-align: center;
+}
+form.Hnews button{
+    height: 48px;
+    width: 142px;
+    border: none    ;
+    border-radius: 4px;
+    padding: 12px 32px 12px 32px;
+    background: #F2F2F2;
+    margin-left: 8px;
+}
+.newsletter #p{
+    font-weight: 400;
+}
+/*testimonials*/
+.testimonial{
+    text-align: center;
+    width: 82.8%;
+    margin: 60px 9%;
+}
+.testimonies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5%;
+    margin-top: 50px;
+}
+.tpack:hover{
+    background: #006AAA;
+    color: #FFFFFF;
+}
+.tpack{
+    height: 304px;
+    border-radius: 25px;
+    background: #D9D9D9;
+    position: absolute;
+    width: 25%;
+}
+.tpack .quote{
+    margin-top: 20px;
+    
+}
+.tpack p{
+    height: 182px;
+    border-radius: nullpx;
+    margin:20px 9%;
+}
+.tuser{
+    position: relative;
+    top:242px;
+}
+.tBtn{
+    position: relative;
+    top:300px;
+    left: 43%;
+}
+/* just a chair???? */
+section.chair{
+    width: 82.8%;
+    margin: 60px 9%;
+}
+section.chair img{
+    margin-top:280px;
+}
+
+
+@media screen and (min-width:1740px) {
+    .processTxt{
+        margin-left:0%;
+    
+    }
+    .processImg{
+        margin-left:13%;
+    
+    }
+
+}
+@media screen and (min-width:1540px) {
+    .processTxt{
+        margin-left:0%;
+    
+    }
+    section.chair img{
+        margin-top:280px;
+        margin: auto;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1360px) {
+    section.chair{
+        width: 82.3%;
+        margin: 60px 9%;
+    }
+    section.chair img{
+        margin-top:280px;
+    }
+}
+/* media query */
+@media screen and (max-width:1200px) {
+    .service{
+        height: auto;
+        width: 82.8%;
+        margin:50px 9%;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap:5%;        
+    }
+    .homeAboutUs{
+        overflow-x: hidden;
+        grid-template-columns: 50% 100%;
+    }
+    .homeAboutUs .aboutImg{
+        width: 100%;  
+    }
+    
+    .homeProcess{
+        grid-template-columns: 0.8fr 1fr;
+        gap: 6%;
+        overflow-x: hidden;
+    }
+    .homeProcess .processImg{
+        width: 100%;
+        height: 728px;
+        border-radius: 0px;
+        
+    }
+    
+}
+/* big devices */
+@media screen and (min-width:1300) {
+    
+}
+/*medium devices*/
+@media screen and (max-width:1024px) {
+    section.newsletter{
+        padding-inline: 5%;
+        padding-bottom: 3%;
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .HnewsImg{
+        width: 170%;
+        margin-top: -20px;
+        margin-left: -15%;
+    }
+    .newsletter .HnewsTxt{
+        margin-top: 15px;
+        width: 82%;
+        margin-left: 25%;
+    }
+    form.Hnews input{
+        height: 38px;
+        width: 55%;    
+    }
+    form.Hnews button{
+        height: 38px;
+        width: 42%;
+        padding:0;
+
+    }
+    .processTxt{
+        margin-left: 10%;
+    }
+    .testimonies{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+        row-gap: 250px;
+    }
+    .tpack{
+        height: auto;
+        width: 40%;
+        text-align: center;
+        
+    }
+/*     .tpack p{
+        width: 80%;
+        margin: 20px 10%;
+        padding: 0;
+    }
+    .tuser{
+        position: relative;
+        top:242px;
+        margin-top: 12px;
+    } */
+    section.chair{  
+        margin: 60px 9%;
+    }
+    section.chair img{
+        width: 100%;
+        margin-top:280px;
+    }
+
+    
+}
+    
+
+/*tab devices*/
+@media screen and (max-width:768px) {
+    #readMoreBtn{
+        width: 50%;
+        text-align: center;
+    }
+    section.newsletter{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        padding-inline: 0;
+    }
+    .HnewsImg{
+        display: none;
+    }
+    .newsletter .HnewsTxt{
+        width: 82%;
+        margin: 10px 9.5%;
+    }
+    .testimonial{
+        text-align: center;
+        width: 82.8%;
+        height: auto;
+        margin: 60px 9%;
+    }
+   .testimonies{
+        grid-template-columns: 1fr;
+        
+    } 
+    .tpack{
+        height: auto;
+        width: 80%;
+        text-align: center;
+        
+    }
+    .tpack p{
+        width: 80%;
+        margin: 20px 10%;
+        padding: 0;
+    }
+    .tuser{
+        position: relative;
+        top:242px;
+        margin-top: 12px;
+    }
+    .tBtn{
+        
+        position: relative;
+        text-align: center;
+        top:300px;
+        left: 32%;
+    }
+    #tBtn{
+        width: max-content;
+        text-align: center;
+    }
+}
+/*mobile devices*/
+@media screen and (max-width:480px) {
+    .bannertxt1 h3{
+        font-size: 1.36rem;
+        line-height: 29px;
+    }
+    .service{
+        grid-template-columns: 1fr;    
+    }
+    #portfolioGal{
+       
+        margin-bottom: 130px;
+    }
+    .portfolioGal .homeGallery{
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+    .homeAboutUs{
+        display: block;
+    }
+    .homeAboutUs .aboutImg{
+        display: none;
+    }
+    .homeProcess{
+        display: block;
+    }
+    .sectLeft .processImg{
+        display: none;
+    }
+    #readMoreBtn{
+        width: 45%;
+        text-align: center;
+    }
+    section.newsletter{
+        padding:3%;
+        padding-bottom: 9%;
+        padding-inline: 0;
+    }
+    .Hnews #newsInput{
+        display: block;
+        margin-bottom: 20px;
+        width:90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .tpack{
+        height: auto;
+        width: 91%;
+        text-align: center;
+        margin-left: -5%;
+    }
+    .tpack p{
+        width: 80%;
+        margin: 20px 10%;
+        padding: 0;
+    }
+    
+    .tBtn{
+        left: 28%;
+    }
+    .newsletter .HnewsTxt{
+        width: 95%;
+        margin: 10px 6.5%;
+    }
+    form.Hnews input{
+        display: block;
+        width: 90%;
+    }
+    form.Hnews button{
+        display: block;
+        width: 90%;
+        margin: 20px 0;
+    }
+    
+}

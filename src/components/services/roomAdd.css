@@ -1,0 +1,39 @@
+
+.raSect1 p li {
+    list-style-type: none;
+}
+.raSect2 button {
+    margin: 0 37%;
+}
+
+
+/* media query */
+
+/*medium devices*/
+@media screen and (max-width:1200px) {
+    .raSect2 button {
+        text-align: center;
+        margin: -30px 40%;
+        width: 31%;
+    }    
+    
+}
+@media screen and (max-width:1024px) {
+    
+    
+}
+/*tab devices*/
+@media screen and (max-width:768px) {
+
+    .raSect2 button {
+        text-align: center;
+        margin: -30px 17%;
+        width: 54%;
+    }    
+    
+    
+}
+/*mobile devices*/
+@media screen and (max-width:480px) {
+
+}

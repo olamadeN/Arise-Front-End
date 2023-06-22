@@ -1,0 +1,113 @@
+.createForm{
+    /* border:solid 2px black; */
+    background: #F2F2F2;
+    width:70%;
+    padding: 5%;
+    margin: 0 13%; 
+    text-align:justify; 
+    /* color: #F2F2F2; */
+}
+.createForm form{
+    width:90%;
+    margin: 0 1% ;
+}
+.createForm h2{
+    margin-bottom: 6px;
+}
+.createForm label{
+    display: block;
+    text-align: justify;
+    margin-bottom: 8px;
+    color:#006AAA ;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.createForm input.name{
+    width:100%;
+    padding: 15px 5%;
+    margin-bottom: 5%;
+}
+.createForm input:focus{
+    border: solid 2px #006AAA;
+}
+.createForm input.upload{
+    text-align: center;
+    width: 30%;
+    /* height: 48px; */
+    border-radius: 4px;
+    padding: 12px 3%;
+    background: #006AAA;
+    color: #FFFFFF;
+    border: none;   
+    margin-top: 6%;
+}
+
+/*login form*/
+.loginForm{
+    width:70%;
+    padding: 5%;
+    margin: 0 13%; 
+    text-align: justify;
+}
+.loginForm form{
+   
+    padding: 5%;
+    margin: 0 13%; 
+    text-align: justify;
+}
+.loginForm form h2{
+   font-size: 2.75rem;
+}
+.loginForm label{
+    display: block;
+    text-align: justify;
+    margin: 8px auto;
+    color:#006AAA ;
+    font-weight: 600;
+}
+.loginForm input{
+    width:100%;
+    padding: 10px 5%;
+    border: #006AAA solid 2px;
+}
+.loginForm button{
+    
+    text-align: center;
+    width: max-content;
+    /* height: 48px; */
+    border-radius: 4px;
+    padding: 12px 3%;
+    background: #006AAA;
+    color: #FFFFFF;
+    border: none;    
+
+}
+@media screen and (max-width:820px) {
+    /*login form*/  
+    .loginForm{
+        width:100%;
+        margin: 0 ; 
+    }
+    .loginForm button{
+        border-radius: 4px;
+        padding: 15px 13%;   
+    
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .galGrids .galGrid .galPics p.lead{
+        display: none;
+    }
+    .galGrids .galGrid .galPics h4{
+        display: none;
+    }
+    .galGrids .galGrid div #addNew{
+       display: inherit;
+       color: rgb(41, 190, 79);
+    }
+
+    
+
+}

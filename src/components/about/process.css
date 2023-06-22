@@ -1,0 +1,45 @@
+.processSect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 10%;
+    margin-top:350px;
+    margin-bottom:350px;
+}
+#apBtn{
+    margin: 0 37%;
+}
+#ap10{
+    margin-top: -65px;
+    width: 40%;
+}
+
+@media screen and (max-width:1024px) {
+    #ap10{
+        margin-top: -45px;
+        width: 40%;
+    }
+}
+@media screen and (max-width:900px) {
+    #ap10{
+        margin-top: -45px;
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px) {
+    #apBtn{
+        margin: 0 25%;
+        width: 48%;
+    }
+}
+@media screen and (max-width:600px) {
+    .processSect{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top:350px;
+        margin-bottom:350px;
+    }
+    #ap10{
+        margin-top: -45px;
+        width: 60%;
+    }
+}

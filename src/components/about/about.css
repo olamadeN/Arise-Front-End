@@ -1,0 +1,40 @@
+#abL{
+    margin-top: -50px;
+}
+.aboutRight{
+    margin-top: -50px;
+}
+.aboutLeft img{
+    width:180%;
+}
+.aboutLeft div{
+    margin-top: 60px;
+}
+.aboutLeft div li{
+    line-height: 30px;
+}
+.aboutRight img{
+    margin-top: -7%;
+    width:180%;
+}
+.aboutLeft div{
+    margin-top: 60px;
+}
+
+@media screen and (max-width:480px) {
+    .aboutLeft img{
+        width:50%;
+    }
+    #aleft1{
+        margin-left: 0%;
+        width:100%;
+    }
+    #aright1{
+        display:none;
+    }
+    #aright2{
+        margin-top:10%;
+        width:100%;
+        display:none;
+    }
+}

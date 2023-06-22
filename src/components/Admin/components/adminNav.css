@@ -1,0 +1,90 @@
+.Anavbar{
+    display: block ;
+    height: auto;
+    width: 100%;
+    padding: 20px auto     ;
+    background: #ffffff;
+    box-shadow: 0px 4px 18px 0px #00000014;
+}
+nav .Alinks{
+    display: flex;
+    position: relative;
+    width: 45%;   
+    margin: 0 28%;      
+}
+nav .Alinks .AnavLink{
+    list-style-type: none;
+    width:auto;
+    margin: 0 8%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#323232;
+    cursor: pointer;
+    line-height: 48px; 
+}
+nav .AnavBtn{
+    margin: 0 8%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 12px 32px;
+    background: #006AAA;
+    color: #FFFFFF;
+}
+  
+/*medium devices*/
+@media screen and (max-width:928px) {
+    nav .Alinks{
+        display: flex;
+        position: relative;
+        width: 60%;   
+        margin: 0 22%;  
+       
+    }
+    nav .Alinks .AnavLink{
+
+        line-height: 90px; 
+
+    }
+}
+/*tab devices*/
+
+@media screen and (max-width:628px) {
+    nav .AnavBtn{
+
+    }
+    nav .Alinks{
+
+    }
+}
+/*mobile devices*/
+ @media screen and (max-width:500px) {
+    nav .Alinks{
+        width: 100%;
+        margin:0
+    }
+/*     nav .Alinks .AnavLink{
+        margin: 0 1%;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 10px; 
+    }
+    nav .AnavBtn{
+        display: none;
+        width: 0%;
+        padding: 0;
+        margin: 0;
+
+    } */
+} 
+/* @media screen and (max-width:379px) {
+    nav .links{
+        width: 90%;
+        left: 0%;
+    }
+    nav .links .navLink{
+        margin: 0 1%;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 10px; 
+    }
+} */
