@@ -58,7 +58,7 @@ const ProjectList = (props) => {
 
                                         }).then((result) => {
                                             if (result.isConfirmed) {
-                                                fetch("http://localhost:5000/admin/all_projects/"+proj.id, {method: "DELETE"})
+                                                fetch("https://ariseapi.onrender.com/admin/all_projects/"+proj.id, {method: "DELETE"})
                                                 .then( res => {
                                                     if(res.status === 200){
                                                          window.location.reload()
