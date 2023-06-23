@@ -31,7 +31,7 @@ const Category = (props) => {
         <>
             <section className="sects galProjects">
                 <h2>Gallery Showcase</h2>
-                <div className="galGrids" style={{overflow:'scroll', scrollbarWidth:4}}>
+                <div className="galGrids">
                     <div className="galGrid" onClick={handleClick}>
                         <div style={{borderRadius:20, textAlign:"center",background: '#F2F2F2'}} className="galPics">
                             <p style={{fontSize:70, textAlign:"center", color:'#006AAA'}}>+</p>
@@ -64,8 +64,8 @@ const Category = (props) => {
                                 */}
                                     <h4 className='delete' onClick={()=>{
                                         Swal.fire({
-                                            title: 'This action will also delete all projects associated with this gallery',
-                                            text:'Are you sure you want to complete this action?',
+                                            text: 'This action will also delete all projects associated with this gallery',
+                                            title:'Are you sure you want to complete this action?',
                                             icon: 'warning',
                                             showCancelButton: true,
                                             confirmButtonColor: '#3085d6',
@@ -74,20 +74,18 @@ const Category = (props) => {
 
                                         }).then((result) => {
                                             if (result.isConfirmed) {
-                                                fetch("https://ariseapi.onrender.com/admin/category/"+cat.id, {method: "DELETE"})
+                                                fetch(`https://ariseapi.onrender.com/admin/category/${cat.id}?param=${cat.name}`, {method: "DELETE"})
                                                 .then( res => {
                                                     if(res.status === 200){
-                                                        window.location.reload()
-                                                    }
-                                                })
-                                                .then(
-                                                    Swal.fire({
+                                                        Swal.fire({
                                                         icon: 'success',
                                                         title: cat.name+' has been deleted',
                                                         showConfirmButton: false,
                                                         timer: 1500
-                                                    })
-                                                )
+                                                        })
+                                                        window.location.reload()
+                                                    }
+                                                })
                                             }
                                             if (result.isDenied) {
                                                 Swal.fire('Changes were not saved', '', 'info')
@@ -115,10 +113,8 @@ const Category = (props) => {
                             </div>
                         })
                     }
-                    <p style={{opacity:0}}>section end</p> <br />
                 </div>
-            </section> <br />
-            <p style={{opacity:0}}>section end</p>
+            </section>
         </>
         
     );

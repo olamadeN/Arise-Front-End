@@ -18,7 +18,7 @@ const Login = () => {
         const userData = {userName, password};
         userNameError.textContent = '';
         passwordError.textContent = '';
-        try {
+        try { /* 'https://ariseapi.onrender.com/admin/login' */
             const res = await fetch('https://ariseapi.onrender.com/admin/login', { 
                 method: 'POST', 
                 body: JSON.stringify(userData),
@@ -41,7 +41,7 @@ const Login = () => {
             if (data.user) {
                 localStorage.setItem('token', data);
                 console.log('you are now logged in')
-                navigate('/dashboard/*'/* , { replace: true } */)
+                navigate('/dashboard/*')
             }
 
         }

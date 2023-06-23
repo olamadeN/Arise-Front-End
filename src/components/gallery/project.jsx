@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 const Project = () => {
     const [Project, setProject] = useState([])
     const [Data, setData] = useState([])
-    
     const {_id,category} = useParams()
     useEffect(() => {
         fetch("https://ariseapi.onrender.com/admin/all_projects/"+category+"/"+ _id)
@@ -40,23 +39,12 @@ const Project = () => {
                     <Link to={`/gallery/${Data.category}`} className='back' > <p className="goBack">GO BACK</p></Link>
                     <h2 className='projectName' >{Data.name}</h2>
                     <div className="galGrids">
-                    {Project.map((proj)=>{
-                            return <div className="galGrid">
-                                <img src={proj.url} alt="whole home category" className="galPics" />
+                    {Project.map((proj,index)=>{
+                        return <div className="galGrid">
+                                <img src={proj.url} alt={`Image ${index + 1}`} key={index} className="galPics" />
                             </div>
                         })
                         }
-                    </div>
-                </section>
-                <section className="sectNews" id='g'> 
-                    <img src={news} alt="news" className="newsImg" id='newsImg' />
-                    <div className="newsTxt">
-                        <h3>Subscribe to our newsletter</h3>
-                        <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
-                        <form action="" className="news">
-                            <input placeholder='Enter your email address' type="text" />
-                            <button>Subscribe</button>
-                        </form>
                     </div>
                 </section>
             </div>

@@ -11,7 +11,7 @@ const CreateCat = (props) => {
     const handleSubmit = async (e) => {
         /* e.preventDefault(true); */
         try {
-             const formData = new FormData();
+            const formData = new FormData();
             formData.append("thumb", file);
             formData.append("name", Value);
             fetch("https://ariseapi.onrender.com/admin/category", {
@@ -34,7 +34,7 @@ const CreateCat = (props) => {
                 if(res.status === 500){
                     Swal.fire({
                         title: '500 server error',
-                        text:'Gallery not created',
+                        text: `Gallery not created check image size`,
                         icon: 'error',
                         confirmButtonText: 'Ok',
                         confirmButtonColor: 'red',
@@ -72,6 +72,7 @@ const CreateCat = (props) => {
                             <input placeholder="Enter Gallery Name" type="text" className="name" required name="name" value={ Value} onChange={(e) => setValue(e.target.value)} /> <br />
                             {/* <img src={file} width={150} alt="" /><br /> */}
                             <label htmlFor="thumb">Select Gallery Thumbnail</label>
+                            <p style={{color:'orange'}}>File size must not exceed 5MB</p>
                             <input type="file" required name="thumb" onChange={handleUpload} alt="thumbnail upload"/>
                             <br /><br />
                             <input type="submit" className="upload" value="Upload" />

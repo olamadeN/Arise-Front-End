@@ -4,6 +4,8 @@ import Footer from "./footer/footer"
 import img1 from '../../img/home/slider/img1.png'
 import img2 from '../../img/home/slider/img2.png'
 import img3 from '../../img/home/slider/img3.png'
+import img4 from '../../img/home/slider/img4.jpg'
+import img5 from '../../img/home/slider/img5.jpg'
 //vector image import 
 import bathroom from '../../img/home/vector/bathroom.jpg'
 import construction from '../../img/home/vector/construction.jpg'
@@ -40,7 +42,7 @@ const Homepage = () => {
                 <div className="bannertxt1">
                     <h3>Austin Texas Award-Winning Design, Construction & Remodeling Company</h3>
                 </div>
-                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={true}>
+                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2000} autoPlay={true} infiniteLoop={true}>
                     <div>
                         <img src={img1} />
                     </div>

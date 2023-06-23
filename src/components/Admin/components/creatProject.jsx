@@ -51,6 +51,7 @@ const CreateProj = (props) => {
                 if(res.status === 500){
                     Swal.fire({
                         title: '500 Server Error',
+                        text:'individual file size must not exceed 5MB',
                         icon: 'error',
                         confirmButtonText: 'Ok',
                         confirmButtonColor: 'red',
@@ -63,7 +64,8 @@ const CreateProj = (props) => {
             })
             .catch((error) => {
                 Swal.fire({
-                    title: error,
+                    title: error ,
+                    text: 'Individual file size must not exceed 5MB', 
                     icon: 'error',
                     confirmButtonText: 'ok',
                     confirmButtonColor: 'red',
@@ -89,6 +91,7 @@ const CreateProj = (props) => {
                             <input className="name" type="text" required name="name" value={ Value} onChange={(e) => setValue(e.target.value)} />
                             <br /><br />
                             <label htmlFor="category">Select Project Gallery</label>
+                            <p style={{color:'orange'}}>Individual file size must not exceed 5MB</p>
                             <select name="category" id="" onChange={(e)=>{setcatname(e.target.value)}}>
                                 <option>
                                     please select gallery name

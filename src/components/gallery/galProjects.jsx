@@ -15,7 +15,6 @@ const GalleryProjects = () => {
           return res.json()
         })
         .then(data => {
-            console.log(data)
           setProject(data)
         })
         .catch(err => (
@@ -42,12 +41,14 @@ const GalleryProjects = () => {
                         {
                             Project.map((proj) => {
                                 return <div className="galGrid" key={proj.id}>
-                                    <img src={proj.thumb} alt="whole home category" className="galPics" />
-                                    <div className="category">
-                                        <Link to={`/gallery/${proj.category}/${proj.id}`}><h4>{proj.name}</h4></Link>
-                                        
-                                        <Link to={`/gallery/${proj.category}/${proj.id}`}><button className="btnPrimary">View</button></Link>
-                                    </div>
+                                    <Link to={`/gallery/${proj.category}/${proj.id}`}>
+                                        <img src={proj.thumb} alt="whole home category" className="galPics" />
+                                        <div className="category">
+                                            <h4>{proj.name}</h4>
+                                            
+                                            <button className="btnPrimary">View</button>
+                                        </div>
+                                    </Link>
                                 </div>
                             })
                         }

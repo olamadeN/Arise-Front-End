@@ -7,9 +7,8 @@
 .galGrids{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2% 8%;
-    height:fit-content;
-   
+    height:auto;
+    gap: 3rem;
 }
 .galGrid img{
     width: 100%;
@@ -54,13 +53,15 @@
 }
 .galProjects .galGrids{
     grid-template-columns: 1fr 1fr 1fr;
-    gap:5%;
+    
 }
 .galProjects .galGrids .galPics{
     height: 248px;
+    cursor: pointer;
 }
 .galProject .galGrids .galPics{
     height: 248px;
+    cursor:pointer;
 }
 .galProject .galGrids{
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,7 +88,7 @@
     .galGrids{
         display: grid;
         grid-template-columns:1fr;
-        row-gap:2%;
+       /*  gap:0; */
     }
     .galGrid .category button{
         margin: 25px 33%;
@@ -95,7 +96,6 @@
     }
     .galProjects .galGrids{
         grid-template-columns: 1fr 1fr;
-        gap:5%;
     }
     .galProjects .galGrids .galGrid button{
         display: none;

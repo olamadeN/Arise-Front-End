@@ -30,7 +30,7 @@ const ProjectList = (props) => {
             
             <section className="sects galProjects" >
                 <h3>Project showcase</h3>
-                <div className="galGrids" style={{overflow:'scroll', scrollbarWidth:4}}>
+                <div className="galGrids">
                     <div className="galGrid" onClick={handleClick}>
                         <div style={{borderRadius:20, textAlign:"center",background: '#F2F2F2'}} className="galPics">
                             <p style={{fontSize:70, textAlign:"center", color:'#006AAA'}}>+</p>
@@ -50,7 +50,6 @@ const ProjectList = (props) => {
                                     <h4 className='delete' onClick={()=>{
                                         Swal.fire({
                                             title: 'Are you sure you want to delete this project',
-                                            text:'Are you sure you want to complete this action?',
                                             icon: 'warning',
                                             showCancelButton: true,
                                             confirmButtonColor: '#3085d6',
@@ -59,7 +58,7 @@ const ProjectList = (props) => {
 
                                         }).then((result) => {
                                             if (result.isConfirmed) {
-                                                fetch("https://ariseapi.onrender.com/admin/all_projects/"+proj.id, {method: "DELETE"})
+                                                fetch("http://localhost:5000/admin/all_projects/"+proj.id, {method: "DELETE"})
                                                 .then( res => {
                                                     if(res.status === 200){
                                                          window.location.reload()
@@ -101,7 +100,6 @@ const ProjectList = (props) => {
                             </div>
                         })
                     }
-                    <p style={{opacity:0}}>section end</p> <br />
                 </div>
             </section>
         </div>
