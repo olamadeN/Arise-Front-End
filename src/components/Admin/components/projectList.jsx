@@ -58,19 +58,18 @@ const ProjectList = (props) => {
 
                                         }).then((result) => {
                                             if (result.isConfirmed) {
-                                                fetch("https://ariseapi.onrender.com/admin/all_projects/"+proj.id, {method: "DELETE"})
-                                                .then( res => {
-                                                    if(res.status === 200){
-                                                         window.location.reload()
-                                                    }
-                                                })
-                                                .then(
+                                                fetch('https://ariseapi.onrender.com/admin/all_projects/'+proj.id, {method: "DELETE"})
+                                                .then(                                                    
                                                     Swal.fire({
                                                         icon: 'success',
-                                                        title: proj.name+' has been deleted',
-                                                        showConfirmButton: false,
-                                                        timer: 1500
-                                                    })
+                                                        title: proj.name+' has been deleted',                    
+                                                        confirmButtonText: 'ok'
+                                                    }).then ((result)=>{
+                                                        if (result.isConfirmed) {
+                                                            window.location.reload()
+                                                        }                                    
+                                                    })                                                  
+                                                    
                                                 )
                                             }
                                             if (result.isDenied) {

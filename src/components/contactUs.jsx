@@ -11,8 +11,8 @@ const ContactUs = () => {
     return ( 
         <>
            <Nav/>
-            <div className="sectStart">
-                <section className='banner'>
+            <div className="sectStart" id='begin'>
+                <section className='banner' >
                     <img src={banner} alt="service banner" />
                     <div className="overlay">
                         <div className="sbtxt">

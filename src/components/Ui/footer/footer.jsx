@@ -1,6 +1,7 @@
 import './footer.css';
 import logoW from '../../../img/logoWhite.png'
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Footer = () =>{
     return(
         <div className="foot">
@@ -17,11 +18,11 @@ const Footer = () =>{
                 <div className="sect2">
                     <h3>EXPLORE</h3>
                     <ul>
-                        <Link to='/'><li id='fmenu' className="body">Home </li></Link>
-                        <Link to='/service'><li id='fmenu' className="body">Services</li></Link>
-                        <Link to='/about'><li id='fmenu' className="body">About Us</li></Link>
-                        <Link to='/gallery'><li id='fmenu' className="body">Gallery</li></Link>
-                        <Link to='/contact'><li id='fmenu' className="body">Contact Us</li></Link>                  
+                        <HashLink smooth to='/'><li id='fmenu' className="body">Home </li></HashLink>
+                        <HashLink smooth to='/service#top'><li id='fmenu' className="body">Services</li></HashLink>
+                        <HashLink smooth to='/about#top'><li id='fmenu' className="body">About Us</li></HashLink>
+                        <HashLink smooth to='/gallery#top'><li id='fmenu' className="body">Gallery</li></HashLink>
+                        <HashLink smooth to='/contact#top'><li id='fmenu' className="body">Contact Us</li></HashLink>                  
                     </ul>
                 </div>
                 <div className="sect3">

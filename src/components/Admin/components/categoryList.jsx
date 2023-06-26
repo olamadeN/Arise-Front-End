@@ -75,17 +75,17 @@ const Category = (props) => {
                                         }).then((result) => {
                                             if (result.isConfirmed) {
                                                 fetch(`https://ariseapi.onrender.com/admin/category/${cat.id}?param=${cat.name}`, {method: "DELETE"})
-                                                .then( res => {
-                                                    if(res.status === 200){
-                                                        Swal.fire({
+                                                .then(
+                                                    Swal.fire({
                                                         icon: 'success',
-                                                        title: cat.name+' has been deleted',
-                                                        showConfirmButton: false,
-                                                        timer: 1500
-                                                        })
-                                                        window.location.reload()
-                                                    }
-                                                })
+                                                        title: cat.name+' has been deleted',                    
+                                                        confirmButtonText: 'Ok'
+                                                    }).then ((result)=>{
+                                                        if (result.isConfirmed) {
+                                                            window.location.reload()
+                                                        }                                    
+                                                    })
+                                                )
                                             }
                                             if (result.isDenied) {
                                                 Swal.fire('Changes were not saved', '', 'info')

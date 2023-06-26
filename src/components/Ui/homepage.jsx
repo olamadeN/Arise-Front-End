@@ -42,7 +42,7 @@ const Homepage = () => {
                 <div className="bannertxt1">
                     <h3>Austin Texas Award-Winning Design, Construction & Remodeling Company</h3>
                 </div>
-                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2000} autoPlay={true} infiniteLoop={true}>
+                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={true}>
                     <div>
                         <img src={img1} />
                     </div>
@@ -150,7 +150,7 @@ const Homepage = () => {
                         <br /><br />
                         Whether you're looking to remodel your kitchen, add an addition to your home, or build a new commercial property from the ground up, we have the expertise and experience to get the job done right. Our team of skilled professionals are passionate about their work and are committed to providing you with exceptional service every step of the way.
                     </p>
-                    <button className="btnPrimary" id='readMoreBtn'>Read more</button>
+                    <button className="btnPrimary" id='readMoreBtn'><Link to="/about">Read more</Link></button>
                 </div>
                 <img src={homeAU} alt="a" className="aboutImg" />
             </section>
@@ -165,7 +165,7 @@ const Homepage = () => {
                     Our approach to remodelling is simple: we listen to your ideas and needs, offer professional guidance and support, and work collaboratively with you to achieve your vision. We take pride in our attention to detail, exceptional craftsmanship, and timely completion of projects.
 
                     </p>
-                    <button className="btnPrimary" id='readMoreBtn'>Read more</button>
+                    <button className="btnPrimary" id='readMoreBtn'> <Link to="/about/process">Read more</Link> </button>
                 </div>
             </section>
             <section className="newsletter">
@@ -222,7 +222,7 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
-                <button className="btnPrimary tBtn" id='tBtn'>Read more</button>
+                <button className="btnPrimary tBtn" id='tBtn'><Link to="/about/testimonials">Read more</Link></button>
             </section>
             <section className="chair">
                 <img src={couch} alt="just a chair" />

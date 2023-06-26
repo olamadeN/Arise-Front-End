@@ -19,9 +19,11 @@
     "react-admin": "^4.11.1",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "react-photo-album": "^2.2.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.11.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.7.12",
     "web-vitals": "^2.1.4"

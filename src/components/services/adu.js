@@ -43,7 +43,7 @@ const ADU = () => {
                     <img src={gal4} alt="service gallery preview" className="sgalImg" />
                 </div>
                 <br /><br />
-                <button className="btnPrimary"> <Link to="/gallery">View our whole home remodels gallery</Link>  </button>
+                <button className="btnPrimary"> <Link to="/gallery">View our ADU Gallery</Link>  </button>
             </section><br /><br />
             <section className="sects">
                 <p className="subheading">ADU / GRANNY FLATS</p>
