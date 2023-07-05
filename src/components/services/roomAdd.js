@@ -1,12 +1,12 @@
 import './roomAdd.css'
 import './service.css'
-import gal1 from '../../img/service/sgal1.png';
-import gal2 from '../../img/service/sgal2.png';
-import gal3 from '../../img/service/sgal3.png';
-import gal4 from '../../img/service/sgal4.png';
+import rgal1 from '../../img/service/room add/rgal1.jpg';
+import rgal2 from '../../img/service/room add/rgal2.png';
+import rgal3 from '../../img/service/room add/rgal3.jpg';
+import rgal4 from '../../img/service/room add/rgal4.jpg';
 import remod1 from '../../img/service/remod1.png';
-import skit1 from '../../img/service/skitchen1.png';
-import skit2 from '../../img/service/skitchen2.png';
+import rdouble1 from '../../img/service/room add/rdouble1.jpg';
+import rdouble2 from '../../img/service/room add/rdouble2.jpg';
 import banner from '../../img/service/sbanner.png';
 import news from '../../img/home/news.png'
 import Nav from "../Ui/nav/nav";
@@ -39,10 +39,10 @@ const Roomadd = () => {
                     <li>Completing your room addition or second story addition project from start to finish</li>
                 </p><br />
                 <div className="sGallery">
-                    <img src={gal1} alt="service gallery preview" className="sgalImg" />
-                    <img src={gal2} alt="service gallery preview" className="sgalImg" />
-                    <img src={gal3} alt="service gallery preview" className="sgalImg" />
-                    <img src={gal4} alt="service gallery preview" className="sgalImg" />
+                    <img src={rgal1} alt="service gallery preview" className="rgalImg" />
+                    <img src={rgal2} alt="service gallery preview" className="rgalImg" />
+                    <img src={rgal3} alt="service gallery preview" className="rgalImg" />
+                    <img src={rgal4} alt="service gallery preview" className="rgalImg" />
                 </div>
                 <br /><br />
                 <button className="btnPrimary"> <Link to="/gallery">View our Room Additions Gallery</Link>  </button>
@@ -83,9 +83,9 @@ const Roomadd = () => {
                 
             </section><br />
             <section className="sects raSect2">
-                <div className="skitchen">
-                    <img src={skit1} alt="kitchen pics" />
-                    <img src={skit2} className="kitchenImg" alt="kitchen pics" />
+                <div className="rdouble">
+                    <img src={rdouble1} alt="room addition pics" />
+                    <img src={rdouble2} className="kitchenImg" alt="room addition pics" />
                 </div><br /><br />
                 <button className="btnPrimary"> <Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link> </button>
             </section><br /><br />

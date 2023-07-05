@@ -4,8 +4,10 @@ import Footer from "./footer/footer"
 import img1 from '../../img/home/slider/img1.png'
 import img2 from '../../img/home/slider/img2.png'
 import img3 from '../../img/home/slider/img3.png'
-import img4 from '../../img/home/slider/img4.jpg'
-import img5 from '../../img/home/slider/img5.jpg'
+import img4 from '../../img/home/slider/img4.png'
+import img5 from '../../img/home/slider/img5.png'
+import img6 from '../../img/home/slider/img6.png'
+import img7 from '../../img/home/slider/img7.png'
 //vector image import 
 import bathroom from '../../img/home/vector/bathroom.jpg'
 import construction from '../../img/home/vector/construction.jpg'
@@ -19,9 +21,6 @@ import quoteB from '../../img/home/vector/quoteBlack.png'
 import homeAU from '../../img/home/homeAU.png'
 import homeAU2 from '../../img/home/homeAU2.jpg'
 import news from '../../img/home/news.png'
-import timg1 from '../../img/home/t1.png'
-import timg2 from '../../img/home/t2.png'
-import timg3 from '../../img/home/t3.png'
 import couch from '../../img/home/homeCouch.jpg'
 //Gallery portfolio images
 import whr from '../../img/home/whr.jpg'
@@ -42,15 +41,29 @@ const Homepage = () => {
                 <div className="bannertxt1">
                     <h3>Austin Texas Award-Winning Design, Construction & Remodeling Company</h3>
                 </div>
-                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={true}>
+                <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={false}>
+                    
                     <div>
-                        <img src={img1} />
+                        <img src={img5} alt="slider picture" />
                     </div>
                     <div>
-                        <img src={img2} />
+                        <img src={img4} alt="slider picture" />
                     </div>
                     <div>
-                        <img src={img3} />
+                        <img src={img7} alt="slider picture" />
+                    </div>
+                    <div>
+                        <img src={img1} alt="slider picture" />
+                    </div>
+                    <div>
+                        <img src={img2} alt="slider picture" />
+                    </div>
+                    <div>
+                        <img src={img3} alt="slider picture" />
+                    </div>
+                    
+                    <div>
+                        <img src={img6} alt="slider picture" />
                     </div>
                 </Carousel>
                 <div className="bannertxt2"> 
@@ -187,38 +200,27 @@ const Homepage = () => {
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                                Arise Homes exceeded my expectations with their exceptional customer service and commitment to quality. I couldn't be happier with the results of my home renovation.
+                            Arise Homes just remodelled a 1961 single family home, which I just purchased. When inspected the inspector opened his comments with "this home is more up to date than my 2005 build". 
                             </p>
-                        </div>
-                        <div className="tuser">
-                            <img src={timg1} alt="" className="timg" />
-                            <p className="caption"> <b>Lewa Owolabi </b> <br />Fashion Designer</p>
-                        </div>
-                        
+                            <p className="body" id="user"> <b>Arise Homes Owner </b> {/* <br />Fashion Designer */}</p><br />
+                        </div>                        
                     </div>
                     <div className="testimony">
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                                Arise Homes completely transformed my home with their remodeling services. The attention to detail and quality of work were beyond my expectations.
+                            I recently felt the need and desire to purchase a larger home. I was shown several properties until I came across Project Oak by Arisehome. This was the best decision I have ever made.
                             </p>
-                        </div>
-                        <div className="tuser">
-                            <img src={timg2} alt="" className="timg" />
-                            <p className="caption"> <b>Joanna Adams </b> <br />Copywriter</p>
-                        </div>
-                        
+                             <p className="body" id="user"> <b>Arise Homes Owner </b> {/* <br />Copywriter*/}</p> 
+                        </div>                        
                     </div>
                     <div className="testimony">
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                                Working with Arise Homes was a pleasure from start to finish. The team was reliable, communicative, and delivered excellent results. I would highly recommend them to anyone.
+                            We were so fortunate to have bought our home from Arise Homes. It was a dream come through, the location was just perfect  and had everything we had ever wanted
                             </p>
-                        </div>
-                        <div className="tuser">
-                            <img src={timg3} alt="" className="timg" />
-                            <p className="caption"><b>Victor Kayode</b> <br />Engineer</p>
+                            <p className="body" id="user"><b>Arise Homes Owner</b> {/* <br />Engineer*/}</p> 
                         </div>
                     </div>
                 </div>

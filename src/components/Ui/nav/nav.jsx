@@ -60,9 +60,13 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link style={{color:`#FFF`}} className="navBtn" href="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">
-              Schedule your consultation
-            </Nav.Link>
+            <div className="navSchedule">
+              <p>+1  512  588  3997</p>
+              <Nav.Link style={{color:`#FFF`}} className="navBtn" href="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">
+                Schedule your consultation
+              </Nav.Link>
+            </div>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

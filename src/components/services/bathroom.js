@@ -31,7 +31,7 @@ const Bathroom = () => {
                 <p className="subheading">BATHROOM REMODELS</p>
                 <h2>Custom designed bathroom remodeling in Austin Texas</h2><br />
                 <p className="body">
-                    Arise Contractors Group specializes in custom bathroom remodeling in Austin Texas. We have worked on countless home renovations in La Jolla, Rancho Bernardo, Poway, and surrounding areas. Our many years of experience guarantee your home improvement projects will run efficiently and on time.
+                    Arise Contractors Group specializes in custom bathroom remodeling in Austin Texas. Our many years of experience guarantee your home improvement projects will run efficiently and on time.
                     The bathroom, like the kitchen, is one of the most important sections of the home. Before you renovate, you need to find a bathroom remodeling company you can trust. You also need a company that checks every box and strives to surpass expectations.
                     <br /><br />
                     Arise Contractors Group’s commitment to quality home renovation shows in all our work. We offer full-service bathroom design and remodeling and strive to exceed our customer’s expectations. Our experienced designers make sure your custom bath remodel is exactly what you want to a tee!
@@ -85,7 +85,7 @@ const Bathroom = () => {
                         <br /><br />
                         If your space is larger than 100 sq. feet, it is recommended to install additional ones. The fan size the shower needs depends on the type. If it is a walk-in stall, then 50 CFM would work. For a shower and bathtub, you will need one that approaches 100 CFM, especially if the space is large. A window, if possible, would also help with air ventilation.
                         <br /><br />
-                        Without proper ventilation systems, the room will get stuffy and the excess moisture in the air from hot showers could cause mold and mildew. Gas from cleaning chemicals can also affect your health without proper ventilation. Getting your bathroom remodeled with new ventilation systems is the best way to reduce the amount of cleaning you have to do. Call Arise Construction Group for a free consultation!</p>
+                        Without proper ventilation systems, the room will get stuffy and the excess moisture in the air from hot showers could cause mold and mildew. Gas from cleaning chemicals can also affect your health without proper ventilation. Getting your bathroom remodeled with new ventilation systems is the best way to reduce the amount of cleaning you have to do. Call Arise Contractors Group for a free consultation!</p>
                 </div>
                 <div>
                     <p className="subheading">BATHROOM REMODELS</p>
@@ -189,7 +189,7 @@ const Bathroom = () => {
                     Remodeling a bathroom can be a complex process. There are many different things to consider when determining the price. The materials you want for your bathroom, the cost of installing new floors or putting on a fresh coat of paint, etc. Cabinets usually take up half of the cost of a bathroom remodeling project. What you want altered and what you need re-done will help us find out the total cost of your remodeling project.
                     <br /><br />
                     <b>How long does it take to remodel a bathroom?</b><br />
-                    Under ideal circumstances, a bathroom remodel can take around 3-4 weeks. The exact time, though, depends on the scope of the project. If your bathroom needs new piping or wiring, the timeline will look different than more superficial updates to the room’s look. Kaminskiy makes sure that your remodel will be finished within the timeframe agreed upon prior to start of the project.
+                    Under ideal circumstances, a bathroom remodel can take around 3-4 weeks. The exact time, though, depends on the scope of the project. If your bathroom needs new piping or wiring, the timeline will look different than more superficial updates to the room’s look. We make sure that your remodel will be finished within the timeframe agreed upon prior to start of the project.
                     <br /><br />
                     <b>Do you need permits to remodel your bathroom?</b><br />
                     You need the proper permits if your remodeling project requires changes to the structure of your home, installation of new wiring, or redoing piping. For smaller aesthetic changes, such as fresh paint and changing out sinks, you do not need permits.

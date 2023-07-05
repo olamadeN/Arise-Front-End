@@ -65,6 +65,15 @@
 }
 .footSocials{
     margin-top: 35px;
+    
+    
+}
+.social-icons a{
+    font-size: 1.8rem;
+    margin:-11px 14%;    
+}
+.social-icons{
+    display: flex;
 }
 
 

@@ -1,10 +1,10 @@
 import './service.css';
 import banner from '../../img/service/sbanner.png';
-import outdoorgal1 from '../../img/service/outdoorgal.png';
-import outdoorgal2 from '../../img/service/designgal1.png';
-import outdoorgal3 from '../../img/service/designgal4.png';
-import outdoorgal4 from '../../img/service/designgal3.png';
-import uniRight from '../../img/service/uniRight.png';
+import outdoorgal1 from '../../img/service/ugal1.jpg';
+import outdoorgal2 from '../../img/service/ugal2.jpg';
+import outdoorgal3 from '../../img/service/ugal3.jpg';
+import outdoorgal4 from '../../img/service/ugal4.jpg';
+import uniRight from '../../img/service/oright.jpg';
 import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"

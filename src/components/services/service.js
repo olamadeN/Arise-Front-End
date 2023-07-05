@@ -1,9 +1,9 @@
 import './service.css';
 import banner from '../../img/service/sbanner.png';
-import gal1 from '../../img/service/sgal1.png';
-import gal2 from '../../img/service/sgal2.png';
-import gal3 from '../../img/service/sgal3.png';
-import gal4 from '../../img/service/sgal4.png';
+import gal1 from '../../img/service/WHR/sgal1.png';
+import gal2 from '../../img/service/WHR/sgal2.jpg'
+import gal3 from '../../img/service/WHR/sgal3.jpg'
+import gal4 from '../../img/service/WHR/sgal4.jpg'
 import skit1 from '../../img/service/skitchen1.png';
 import skit2 from '../../img/service/skitchen2.png';
 import remod1 from '../../img/service/remod1.png';

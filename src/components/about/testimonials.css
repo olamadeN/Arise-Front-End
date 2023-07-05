@@ -1,25 +1,30 @@
 
-.Testimony .sSect1 .testimony{
+.Testimony .sSect1 .aboutTestimony{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4%;
     row-gap: 18px;
 
 }
-.testimony .testiTxt{
+.aboutTestimony .testiTxt{
     width: 90%;
     text-align: center;
     margin: 10px 4.7%;
 
 }
-.testimony .testiTxt img{
+.aboutTestimony .testiTxt img{
     margin: 15px 0;
 
 }
-.testimony .testiPack{
+.aboutTestimony .testiPack{
     background: #D9D9D9;
     border-radius: 25px;
     text-align: center;
+}
+.aboutTestimony .testiPack:hover{
+    background: #006AAA;
+    color: #FFFFFF;
+    transition-duration: 0.7s;
 }
 .testiUser{
   margin-top: -4%;
@@ -29,7 +34,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .Testimony .sSect1 .testimony{
+    .Testimony .sSect1 .aboutTestimony{
         display: grid;
         grid-template-columns: 1fr;
         gap: 4%;

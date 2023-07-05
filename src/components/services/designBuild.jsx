@@ -6,6 +6,10 @@ import designgal3 from '../../img/service/designgal3.png';
 import designgal4 from '../../img/service/designgal4.png';
 import designD1 from '../../img/service/designD1.png';
 import designD2 from '../../img/service/designD2.png';
+import designD3 from '../../img/service/designD3.jpg';
+import designD4 from '../../img/service/designD4.jpg';
+import designD5 from '../../img/service/designD5.jpg';
+import designD6 from '../../img/service/designD6.jpg';
 import dRight from '../../img/service/designRight.png';
 import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
@@ -86,8 +90,8 @@ const Design = () => {
                 </p>
             </section>
             <div className="skitchen sects">
-                <img src={designD1} alt="design-build pics" />
-                <img src={designD2} alt="design-build pics" />
+                <img src={designD3} alt="design-build pics" />
+                <img src={designD4} alt="design-build pics" />
             </div><br />
             <section className="sects">
                  <p className="subheading">DESIGN - BUILD</p>
@@ -107,8 +111,8 @@ const Design = () => {
                 </p>
             </section>
             <div className="skitchen sects">
-                <img src={designD1} alt="design-build pics" />
-                <img src={designD2} alt="design-build pics" />
+                <img src={designD5} alt="design-build pics" />
+                <img src={designD6} alt="design-build pics" />
             </div><br />
             <section className="sects">
                  <p className="subheading">DESIGN - BUILD</p>

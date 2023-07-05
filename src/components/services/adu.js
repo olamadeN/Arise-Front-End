@@ -3,14 +3,14 @@ import Footer from "../Ui/footer/footer"
 import './service.css';
 import './adu.css';
 import banner from '../../img/service/sbanner.png';
-import gal1 from '../../img/service/sgal1.png';
-import gal2 from '../../img/service/sgal2.png';
-import gal3 from '../../img/service/sgal3.png';
-import gal4 from '../../img/service/sgal4.png';
-import skit1 from '../../img/service/skitchen1.png';
-import skit2 from '../../img/service/skitchen2.png';
-import remod1 from '../../img/service/remod1.png';
-import remod2 from '../../img/service/remod2.png';
+import gal1 from '../../img/service/adu/agal.jpg';
+import gal2 from '../../img/service/adu/agal2.jpg';
+import gal3 from '../../img/service/adu/agal3.jpg';
+import gal4 from '../../img/service/adu/agal4.jpg';
+import skit1 from '../../img/service/adu/adouble1.jpg';
+import skit2 from '../../img/service/adu/adouble2.jpg';
+import remod1 from '../../img/service/adu/remodel1.jpg';
+import remod2 from '../../img/service/adu/remodel2.jpg';
 import news from '../../img/home/news.png'
 import { Link } from "react-router-dom";
 const ADU = () => {
@@ -30,8 +30,7 @@ const ADU = () => {
                 <p className="subheading">ADU / GRANNY FLATS</p>
                 <h2>What Is An ADU Or Casita?</h2><br />
                 <p className="body">
-                    In Spanish, casita means “little house.” ADUs are essentially small guest houses (typically 600 – 1200 square feet) and include a separate entrance, bathroom and small kitchen or kitchenette. ADUs are also often referred to as mother-in-law suites, guest houses, or granny flats. These can be detached or attached to the main house, and are typically found at the front of properties, but can also be built in the backyard.
-                    While you will likely find casitas in higher value homes, anyone with the space and budget should consider adding one. Recent changes to local legislation have made it easier for Austin Texas homeowners to build an ADU on their property. Whether you live in Poway, Rancho Bernardo, Scripps Ranch, Carmel Valley, La Jolla, Encinitas, Rancho Santa Fe, or the surrounding areas, consider adding a granny flat today.
+                    An ADU (Accessory Dwelling Unit) refers to a secondary residential unit that is typically added to a single-family residential property. It is also known by other names such as "granny flat," "in-law suite," or "backyard cottage." ADUs are considered additional housing units on a property and are designed to accommodate independent living. They are typically smaller in size compared to the primary dwelling and can be attached or detached from the main house. ADUs can provide additional living space, offer rental income opportunities, or serve as housing for family members or caregivers. ADUs have gained popularity as a means to address housing shortages, increase housing density, and provide flexible living arrangements.
                     <br /><br />
                     Sometimes the space you currently have does not fit your family’s needs. Your family may be growing, or your parents may be moving in, and they want their own, private space. You may also simply want to expand the square footage of your home and start renting to people without giving up your privacy. An accessory dwelling unit, or ADU, is the perfect solution.
                     Accessory dwelling units, or ADUs, are one of the smartest investments you can make as a Austin Texas homeowner. You might also hear them referred to as granny flats, in-law suites, and casitas. A new ADU can solve many problems while adding value to your property.

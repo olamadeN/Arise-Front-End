@@ -1,9 +1,21 @@
-
+.sGallery .rgalImg{
+    width: inherit;
+}
 .raSect1 p li {
     list-style-type: none;
 }
 .raSect2 button {
     margin: 0 37%;
+
+}
+.rdouble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    width: 100%;
+}
+.rdouble img{
+   width: inherit;
 }
 
 

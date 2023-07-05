@@ -2,6 +2,8 @@ import './footer.css';
 import logoW from '../../../img/logoWhite.png'
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+
 const Footer = () =>{
     return(
         <div className="foot">
@@ -34,8 +36,17 @@ const Footer = () =>{
                             <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                         </div>
                     </form>
-                    <div className="footSocials">
-                        <p className="lead">Follow us on: </p>
+                    <div className="footSocials" style={{display:'flex'}} >
+                        <p className="lead">Follow us on : </p>
+                        <div className="social-icons">
+                            
+                            <a href="https://www.facebook.com/profile.php?id=100090643903797" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook />
+                            </a>
+                            <a href="https://instagram.com/arisecontractorsgroup?igshid=ZGUzMzM3NWJiOQ==" target="_blank" rel="noopener noreferrer">
+                                <FaInstagram />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 

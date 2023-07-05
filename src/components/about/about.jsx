@@ -2,7 +2,7 @@ import './about.css';
 import banner from '../../img/service/sbanner.png';
 import aboutright from '../../img/about/aboutRight1.png';
 import aboutleft from '../../img/about/aboutLeft.png';
-import aboutright2 from '../../img/about/aboutRight2.png';
+import aboutright2 from '../../img/about/aboutRight2.jpg';
 import aboutleft2 from '../../img/about/aboutLeft2.png';
 import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
@@ -12,7 +12,7 @@ const About = () => {
     return(
         <div className="sectStart">
             <Nav/>
-            <section className='banner'>
+            <section className='banner' id='aboutBanner'>
                 <img src={banner} alt="service banner" />
                 <div className="overlay">
                     <div className="sbtxt">
@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className='sectLeft aboutLeft'>
+            <section className='sectLeft aboutLeft' id='abL'>
                 <img src={aboutleft} id='aleft1' alt="random picture" />
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
@@ -31,7 +31,7 @@ const About = () => {
                     </p>
                 </div>
             </section>
-            <section className='sectRight aboutRight'>
+            <section id="sR" className='sectRight aboutRight'>
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
                     <h3>Our key strengths</h3>
@@ -63,7 +63,7 @@ const About = () => {
                     </p>
                 </div>
             </section>
-            <section className='sectRight aboutRight'>
+            <section id="sR" className='sectRight aboutRight'>
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
                     <h3>Our key strengths</h3>

@@ -116,7 +116,7 @@ const kitchen = () => {
                     <p className="body">
                         The triangle is a layout that architects and designers use when working on residential projects. The idea is to create an efficient space between key appliances such as the oven, sink, and refrigerator. There are specific principles that designers follow, including measurements between workstations, amount of traffic flow between them, and how much counter space should be on either side of each appliance. Have questions about the efficiency of your cooking area? We will be happy to answer any of them! Throughout the project, we will thoroughly explain our process and how that affects the functionality.
                         <br /><br />
-                        Layout changes are an important aspect of all kitchen renovations. This involves replacing flooring, kitchen countertops, appliances, lighting fixtures, wall placement, and more to create a space that is truly transformed. Remodeling your Austin Texas home’s kitchen is that you choose where you want your oven, your sink, and your refrigerator to be placed. We take into account how you wish your kitchen to be designed and transfer those dreams into plans. Our team can make it happen for you. Kaminskiy Design and Remodeling is the best choice for all your kitchen renovation needs.
+                        Layout changes are an important aspect of all kitchen renovations. This involves replacing flooring, kitchen countertops, appliances, lighting fixtures, wall placement, and more to create a space that is truly transformed. Remodeling your Austin Texas home’s kitchen is that you choose where you want your oven, your sink, and your refrigerator to be placed. We take into account how you wish your kitchen to be designed and transfer those dreams into plans. Our team can make it happen for you. Arise Contractors Group is the best choice for all your kitchen renovation needs.
                     </p>
                 </div>
                 <img src={kright} alt="random picture" />
@@ -163,7 +163,7 @@ const kitchen = () => {
                         <br /><br />
                         Some cons are that the cooking area can be noisy, disrupting the people in the living room. Cooking smells can reach the sofa, and it reduces wall space. In addition, if your layout is not already open concept, it is costly. Without any supporting structures, the walls in that area need to be far stronger than that of a standard closed room.
                         <br /><br />
-                        There are a variety of pros and cons to an open space, though some do find that the positives outweigh the negatives. Whichever you prefer, Kaminskiy Design and Remodeling will guide you through each step to make sure each choice you make is the right one.
+                        There are a variety of pros and cons to an open space, though some do find that the positives outweigh the negatives. Whichever you prefer, Arise Contractors Group will guide you through each step to make sure each choice you make is the right one.
                     </p>
                 </div>
                 <img src={kright2} alt="random picture" />

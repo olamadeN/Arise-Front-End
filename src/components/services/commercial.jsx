@@ -2,13 +2,13 @@ import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import './service.css';
 import banner from '../../img/service/sbanner.png';
-import outdoorgal1 from '../../img/service/outdoorgal.png';
-import outdoorgal2 from '../../img/service/designgal1.png';
-import outdoorgal3 from '../../img/service/designgal4.png';
-import outdoorgal4 from '../../img/service/designgal3.png';
-import comD1 from '../../img/service/comD1.png';
-import comD2 from '../../img/service/comD2.png';
-import comRight from '../../img/service/comRight.png';
+import outdoorgal1 from '../../img/service/cgal1.jpg';
+import outdoorgal2 from '../../img/service/cgal2.jpg';
+import outdoorgal3 from '../../img/service/cgal3.jpg';
+import outdoorgal4 from '../../img/service/cgal4.jpg';
+import comD1 from '../../img/service/cdouble1.jpg';
+import comD2 from '../../img/service/cdouble2.jpg';
+import comRight from '../../img/service/cright.jpg';
 import news from '../../img/home/news.png';
 import { Link } from "react-router-dom";
 const Commercial = () => {

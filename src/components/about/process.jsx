@@ -122,7 +122,7 @@ const Process = () => {
                     <div className="aptxt">
                         <h4>10. Remodel complete</h4>
                         <p className="body">
-                            Once your project is complete, we will close out your remodel with a grand celebration. We take pride in what we do and truly believe that we greatly improve the way our clients live and use their home. We are confident that you will love your newly remodeled home by Kaminskiy!
+                            Once your project is complete, we will close out your remodel with a grand celebration. We take pride in what we do and truly believe that we greatly improve the way our clients live and use their home. We are confident that you will love your newly remodeled home by Arise Contractors Group.
                         </p>
                     </div>
                 </div>

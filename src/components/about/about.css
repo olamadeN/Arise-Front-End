@@ -1,8 +1,16 @@
+#aboutBanner{
+    height:330px;
+}
 #abL{
-    margin-top: -50px;
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+#sR{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .aboutRight{
-    margin-top: -50px;
+    margin-top: 0px;
 }
 .aboutLeft img{
     width:180%;
@@ -14,7 +22,7 @@
     line-height: 30px;
 }
 .aboutRight img{
-    margin-top: -7%;
+    
     width:180%;
 }
 .aboutLeft div{
