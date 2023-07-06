@@ -116,29 +116,29 @@ const ADU = () => {
                     </div>
                 </div>
             </section>
+            <section className='sectLeft'>
+                <img src={remod1} alt="random picture" id="aduleftimg" />
+                <div className="sSectTxt" id="adulefttxt">
+                    <p className="subheading">FREQUENTLY ASKED QUESTIONS</p>
+                    <h3>How much does an ADU cost?</h3>
+                    <p className="body">
+                    Compared to buying or building a new home, accessory dwelling units cost far less to create. A portion of those costs is made up of fees. Various licenses, taxes, utility fees, building codes, and city-required property upgrades must be taken into account. Permits, especially, can become costly if not handled correctly. All permits have an expiration date; you must apply for a new permit if construction is not completed in time. Inspections are also required every 180 days until completion. Failing an inspection requires you to start the permit process all over again. Expedited permits and after-hours inspections also add additional costs.
+                    <br/>
+                    Construction costs can rise dramatically with the wrong team handling your project. While some homeowners think hiring an architect is a good idea, the price for doing so is high. Having a separate architect, designer and construction team is virtually guaranteed to cost more than an all-in-one design-build firm such as Arise Contractors Group. Separate teams also mean more opportunity for mistakes and miscommunication that can lead to delays and additional costs
+                    </p>
+                </div>
+            </section>
             <section className='sectRight'>
                 <div className="sSectTxt">
-                    <p className="subheading">ADU / GRANNY FLATS</p>
-                    <h3>Award winning custom whole home remodeling contractors in Austin Texas</h3>
+                    <p className="subheading">FREQUENTLY ASKED QUESTIONS</p>
+                    <h3>Can a casita (or any detached structure) be included as part of my home’s square footage?</h3>
                     <p className="body">
-                        One of the most common reasons for whole home remodeling is that a one room remodel simply is not enough. Many home owners have started a project in one part of the house, only to realize how badly another room needs improvement. Adding an air conditioner in your bedroom is great for when you’re sleeping but putting in ducts and vents to cool every room is an even better way to stay cool. There is not much point in adding energy-efficient lighting in one bathroom when the other still leaves you with an enormous electrical bill. One updated modern room surrounded by decades-old designs will stick out and distract. When you do a whole home renovation, you get the opportunity to make your home feel whole, rather than a collection of spaces from different times and different themes.
-                            <br />
-                        Arise Contractors Group is an award-winning, whole house remodeling contractor serving the Austin Texas area. Our attention to detail is unmatched, and our staff is eager to help you achieve your dreams. No matter the project, whether it be a kitchen remodel, bathroom remodel, or room additions, we can handle it with the care and professionalism you deserve. We’ll take the time to make sure your house flows the way you want it to, so you can enjoy your gorgeous Austin Texas custom home without any hassle. Our team walks you through every step of the process and we pride ourselves on being upfront with all our clients, so no need to worry about sudden fees or changes in the plan. By trusting us with your whole house remodel, you get the full customer experience. We treat you like we would our family because we believe all our customers are just as important. Allow our design build company to handle your custom home renovation.
+                        The answer is it depends. According to the American National Standard for Single-Family Residential Buildings, any finished areas not connected to the main residence by a finished hallway or stairway must be listed separately. The ceiling must also be a minimum of 7 feet high to be considered “livable space,” and if you have to leave the house to enter the structure, it cannot be included. However, if your casita is attached to the main house and you can enter it from inside, then you may include it.
+                            <br/> <br/>
+                        Keep in mind the American National Standard Institute’s standards are voluntary, which means anyone not using these standards may include your ADU in your property’s square footage calculation.
                     </p>
                 </div>
-                <img src={remod2} alt="random picture" />
-            </section>
-            <section className='sectLeft'>
-                <img src={remod2} alt="random picture" />
-                <div className="sSectTxt">
-                    <p className="subheading">ADU / GRANNY FLATS</p>
-                    <h3>Award winning custom whole home remodeling contractors in Austin Texas</h3>
-                    <p className="body">
-                        One of the most common reasons for whole home remodeling is that a one room remodel simply is not enough. Many home owners have started a project in one part of the house, only to realize how badly another room needs improvement. Adding an air conditioner in your bedroom is great for when you’re sleeping but putting in ducts and vents to cool every room is an even better way to stay cool. There is not much point in adding energy-efficient lighting in one bathroom when the other still leaves you with an enormous electrical bill. One updated modern room surrounded by decades-old designs will stick out and distract. When you do a whole home renovation, you get the opportunity to make your home feel whole, rather than a collection of spaces from different times and different themes.
-                            <br />
-                        Arise Contractors Group is an award-winning, whole house remodeling contractor serving the Austin Texas area. Our attention to detail is unmatched, and our staff is eager to help you achieve your dreams. No matter the project, whether it be a kitchen remodel, bathroom remodel, or room additions, we can handle it with the care and professionalism you deserve. We’ll take the time to make sure your house flows the way you want it to, so you can enjoy your gorgeous Austin Texas custom home without any hassle. Our team walks you through every step of the process and we pride ourselves on being upfront with all our clients, so no need to worry about sudden fees or changes in the plan. By trusting us with your whole house remodel, you get the full customer experience. We treat you like we would our family because we believe all our customers are just as important. Allow our design build company to handle your custom home renovation.
-                    </p>
-                </div>
+                <img src={remod2} alt="random picture" id="aduleftimg" />
             </section>
             <section className="sects sSect4">
                 <p className="subheading">ADU / GRANNY FLATS</p>

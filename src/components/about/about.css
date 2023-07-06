@@ -28,7 +28,23 @@
 .aboutLeft div{
     margin-top: 60px;
 }
-
+@media screen and (min-width:1740px) {
+/*     #abL{
+        margin-top:90px;
+        margin-bottom: 5px;
+    } */
+    #aboutBanner{
+        height:480px;
+    }
+    .aboutRight img{
+    
+        width:fit-content;
+    }
+    #aright1{
+        margin-top:-200px;
+        width: 180%;
+    }
+}
 @media screen and (max-width:480px) {
     .aboutLeft img{
         width:50%;

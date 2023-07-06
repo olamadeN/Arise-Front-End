@@ -9,6 +9,13 @@
     padding: 0;
     margin: 4% 0;
 }
-.sectLeft .sSectTxt{
-    margin-left: 10%;
+
+@media screen and (min-width:1740px) {
+
+    #adulefttxt{
+        margin-left: -13%;
+    }
+    #aduleftimg{
+        width: 150%;
+    }
 }
