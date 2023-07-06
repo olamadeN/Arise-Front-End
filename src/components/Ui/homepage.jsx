@@ -23,10 +23,10 @@ import homeAU2 from '../../img/home/homeAU2.jpg'
 import news from '../../img/home/news.png'
 import couch from '../../img/home/homeCouch.jpg'
 //Gallery portfolio images
-import whr from '../../img/home/whr.jpg'
+import whr from '../../img/home/whr.JPG'
 import nc from '../../img/home/nc.jpg'
 import kr from '../../img/home/kr.jpg'
-import br from '../../img/home/br.JPG'
+import br from '../../img/home/br.jpg'
 //other imports
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';

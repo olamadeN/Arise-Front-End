@@ -4,10 +4,10 @@ import './bathroom.css'
 import './service.css'
 import bath1 from '../../img/service/bath1.png';
 import bath2 from '../../img/service/bath2.png';
-import bathgal1 from '../../img/service/bathgal1.png';
-import bathgal2 from '../../img/service/bathgal2.png';
-import bathgal3 from '../../img/service/bathgal3.png';
-import bathgal4 from '../../img/service/bathgal4.png';
+import bathgal1 from '../../img/service/bathgal1.jpg';
+import bathgal2 from '../../img/service/bathgal2.jpg';
+import bathgal3 from '../../img/service/bathgal3.jpg';
+import bathgal4 from '../../img/service/bathgal4.jpg';
 import bathRemod1 from '../../img/service/bathRemod1.png';
 import bathRemod2 from '../../img/service/bathRemod2.png';
 import bathRemod3 from '../../img/service/bathRemod3.png';

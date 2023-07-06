@@ -2,10 +2,10 @@ import './service.css';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import banner from '../../img/service/sbanner.png';
-import kgal from '../../img/service/kitchenGal.png';
-import kgal2 from '../../img/service/kitchenGal2.png';
-import kgal3 from '../../img/service/kitchenGal3.png';
-import kgall4 from '../../img/service/kitchenGal4.png';
+import kgal from '../../img/service/KitchenGal.jpg';
+import kgal2 from '../../img/service/KitchenGal2.jpg';
+import kgal3 from '../../img/service/KitchenGal3.jpg';
+import kgall4 from '../../img/service/KitchenGal4.jpg';
 import kdouble1 from '../../img/service/kitchenDouble1.png';
 import kdouble2 from '../../img/service/kitchenDouble2.png';
 import kleft from '../../img/service/kLeft.png';
