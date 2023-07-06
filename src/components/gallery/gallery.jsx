@@ -34,7 +34,7 @@ const Gallery = () => {
                         </div>
                     </div>
                 </section>
-                <section className="sects">
+                <section className="sects" id='galSects'>
                     <div className="galGrids">
                         {
                             Category.map((cat) => {

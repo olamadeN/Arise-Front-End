@@ -33,6 +33,12 @@
         margin-top:90px;
         margin-bottom: 5px;
     } */
+    #sR .sSectTxt .body{
+        line-height: 33px;
+    }
+    #abL .sSectTxt .body{
+        line-height: 35px;
+    }
     #aboutBanner{
         height:480px;
     }
@@ -42,7 +48,17 @@
     }
     #aright1{
         margin-top:-200px;
-        width: 180%;
+        width: 140%;
+    }
+    #aright2{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .aboutLeft img{
+        width:100%;
+        margin-left: 52%;
+        margin-right:0;
     }
 }
 @media screen and (max-width:480px) {

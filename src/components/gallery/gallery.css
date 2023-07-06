@@ -4,6 +4,7 @@
 #g{
     margin-top: 250px;
 }
+
 .galGrids{
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -21,7 +21,7 @@ const About = () => {
                 </div>
             </section>
             <section className='sectLeft aboutLeft' id='abL'>
-                <img src={aboutleft} id='aleft1' alt="random picture" />
+                <img src={aboutleft} id='aleft1' alt="About Us picture" />
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
                     <h3>Our story</h3>
@@ -43,10 +43,10 @@ const About = () => {
                         At Arise Contractors Group, safety is a top priority. We follow strict safety guidelines on all our job sites to ensure the well-being of our workers and clients. Our team of safety experts work closely with project managers and construction professionals to identify and mitigate potential hazards, ensuring that every project is completed safely and without incident.
                     </p>
                 </div>
-                <img src={aboutright} id='aright1' alt="random picture" />               
+                <img src={aboutright} id='aright1' alt="About Us picture" />               
             </section>
             <section className='sectLeft aboutLeft' id='abL' >
-                <img src={aboutleft2} id='aleft1' alt="random picture" />
+                <img src={aboutleft2} id='aleft1' alt="About Us picture" />
                 <div className="sSectTxt">
                     <p className="subheading">Our difference</p>
                     <h3>Our story</h3>
@@ -76,7 +76,7 @@ const About = () => {
                     </p>
                     <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
                 </div>
-                <img src={aboutright2} id='aright2' alt="random picture" />               
+                <img src={aboutright2} id='aright2' alt="About Us picture" />               
             </section>
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" id='newsImg' />
