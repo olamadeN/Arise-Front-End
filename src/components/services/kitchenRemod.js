@@ -14,6 +14,7 @@ import kleft2 from '../../img/service/kitgal.png';
 import kright2 from '../../img/service/conceptKit.png';
 import news from '../../img/home/news.png';
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const kitchen = () => {
     return(<div><Nav/>
         <div className="Kitchen sectStart">
@@ -48,7 +49,7 @@ const kitchen = () => {
                     <img src={kgall4} alt="service gallery preview" className="sgalImg" />
                     <img src={kgal3} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />            
-                <button className="btnPrimary"> <Link to="/gallery">View our kitchen remodels gallery</Link> </button>
+                <button className="btnPrimary"> <HashLink to="/gallery/Kitchen Remodels#top">View our kitchen remodels gallery</HashLink> </button>
             </section>
             <section className="sects">
                  <p className="subheading">KITCHEN REMODELS</p>
@@ -98,7 +99,7 @@ const kitchen = () => {
                 </p>                
             </section><br /><br />
             <section className='sectLeft'>
-                <img src={kleft} alt="random picture" />
+                <img src={kleft} alt="Kitchen Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">KITCHEN REMODELS</p>
                     <h3>Kitchen designs: Renovating the most important room in your house</h3>
@@ -119,7 +120,7 @@ const kitchen = () => {
                         Layout changes are an important aspect of all kitchen renovations. This involves replacing flooring, kitchen countertops, appliances, lighting fixtures, wall placement, and more to create a space that is truly transformed. Remodeling your Austin Texas home’s kitchen is that you choose where you want your oven, your sink, and your refrigerator to be placed. We take into account how you wish your kitchen to be designed and transfer those dreams into plans. Our team can make it happen for you. Arise Contractors Group is the best choice for all your kitchen renovation needs.
                     </p>
                 </div>
-                <img src={kright} alt="random picture" />
+                <img src={kright} alt="Kitchen Remodel" />
             </section>
             <section className="sects">
                  <p className="subheading">KITCHEN REMODELS</p>
@@ -141,7 +142,7 @@ const kitchen = () => {
                 </p>                
             </section>
             <section className='sectLeft'>
-                <img src={kleft2} alt="random picture" />
+                <img src={kleft2} alt="Kitchen Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">KITCHEN REMODELS</p>
                     <h3>Galley Kitchen</h3>
@@ -166,7 +167,7 @@ const kitchen = () => {
                         There are a variety of pros and cons to an open space, though some do find that the positives outweigh the negatives. Whichever you prefer, Arise Contractors Group will guide you through each step to make sure each choice you make is the right one.
                     </p>
                 </div>
-                <img src={kright2} alt="random picture" />
+                <img src={kright2} alt="Kitchen Remodel" />
             </section>
             <section className="sects">
                 <p className="subheading">KITCHEN REMODELS</p>

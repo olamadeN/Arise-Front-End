@@ -2,7 +2,6 @@ import './gallery.css'
 import banner from '../../img/gallery/Gbanner.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
-import news from '../../img/home/news.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
 const Gallery = () => {

@@ -11,7 +11,7 @@ import outleft from '../../img/service/oleft.jpg';
 import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Outdoor = () => {
     return(<div><Nav/>
         <div className="sectStart outdoor">
@@ -37,7 +37,7 @@ const Outdoor = () => {
                     <img src={outdoorgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={outdoorgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <Link to="/gallery">View our outdoor living gallery</Link> </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery/Whole Home Remodels#top">View our outdoor living gallery</HashLink> </button>
             </section><br />
             <section className="sects doublePage">
                 <div>
@@ -86,16 +86,16 @@ const Outdoor = () => {
                 <div className="sSectTxt">
                     <p className="subheading">OUTDOOR LIVING</p>
                     <h3>Xeriscape Vs. Landscape</h3>
-                    <p className="body">
-                        It’s no secret; Southern California is experiencing a drought. Reduce your water usage by turning part (or all) of your yard into a xeriscaped space . Not only does xeriscape match the surrounding California landscape, it looks gorgeous as well. What exactly is xeriscaping? Xeriscaping – sometimes referred to as drought-tolerant landscaping – is a form of landscaping that either eliminates or greatly reduces the need for watering through supplemental irrigation (like a sprinkler system). It doesn’t 100 percent eliminate the need for water, but will reduce your usage significantly. Careful selection and placement of plants means that irrigation and runoff is at its lowest point possible. This obviously requires some careful planning.
-                        <br /><br />
-                        Observe how the water drains in your yard when it does rain, and point out the areas with mini-ecosystems created by shade and wind. You’ll want to localize your planting here. As for the rest of the yard, it is possible to have grass, so long as you irrigate properly, keep water use minimal and use a naturally occurring grass from your area. Rock landscaping is another way to go if you don’t like the idea of artificial grass. It’s particularly prudent in the Southern California climate; drought and water shortage are of no concern when we create a rock landscape with a stone path. Desert plants such as cacti can be added to blend your yard in with the surrounding scenery.
+                    <p className="body">                        
+                        In Austin, Texas, where water conservation is crucial due to the occasional drought conditions, consider transforming your yard into a xeriscaped oasis. Xeriscaping, also known as drought-tolerant landscaping, reduces the need for excessive watering and aligns with the natural beauty of the area. By thoughtfully selecting and placing plants, water usage is significantly reduced, and careful planning is required. Observe the water drainage patterns and microclimates in your yard to determine optimal planting locations. While grass can still be incorporated, it's important to irrigate efficiently and opt for native grass species. Alternatively, rock landscaping offers a water-wise option, blending seamlessly with the Texas landscape. Add desert plants like cacti to harmonize with the surrounding scenery and create a stunning and sustainable outdoor space.
+                            <br /><br />
+                        Incorporating xeriscaping principles not only helps conserve water but also complements Austin's unique aesthetics. Embrace the rugged beauty of Texas with rock landscapes and stone paths, creating drought-resistant mini-ecosystems in areas with natural shade and wind cover. Utilize local flora that thrives in the region's climate to enhance the allure of your yard while contributing to the preservation of precious water resources. Embracing xeriscaping not only aligns with Austin's sustainability efforts but also adds a touch of natural charm, making your yard a beautiful and eco-friendly sanctuary in the heart of Texas.
                     </p>
                 </div>
-                <img src={outright} alt="random picture" />               
+                <img src={outright} alt="Outdoor Living" />               
             </section>
             <section className='sectLeft'>
-                <img src={outleft} alt="random picture" />
+                <img src={outleft} alt="Outdoor Living" />
                 <div className="sSectTxt">
                     <p className="subheading">OUTDOOR LIVING</p>
                     <h3>Fireplace vs firepit</h3>

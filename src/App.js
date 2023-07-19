@@ -31,7 +31,7 @@ import ProtectedRoute from "./components/protectedRoute";
 function App() {
   
   return (
-    <div className="App prevent-select">      
+    <div className="App">      
       <BrowserRouter>
       
           <Routes>

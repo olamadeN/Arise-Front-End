@@ -15,6 +15,7 @@ import bathRemod4 from '../../img/service/bathRemod4.png';
 import banner from '../../img/service/sbanner.png';
 import news from '../../img/home/news.png'
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Bathroom = () => {
     return(
         <div className="Bathroom sectStart">
@@ -51,7 +52,7 @@ const Bathroom = () => {
                     <img src={bathgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={bathgal4} alt="service gallery preview" className="sgalImg" />
                 </div>              
-                <button className="btnPrimary"> <Link to="/gallery">View our bathroom remodels gallery</Link> </button>
+                <button className="btnPrimary"> <HashLink to="/gallery/Bathroom Remodels#top">View our bathroom remodels gallery</HashLink> </button>
             </section>
             <section className="sects sSect3">
                  <p className="subheading">BATHROOM REMODELS</p>
@@ -111,7 +112,7 @@ const Bathroom = () => {
                 </p>
             </section>
             <section className='sectLeft'>
-                <img src={bathRemod1} alt="random picture" />
+                <img src={bathRemod1} alt="Bathroom Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">BATHROOM REMODELS</p>
                     <h3>Bathroom plumbing</h3>
@@ -136,10 +137,10 @@ const Bathroom = () => {
                         These will allow you to use about a half-gallon more per flush when necessary.
                     </p>
                 </div>
-                <img src={bathRemod2} alt="random picture" />
+                <img src={bathRemod2} alt="Bathroom Remodel" />
             </section>
             <section className='sectLeft'>
-                <img src={bathRemod3} alt="random picture" />
+                <img src={bathRemod3} alt="Bathroom Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">BATHROOM REMODELS</p>
                     <h3>Space-saving design</h3>
@@ -164,7 +165,7 @@ const Bathroom = () => {
                         We are also properly licensed and insured, so you can rest easy that we will get the job done right. Contact Arise Contractors Group today for your free consultation
                     </p>
                 </div>
-                <img src={bathRemod4} alt="random picture" />
+                <img src={bathRemod4} alt="Bathroom Remodel" />
             </section>
             <section className="sects sSect4">
                 <p className="subheading">BATHROOM REMODELS</p>

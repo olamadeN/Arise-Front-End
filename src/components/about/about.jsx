@@ -21,7 +21,7 @@ const About = () => {
                 </div>
             </section>
             <section className='sectLeft aboutLeft' id='abL'>
-                <img src={aboutleft} id='aleft1' alt="About Us picture" />
+                <img src={aboutleft} id='aleft1' alt="About Us" />
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
                     <h3>Our story</h3>
@@ -43,10 +43,10 @@ const About = () => {
                         At Arise Contractors Group, safety is a top priority. We follow strict safety guidelines on all our job sites to ensure the well-being of our workers and clients. Our team of safety experts work closely with project managers and construction professionals to identify and mitigate potential hazards, ensuring that every project is completed safely and without incident.
                     </p>
                 </div>
-                <img src={aboutright} id='aright1' alt="About Us picture" />               
+                <img src={aboutright} id='aright1' alt="About Us" />               
             </section>
             <section className='sectLeft aboutLeft' id='abL' >
-                <img src={aboutleft2} id='aleft1' alt="About Us picture" />
+                <img src={aboutleft2} id='aleft1' alt="About Us" />
                 <div className="sSectTxt">
                     <p className="subheading">Our difference</p>
                     <h3>Our story</h3>
@@ -66,17 +66,15 @@ const About = () => {
             <section id="sR" className='sectRight aboutRight'>
                 <div className="sSectTxt">
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
-                    <h3>Our key strengths</h3>
+                    <h3>We remain committed to excellence and client satisfaction</h3>
                     <p className="body">
-                        One of our key strengths is our ability to work closely with clients to understand their specific requirements and develop customized solutions that meet their needs. Our team of designers, architects, engineers, and construction professionals work collaboratively to ensure that every aspect of a project is carefully planned and executed to perfection.
+                        Arise Contractors Group is a company that is committed to excellence, innovation, and customer satisfaction. With a focus on sustainable building practices, exceptional workmanship, and unparalleled customer service, we have become one of the most trusted and respected names in the real estate industry.
                         <br /><br />
-                        Arise Contractors Group is committed to utilizing the latest construction technologies and materials to deliver projects that are not only aesthetically pleasing but also environmentally sustainable. We are also dedicated to promoting green building practices and use eco-friendly materials and construction techniques wherever possible.
-                        <br /><br />
-                        At Arise Contractors Group, safety is a top priority. We follow strict safety guidelines on all our job sites to ensure the well-being of our workers and clients. Our team of safety experts work closely with project managers and construction professionals to identify and mitigate potential hazards, ensuring that every project is completed safely and without incident.
+                        Whether it is a new construction project, a remodeling or renovation job, or a restoration project, Arise Contractors Group has the expertise, knowledge, and resources to deliver outstanding results.
                     </p>
                     <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
                 </div>
-                <img src={aboutright2} id='aright2' alt="About Us picture" />               
+                <img src={aboutright2} id='aright2' alt="About Us" />               
             </section>
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" id='newsImg' />

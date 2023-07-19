@@ -11,6 +11,7 @@ import comD2 from '../../img/service/cdouble2.jpg';
 import comRight from '../../img/service/cright.jpg';
 import news from '../../img/home/news.png';
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Commercial = () => {
     return (
         
@@ -37,7 +38,7 @@ const Commercial = () => {
                     <img src={outdoorgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={outdoorgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <Link to="/gallery">View our commercial remodeling gallery </Link> </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery#top">View our commercial remodeling gallery </HashLink> </button>
             </section>
             <section className="sects">
                 <p className="subheading">COMMERCIAL REMODELING</p>
@@ -104,7 +105,7 @@ const Commercial = () => {
                         <b>A:</b> When designing your commercial remodeling project, you should consider factors such as the function of the space, the needs of your business, and the preferences of your customers or tenants. You should also consider any building codes or zoning regulations that may affect the design of the project.
                     </p>
                 </div>
-                <img src={comRight} alt="universal design picture" />               
+                <img src={comRight} alt="Commercial design" />               
             </section>
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" id='newsImg' />

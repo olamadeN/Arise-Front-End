@@ -12,6 +12,7 @@ import news from '../../img/home/news.png'
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Service = () => {
     return(<div><Nav/>
@@ -40,7 +41,7 @@ const Service = () => {
                     <img src={gal4} alt="service gallery preview" className="sgalImg" />
                 </div>
                 <br /><br />
-                <button className="btnPrimary"><Link to="/gallery">View our whole home remodels gallery </Link></button>
+                <button className="btnPrimary"><HashLink to="/gallery/Whole Home Remodels#top">View our whole home remodels gallery </HashLink></button>
                 
             </section><br /><br />
             <section className="sects doublePage">
@@ -81,10 +82,10 @@ const Service = () => {
                         Arise Contractors Group is an award-winning, whole house remodeling contractor serving the Austin Texas area. Our attention to detail is unmatched, and our staff is eager to help you achieve your dreams. No matter the project, whether it be a kitchen remodel, bathroom remodel, or room additions, we can handle it with the care and professionalism you deserve. We’ll take the time to make sure your house flows the way you want it to, so you can enjoy your gorgeous Austin Texas custom home without any hassle. Our team walks you through every step of the process and we pride ourselves on being upfront with all our clients, so no need to worry about sudden fees or changes in the plan. By trusting us with your whole house remodel, you get the full customer experience. We treat you like we would our family because we believe all our customers are just as important. Allow our design build company to handle your custom home renovation.
                     </p>
                 </div>
-                <img src={remod1} alt="random picture" />
+                <img src={remod1} alt="Remodel" />
             </section>
             <section className='sectLeft'>
-                <img src={remod2} alt="random picture" />
+                <img src={remod2} alt="Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">WHOLE HOME REMODELLING</p>
                     <h3>One room vs whole house remodeling</h3>

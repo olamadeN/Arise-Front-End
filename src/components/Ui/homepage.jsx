@@ -15,7 +15,6 @@ import kitchen from '../../img/home/vector/kitchen.jpg'
 import landscape from '../../img/home/vector/landscaping.jpg'
 import luxury from '../../img/home/vector/LuxuryAp.png'
 import office from '../../img/home/vector/officRemod.jpg'
-import quoteW from '../../img/home/vector/quoteWhite.png'
 import quoteB from '../../img/home/vector/quoteBlack.png'
 //image import
 import homeAU from '../../img/home/homeAU.png'
@@ -33,6 +32,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './homepage.css';
 import '../services/service.css'
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Homepage = () => {
     return (
         <div className="">
@@ -44,26 +44,26 @@ const Homepage = () => {
                 <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={false}>
                     
                     <div>
-                        <img src={img5} alt="slider picture" />
+                        <img src={img5} alt="slider" />
                     </div>
                     <div>
-                        <img src={img4} alt="slider picture" />
+                        <img src={img4} alt="slider" />
                     </div>
                     <div>
-                        <img src={img7} alt="slider picture" />
+                        <img src={img7} alt="slider" />
                     </div>
                     <div>
-                        <img src={img1} alt="slider picture" />
+                        <img src={img1} alt="slider" />
                     </div>
                     <div>
-                        <img src={img2} alt="slider picture" />
+                        <img src={img2} alt="slider" />
                     </div>
                     <div>
-                        <img src={img3} alt="slider picture" />
+                        <img src={img3} alt="slider" />
                     </div>
                     
                     <div>
-                        <img src={img6} alt="slider picture" />
+                        <img src={img6} alt="slider" />
                     </div>
                 </Carousel>
                 <div className="bannertxt2"> 
@@ -119,38 +119,38 @@ const Homepage = () => {
                 <p className="subheading">PORTFOLIO GALLERY</p>
                 <h3>Experience excellent and exceptional customer service </h3><br /><br />
                 <div className="homeGallery">
-                    <Link to="/gallery">
+                    <HashLink to="/gallery/Whole Home Remodels#top">
                         <div className="hgPack">
                             <img src={whr} alt="whole home remodels" />
                             <div className="hgOverlay">
                                 <p className="lead">Whole home remodels</p>
                             </div>
                         </div>
-                    </Link>
-                    <Link to="/gallery">
+                    </HashLink>
+                    <HashLink to="/gallery/Kitchen Remodels#top">
                         <div className="hgPack">
                             <img src={kr} alt="Kitchen remodels" />
                             <div className="hgOverlay">
                                 <p className="lead">Kitchen remodels</p>
                             </div>
                         </div>
-                    </Link>
-                    <Link to="/gallery">
+                    </HashLink>
+                    <HashLink to="/gallery/Bathroom Remodels#top">
                         <div className="hgPack">
                             <img src={br} alt="Bathroom remodels" />
                             <div className="hgOverlay">
                                 <p className="lead">Bathroom remodels</p>
                             </div>
                         </div>
-                    </Link>
-                    <Link to="/gallery">
+                    </HashLink>
+                    <HashLink to="/gallery/New Constructions#top">
                         <div className="hgPack">
                             <img src={nc} alt="New construction" />
                             <div className="hgOverlay">
                                 <p className="lead">New construction</p>
                             </div>
                         </div>
-                    </Link>
+                    </HashLink>
                 </div>
             </section>
 

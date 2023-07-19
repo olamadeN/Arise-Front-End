@@ -7,7 +7,6 @@ import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from "react";
 const GalleryProjects = () => {
     const [Project, setProject] = useState([])
-    const [id, setid] = useState({data:""})
     const {category} = useParams()
     useEffect(() => {
         fetch("https://ariseapi.onrender.com/admin/all_projects/"+ category)

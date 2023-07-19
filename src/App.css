@@ -6,11 +6,12 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 html{
-    width: 102%;
+    width: 100%;
     overflow-x: hidden;
 }
 body{
-    width: 102%;
+    width: 100%;
+    
 }
 h1{
     font-size:3rem;
@@ -235,13 +236,6 @@ img {
 }
 /*tab devices*/
 @media screen and (max-width:768px) {
-    html{
-        width: 98.7%;
-        overflow-x: hidden;
-    }
-    body{
-        width: 98.7%;
-    }
     .btnPrimary{
         height: auto;
         width: 65%;
@@ -280,6 +274,9 @@ img {
 }
 /*mobile devices*/
 @media screen and (max-width:480px) {
+    body{
+        overflow-x: hidden;
+    }
     h1{
         font-size:2rem;
         line-height: 35px;

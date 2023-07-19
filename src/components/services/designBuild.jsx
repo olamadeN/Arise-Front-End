@@ -15,6 +15,7 @@ import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Design = () => {
     return (
         <div className="sectStart">
@@ -43,7 +44,7 @@ const Design = () => {
                     <img src={designgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={designgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <Link to="/gallery">View our design-build gallery</Link>  </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery#top">View our design-build gallery</HashLink>  </button>
             </section>
             <section className="sects">
                 <p className="subheading">DESIGN - BUILD</p>
@@ -147,7 +148,7 @@ const Design = () => {
                         We offer a free consultation so we can discuss your vision for the project and begin the process of making your home work for you
                     </p>
                 </div>
-                <img src={dRight} alt="random picture" />               
+                <img src={dRight} alt="Design Build" />               
             </section>
             <div className="sects sSect3">
             <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
