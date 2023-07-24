@@ -44,7 +44,7 @@ const Design = () => {
                     <img src={designgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={designgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery#top">View our design-build gallery</HashLink>  </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery#top">View our Gallery</HashLink>  </button>
             </section>
             <section className="sects">
                 <p className="subheading">DESIGN - BUILD</p>

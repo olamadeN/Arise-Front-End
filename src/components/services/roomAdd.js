@@ -46,7 +46,7 @@ const Roomadd = () => {
                     <img src={rgal4} alt="service gallery preview" className="rgalImg" />
                 </div>
                 <br /><br />
-                <button className="btnPrimary"> <HashLink to="/gallery#top">View our Room Additions Gallery</HashLink>  </button>
+                <button className="btnPrimary" id='roombtn'> <HashLink to="/gallery#top">View our gallery</HashLink>  </button>
             </section><br /><br />
             <section className="sects raSect1">
                 <p className="subheading">ROOM ADDITIONS</p>

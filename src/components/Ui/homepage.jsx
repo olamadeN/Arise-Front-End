@@ -143,7 +143,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </HashLink>
-                    <HashLink to="/gallery/New Constructions#top">
+                    <HashLink to="/gallery/New Construction#top">
                         <div className="hgPack">
                             <img src={nc} alt="New construction" />
                             <div className="hgOverlay">
@@ -178,7 +178,7 @@ const Homepage = () => {
                     Our approach to remodelling is simple: we listen to your ideas and needs, offer professional guidance and support, and work collaboratively with you to achieve your vision. We take pride in our attention to detail, exceptional craftsmanship, and timely completion of projects.
 
                     </p>
-                    <button className="btnPrimary" id='readMoreBtn'> <Link to="/about/process">Read more</Link> </button>
+                    <button className="btnPrimary" id='readMoreBtn'> <HashLink to="/about/process#top">Read more</HashLink> </button>
                 </div>
             </section>
             <section className="newsletter">
@@ -200,31 +200,31 @@ const Homepage = () => {
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                            Arise Homes just remodelled a 1961 single family home, which I just purchased. When inspected the inspector opened his comments with "this home is more up to date than my 2005 build". 
+                                Working with Arise Contractors Group was an absolute pleasure! Their team displayed exceptional professionalism, attention to detail, and expertise throughout the entire project. From the initial consultation to the final delivery, they exceeded our expectations. We were truly impressed with the quality of work and the seamless execution. ACG is now our go-to contractor for all our future projects!
                             </p>
-                            <p className="body" id="user"> <b>Arise Homes Owner </b> {/* <br />Fashion Designer */}</p><br />
+                            <p className="body" id="user"> <b>Arise Contractors' Client </b> {/* <br />Fashion Designer */}</p><br />
                         </div>                        
                     </div>
                     <div className="testimony">
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                            I recently felt the need and desire to purchase a larger home. I was shown several properties until I came across Project Oak by Arisehome. This was the best decision I have ever made.
+                                I couldn't be happier with the outcome of our home renovation, all thanks to Arise Contractors Group. They transformed our outdated space into a modern and functional living area beyond our imagination. Their communication was clear, and they kept us informed at every step. The team's dedication to ensuring customer satisfaction is unparalleled. I highly recommend ACG for any construction or renovation needs!
                             </p>
-                             <p className="body" id="user"> <b>Arise Homes Owner </b> {/* <br />Copywriter*/}</p> 
+                             <p className="body" id="user"> <b>Arise Contractors' Client</b></p> 
                         </div>                        
                     </div>
                     <div className="testimony">
                         <div className="tpack">
                             <img src={quoteB} className='quote' alt="quote" />
                             <p className="lead">
-                            We were so fortunate to have bought our home from Arise Homes. It was a dream come through, the location was just perfect  and had everything we had ever wanted
+                                Arise Contractors Group is simply outstanding! Their team's expertise and creativity turned our dream home into a reality. They listened to our ideas and incorporated them seamlessly into the design. The level of craftsmanship and attention to detail was truly impressive. Working with ACG was a stress-free experience, and we are thrilled with the final result. Thank you for making our home renovation journey enjoyable!
                             </p>
-                            <p className="body" id="user"><b>Arise Homes Owner</b> {/* <br />Engineer*/}</p> 
+                            <p className="body" id="user"><b>Arise Contractors' Client</b> {/* <br />Engineer*/}</p> 
                         </div>
                     </div>
                 </div>
-                <button className="btnPrimary tBtn" id='tBtn'><Link to="/about/testimonials">Read more</Link></button>
+                <button className="btnPrimary tBtn" id='tBtn'><HashLink to="/about/testimonials#top">Read more</HashLink></button>
             </section>
             <section className="chair">
                 <img src={couch} alt="just a chair" />

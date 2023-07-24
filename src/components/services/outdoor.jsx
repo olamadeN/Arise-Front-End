@@ -37,7 +37,7 @@ const Outdoor = () => {
                     <img src={outdoorgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={outdoorgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery/Whole Home Remodels#top">View our outdoor living gallery</HashLink> </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery/Whole Home Remodels/64a59a4fcd6d78422904ea9e#top">View our outdoor living gallery</HashLink> </button>
             </section><br />
             <section className="sects doublePage">
                 <div>

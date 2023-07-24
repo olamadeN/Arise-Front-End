@@ -1,6 +1,9 @@
 .sGallery .rgalImg{
     width: inherit;
 }
+#roombtn{
+    margin: 0 auto;
+}
 .raSect1 p li {
     list-style-type: none;
 }

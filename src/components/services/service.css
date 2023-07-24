@@ -28,6 +28,11 @@
 .sSect4 button{
     margin: 0 38%;
 }
+
+#outBtn{
+    margin:0 auto;
+}
+
 .sectNews{
     width: 82.8%;
     margin:130px 9%;

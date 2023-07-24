@@ -9,6 +9,9 @@
     padding: 0;
     margin: 4% 0;
 }
+#adubtn{
+    margin: 0 auto;
+}
 
 @media screen and (min-width:1740px) {
 

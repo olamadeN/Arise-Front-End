@@ -13,6 +13,7 @@ import remod1 from '../../img/service/adu/remodel1.jpg';
 import remod2 from '../../img/service/adu/remodel2.jpg';
 import news from '../../img/home/news.png'
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const ADU = () => {
 
     return(
@@ -42,7 +43,7 @@ const ADU = () => {
                     <img src={gal4} alt="service gallery preview" className="sgalImg" />
                 </div>
                 <br /><br />
-                <button className="btnPrimary"> <Link to="/gallery">View our ADU Gallery</Link>  </button>
+                <button className="btnPrimary" id="adubtn"> <HashLink to="/gallery/Whole Home Remodels/64a596b7cd6d78422904e94c#top">View our ADU Gallery</HashLink>  </button>
             </section><br /><br />
             <section className="sects">
                 <p className="subheading">ADU / GRANNY FLATS</p>

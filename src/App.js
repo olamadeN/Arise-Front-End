@@ -22,6 +22,7 @@ import GalleryProjects from "./components/gallery/galProjects";
 import Project from "./components/gallery/project";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Homepage from "./components/Ui/homepage";
+import PageNotFound from "./components/Ui/pageNotFound";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 /* contaCT US PAGE*/
@@ -57,6 +58,7 @@ function App() {
               <Route path="/gallery/:category" element={<GalleryProjects />} />
               <Route path="/gallery/:category/:_id" element={<Project />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<PageNotFound/>} />
 
               {/* <Route path="/test" element={<Home />} />
               <Route path="/project" element={<Projecttest />} /> */}

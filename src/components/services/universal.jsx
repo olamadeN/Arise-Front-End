@@ -9,6 +9,7 @@ import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Universal = () => {
     return(<div ><Nav/>
         <div className="sectStart">
@@ -34,7 +35,7 @@ const Universal = () => {
                     <img src={outdoorgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={outdoorgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
-                <button className="btnPrimary" id='outBtn'> <Link to="/gallery">View our universal design gallery</Link> </button>
+                <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery#top">View our Gallery</HashLink> </button>
             </section>
             <section className="sects">
                 <p className="subheading">UNIVERSAL DESIGN</p>
