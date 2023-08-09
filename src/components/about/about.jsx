@@ -16,7 +16,7 @@ const About = () => {
                 <img src={banner} alt="service banner" />
                 <div className="overlay">
                     <div className="sbtxt">
-                        <h1>About us.</h1>
+                        <h1>About Us</h1>
                     </div>
                 </div>
             </section>
@@ -26,8 +26,12 @@ const About = () => {
                     <p className="subheading">ARISE CONTRACTORS GROUP</p>
                     <h3>Our story</h3>
                     <p className="body">
-                        Arise Contractors Group was founded in Austin, Texas in 2017 by a group of passionate real estate and construction professionals. They saw a need in the market for a construction company that could provide exceptional service and quality workmanship in both residential and commercial construction and remodeling. With a focus on customer satisfaction and attention to detail, Arise Contractors Group quickly established a reputation as a reliable and trustworthy partner for any construction project. Their team of skilled architects, engineers, and contractors work closely with clients to design and build customized spaces that meet their unique needs and preferences.
-                        Over the years, Arise Contractors Group has successfully completed numerous projects across Austin, ranging from small home renovations to large-scale commercial constructions. Their commitment to excellence has earned them a loyal following of clients who continue to rely on their services for their construction needs. Despite their relatively short history, Arise Contractors Group has already become one of the most respected and sought-after construction companies in Austin Texas. Their dedication to quality, professionalism, and customer satisfaction ensures that they will continue to thrive in the years to come.
+                        Arise Contractors Group was founded in Austin, Texas in 2017 by a group of passionate real estate and construction professionals. They saw a need in the market for a construction company that could provide exceptional service and quality workmanship in both residential and commercial construction and remodeling. With a focus on customer satisfaction and attention to detail, Arise Contractors Group quickly established a reputation as a reliable and trustworthy partner for any construction project.
+                        <br /><br />
+                        Their team of skilled architects, engineers, and contractors work closely with clients to design and build customized spaces that meet their unique needs and preferences.
+                        Over the years, Arise Contractors Group has successfully completed numerous projects across Austin, ranging from small home renovations to large-scale commercial constructions. 
+                        <br /><br />
+                        Their commitment to excellence has earned them a loyal following of clients who continue to rely on their services for their construction needs. Despite their relatively short history, Arise Contractors Group has already become one of the most respected and sought-after construction companies in Austin, Texas. Their dedication to quality, professionalism, and customer satisfaction ensures that they will continue to thrive in the years to come.
                     </p>
                 </div>
             </section>
@@ -48,18 +52,22 @@ const About = () => {
             <section className='sectLeft aboutLeft' id='abL' >
                 <img src={aboutleft2} id='aleft1' alt="About Us" />
                 <div className="sSectTxt">
-                    <p className="subheading">Our difference</p>
-                    <h3>Our story</h3>
+                    <p className="subheading">ARISE CONTRACTORS GROUP</p>
+                    <h3>Our difference</h3>
                     <p className="body">
-                        <li className="ablist">In-house skilled technicians.</li>
-                        <li className="ablist">Over a thousand satisfied clients in Austin Texas.</li>
-                        <li className="ablist">Established relationships with tested and trusted trade partners.</li>
-                        <li className="ablist">Intensive background checks performed on all employees prior to hiring.</li>
-                        <li className="ablist">Upfront, honest and detailed contracts provided for you at the very beginning.</li>
-                        <li className="ablist">We offer a 2 year warranty instead of the standard 1 year warranty with all of our remodels.</li>
-                        <li className="ablist">Licensed, Active General Liability Insurance and Workers Compensation on all employees.</li>
-                        <li className="ablist">Highly trained staff, designers and personnel will assist you throughout your entire project.</li>
-                        <li className="ablist">State-of-the-art Client Management System that allows you to login and view your weekly schedule, view project files, material lists and see tasks for the entire team.</li>
+                        <ul>
+                            <li className="ablist">In-house skilled technicians.</li>
+                            <li className="ablist">Over a thousand satisfied clients in Austin, Texas.</li>
+                            <li className="ablist">Established relationships with tested and trusted trade partners.</li>
+                            <li className="ablist">Intensive background checks performed on all employees prior to hiring.</li>
+                            <li className="ablist">Upfront, honest and detailed contracts provided for you at the very beginning.</li>
+                            <li className="ablist">We offer a 2 year warranty instead of the standard 1 year warranty with all of our remodels.</li>
+                            <li className="ablist">Licensed, Active General Liability Insurance and Workers Compensation on all employees.</li>
+                            <li className="ablist">Highly trained staff, designers and personnel will assist you throughout your entire project.</li>
+                            <li className="ablist">State-of-the-art Client Management System that allows you to login and view your weekly schedule, view project files, material lists and see tasks for the entire team.</li>
+                        </ul>
+                        
+                        
                     </p>
                 </div>
             </section>
@@ -72,18 +80,18 @@ const About = () => {
                         <br /><br />
                         Whether it is a new construction project, a remodeling or renovation job, or a restoration project, Arise Contractors Group has the expertise, knowledge, and resources to deliver outstanding results.
                     </p>
-                    <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
+                    <button id='aboutBtn' className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
                 </div>
                 <img src={aboutright2} id='aright2' alt="About Us" />               
             </section>
-            <section className="sectNews">
+            <section className="sectNews" id='aboutNews'>
                 <img src={news} alt="news" className="newsImg" id='newsImg' />
                 <div className="newsTxt">
                     <h3>Subscribe to our newsletter</h3>
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section>

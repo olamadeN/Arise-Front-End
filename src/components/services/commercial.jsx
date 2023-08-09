@@ -92,16 +92,16 @@ const Commercial = () => {
                     <p className="subheading">COMMERCIAL REMODELING</p>
                     <h3>Frequently asked questions</h3>
                     <p className="body">
-                        <b>Q:</b> What is the typical timeline for a commercial remodeling project?
+                        <b>Q:</b> What is the typical timeline for a commercial remodeling project?<br /><br />
                         <b>A:</b> The timeline for a commercial remodeling project can vary depending on the scope and complexity of the project. Smaller projects may take several weeks, while larger projects can take several months or longer. We’re sure to meet all remodel design standards timely.
                         <br /><br />
-                        <b>Q:</b> How much does commercial remodeling cost?
+                        <b>Q:</b> How much does commercial remodeling cost?<br /><br />
                         <b>A:</b> The cost of commercial remodeling can vary widely depending on factors such as the size of the space, the level of renovation required, and the materials used. It is best to consult with us immediately at Arise Contractors Group to get an accurate estimate for your specific project.
                         <br /><br />
-                        <b>Q:</b> Will I need permits for my commercial remodeling project?
+                        <b>Q:</b> Will I need permits for my commercial remodeling project?<br /><br />
                         <b>A:</b> Depending on the scope of the project, you may need permits from your local building department. A professional contractor or design-build firm can help you navigate the permitting process.
                         <br /><br /> 
-                        <b>Q:</b> What should I consider when designing my commercial remodeling project?
+                        <b>Q:</b> What should I consider when designing my commercial remodeling project?<br /><br />
                         <b>A:</b> When designing your commercial remodeling project, you should consider factors such as the function of the space, the needs of your business, and the preferences of your customers or tenants. You should also consider any building codes or zoning regulations that may affect the design of the project.
                     </p>
                 </div>
@@ -114,7 +114,7 @@ const Commercial = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section><Footer/>

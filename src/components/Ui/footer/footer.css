@@ -65,8 +65,6 @@
 }
 .footSocials{
     margin-top: 35px;
-    
-    
 }
 .social-icons a{
     font-size: 1.8rem;
@@ -80,6 +78,29 @@
 
 
 /* media query */
+@media screen and (max-width:1950px) {
+    .foot .copyright{
+        text-align: center;  
+        color:#8D95A8;
+    }
+    .foot .copyright hr{
+       width: 83%;
+       margin: 0 5%;
+       margin-top: -27px;
+    }
+}
+@media screen and (max-width:1740px) {
+    .foot .copyright hr{
+        width: 83%;
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width:1400px) {
+    .foot .copyright hr{
+        width: 83%;
+        margin: 15px 5%;
+    }
+}
 @media screen and (max-width:1200px) {
     .foot{
         height: auto;

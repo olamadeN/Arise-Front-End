@@ -60,6 +60,7 @@ h4{
     letter-spacing: 0em;
     color: #006AAA;
 }
+
 .btnPrimary{
     display: flex;
     text-align: center;
@@ -80,7 +81,7 @@ a:hover{
     color: inherit;
 }
 #outBtn{
-    margin-left:38%;
+    margin:auto auto;
 }
 img {
     pointer-events: none
@@ -130,16 +131,18 @@ img {
     margin:120px 9%;
     display: grid;
     grid-template-columns: 48% 30%;
-    gap:3%;
+    gap:7%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 .sectLeft{
     width: 95%;
     margin:120px -6%;
     display: grid;
     grid-template-columns: 30% 46% ;
-    gap:24%;
+    gap:28%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 .sectStart{
     width: 100%;
@@ -198,10 +201,24 @@ img {
     }
 
 } */
+@media screen and (max-width:1950px) {
+    .btnPrimary{
+        padding: 12px auto;
+    }
+    .sectLeft{
+        gap:27%;
+    }
+}
+@media screen and (max-width:1750px) {
+    .sectLeft{
+        gap:23%;
+    }
+    
+}
 @media screen and (max-width:1200px) {
     .btnPrimary{
-    padding: 12px 5%;
-}
+        padding: 12px auto;
+    }
     
 }
 
@@ -219,9 +236,9 @@ img {
         gap:24%;
         overflow-x: hidden;
     }
-    #outBtn{
+/*     #outBtn{
         margin-left:25%;
-    }
+    } */
     .sectLeft img{
         width: 170%;
     }
@@ -238,20 +255,37 @@ img {
 @media screen and (max-width:768px) {
     .btnPrimary{
         height: auto;
-        width: 65%;
-        padding:15px 10%;
+        /* width: 65%; */
+        /* padding:15px auto; */
+        margin: auto auto;
+        
     }
-    #outBtn{
+/*     #outBtn{
         width: 58%;
         margin-left:18%;
-    }
+    } */
     .banner .overlay{
         height: 16.5vh;
     }
     .banner .overlay .sbtxt{
         top:70px;
     }
+    .sectRight {
+        width: 82.8%;
+        margin:50px 9%;
+        display: block;
+        overflow-x:none;
         
+    }
+/*     .sectRight img{
+       width: 100%;
+    } */
+    .sectLeft{
+        width: 82.8%;
+        margin:50px 9%;
+        display: block;
+        overflow-x: none;
+    }
 }
 @media screen and (max-width:500px) {
     #outBtn{

@@ -5,6 +5,9 @@
     margin-top:350px;
     margin-bottom:350px;
 }
+#nos2{
+    width:38%;
+}
 #apBtn{
     margin: 0 37%;
 }
@@ -13,6 +16,27 @@
     width: 40%;
 }
 
+@media screen and (max-width:1924px) {
+    #nos2{
+        width:26.5%;
+    }
+    #nos6{
+        width:39%;
+    }
+    #nos9{
+        margin-bottom: 10px;
+    }
+
+    #ap10{
+        
+        width: 30%;
+    }
+}
+@media screen and (max-width:1524px) {
+    #nos2{
+        width:39%;
+    }
+}
 @media screen and (max-width:1024px) {
     #ap10{
         margin-top: -45px;
@@ -23,6 +47,9 @@
     #ap10{
         margin-top: -45px;
         width: 60%;
+    }
+    #nos2{
+        width:67%;
     }
 }
 @media screen and (max-width:768px) {
@@ -42,4 +69,5 @@
         margin-top: -45px;
         width: 60%;
     }
+
 }

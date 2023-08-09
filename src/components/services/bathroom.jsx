@@ -30,12 +30,13 @@ const Bathroom = () => {
             </section>
             <section className="sects sSect1">
                 <p className="subheading">BATHROOM REMODELS</p>
-                <h2>Custom designed bathroom remodeling in Austin Texas</h2><br />
+                <h2>Custom designed bathroom remodeling in Austin, Texas</h2><br />
                 <p className="body">
-                    Arise Contractors Group specializes in custom bathroom remodeling in Austin Texas. Our many years of experience guarantee your home improvement projects will run efficiently and on time.
+                    Arise Contractors Group specializes in custom bathroom remodeling in Austin, Texas. Our many years of experience guarantee your home improvement projects will run efficiently and on time.
                     The bathroom, like the kitchen, is one of the most important sections of the home. Before you renovate, you need to find a bathroom remodeling company you can trust. You also need a company that checks every box and strives to surpass expectations.
                     <br /><br />
                     Arise Contractors Group’s commitment to quality home renovation shows in all our work. We offer full-service bathroom design and remodeling and strive to exceed our customer’s expectations. Our experienced designers make sure your custom bath remodel is exactly what you want to a tee!
+                    <br/><br/>
                     When you hire us for your remodel, you are guaranteed that: <br /><br />
                     <li>We design the perfect bathroom to fit your lifestyle and the latest trends.</li>
                     <li>All our employees are selected for experience, training, and courtesy.</li>
@@ -52,31 +53,27 @@ const Bathroom = () => {
                     <img src={bathgal3} alt="service gallery preview" className="sgalImg" />
                     <img src={bathgal4} alt="service gallery preview" className="sgalImg" />
                 </div>              
-                <button className="btnPrimary"> <HashLink to="/gallery/Bathroom Remodels#top">View our bathroom remodels gallery</HashLink> </button>
+                <button id="bathBtn" className="btnPrimary"> <HashLink to="/gallery/Bathroom Remodels#top">View our bathroom remodels gallery</HashLink> </button>
             </section>
             <section className="sects sSect3">
                  <p className="subheading">BATHROOM REMODELS</p>
                 <h3>The bathroom remodeling process</h3><br />
                 <p className="body">
-                    Every renovation is as unique as a fingerprint. There are also general steps that apply to every remodel. We have created a step-by-step guide so you can see what your Austin Texas custom bathroom renovation will look like.
+                    Every renovation is as unique as a fingerprint. There are also general steps that apply to every remodel. We have created a step-by-step guide so you can see what your Austin, Texas custom bathroom renovation will look like.
                     <br /><br />
-                    In-Home Consultation. We work together to get an understanding of what your general remodel will look like and give you an estimate of what the project could cost.
+                    <b>In-Home Consultation</b> <br /> We work together to get an understanding of what your general remodel will look like and give you an estimate of what the project could cost.
                     <br /><br />
-                    Design and Bid Presentation. We go over your ideas and come up with a unique and custom remodel that caters to your wants and needs.
+                    <b>Design and Bid Presentation</b><br /> We go over your ideas and come up with a unique and custom remodel that caters to your wants and needs.
                     <br /><br />
-                    Remodel Plans and Permits. Using state-of-the-art computer imaging, we generate the exact end look of your space. We also seek any necessary permits from the city.
+                    <b>Remodel Plans and Permits</b><br /> Using state-of-the-art computer imaging, we generate the exact end look of your space. We also seek any necessary permits from the city.
                     <br /><br />
-                    Demolition. We remove the old toilet, sink, bath, and cabinets to begin the remodeling process.
+                    <b>Demolition</b><br /> We remove the old toilet, sink, bath, and cabinets to begin the remodeling process.
                     <br /><br />
-                    Construction. We install new fixtures, fix wiring issues, install new pipes, and make other repairs. We also apply our discussed design during this phase and ensure your makeover is everything you want it to be!
+                    <b>Construction</b><br /> We install new fixtures, fix wiring issues, install new pipes, and make other repairs. We also apply our discussed design during this phase and ensure your makeover is everything you want it to be!
                     <br /><br />
                     Enjoy your new room! Once we ensure proper installation and cleanliness, it is ready to use!
                 </p>
             </section>
-            <div className="skitchen sects">
-                <img src={bath1} alt="Random bathroom pics" />
-                <img src={bath2} alt="Random bathroom pics" />
-            </div><br /><br />
             <section className="sects doublePage">
                 <div>
                     <p className="subheading">BATHROOM REMODELS</p>
@@ -103,7 +100,11 @@ const Bathroom = () => {
                         </ul>                        
                     </p>
                 </div>
-            </section><br /><br />
+            </section>
+            <div className="skitchen sects">
+                <img src={bath1} alt="Random bathroom pics" />
+                <img src={bath2} alt="Random bathroom pics" />
+            </div>
             <section className="sects sSect3">
                  <p className="subheading">BATHROOM REMODELS</p>
                 <h3>Bathroom additions</h3><br />
@@ -111,9 +112,9 @@ const Bathroom = () => {
                     Avoid the pains of waiting in line to shower or brush your teeth in the morning. Enhance your quality of life with an extra bathroom! A full bath adds value to your home, so when it comes time to sell, you will be looking at an increase in property value. All the homeowners we have worked with were ecstatic with their addition. Increase your home value and the quality of your life by setting up an appointment with us today! We also offer universal design and master bath remodels.
                 </p>
             </section>
-            <section className='sectLeft'>
-                <img src={bathRemod1} alt="Bathroom Remodel" />
-                <div className="sSectTxt">
+            <section id='ksectLeft' className='sectLeft'>
+                <img id="imgDown" src={bathRemod1} alt="Bathroom Remodel" />
+                <div className="sSectTxt" id="down">
                     <p className="subheading">BATHROOM REMODELS</p>
                     <h3>Bathroom plumbing</h3>
                     <p className="body">
@@ -126,7 +127,7 @@ const Bathroom = () => {
                 </div>
             </section>
             <section className='sectRight'>
-                <div className="sSectTxt">
+                <div className="sSectTxt" id="down">
                     <p className="subheading">BATHROOM REMODELS</p>
                     <h3>Pros and cons of low flow toilets</h3>
                     <p className="body">
@@ -139,9 +140,9 @@ const Bathroom = () => {
                 </div>
                 <img src={bathRemod2} alt="Bathroom Remodel" />
             </section>
-            <section className='sectLeft'>
-                <img src={bathRemod3} alt="Bathroom Remodel" />
-                <div className="sSectTxt">
+            <section id='ksectLeft' className='sectLeft'>
+                <img id="img2Down" src={bathRemod3} alt="Bathroom Remodel" />
+                <div className="sSectTxt" id="down">
                     <p className="subheading">BATHROOM REMODELS</p>
                     <h3>Space-saving design</h3>
                     <p className="body">
@@ -154,9 +155,9 @@ const Bathroom = () => {
                 </div>
             </section>
             <section className='sectRight'>
-                <div className="sSectTxt">
+                <div className="sSectTxt" id="down">
                     <p className="subheading">BATHROOM REMODELS</p>
-                    <h3>Austin Texas Premier Bathroom Remodeling Contractors</h3>
+                    <h3>Austin, Texas Premier Bathroom Remodeling Contractors</h3>
                     <p className="body">
                         You deserve a bathroom that makes you feel comfortable. Calling the right bathroom remodeling contractors will ensure your dream washroom will come to life, and Arise Contractors Group is the right choice.
                         <br /><br />
@@ -169,7 +170,7 @@ const Bathroom = () => {
             </section>
             <section className="sects sSect4">
                 <p className="subheading">BATHROOM REMODELS</p>
-                <h3>Common mistakes in a bath remodel</h3><br />
+                <h3>Common mistakes in a bathroom remodel</h3><br />
                 <p className="body">
                     There are many common pitfalls when remodeling your bathroom. For example, if plumbing or ventilation are done incorrectly, you will need to make expensive repairs later. Here are a few mistakes new remodelers make:
                     <br /><br />
@@ -198,7 +199,7 @@ const Bathroom = () => {
                     <b>Can you remodel your own bathroom?</b><br />
                     While it is possible to remodel your own bathroom, it is not recommended beyond small superficial changes to the paint and fixtures. Re-doing piping and electrical requires training and experience, and proper permits to complete. In many cases doing remodeling projects will take longer to complete without the experience of professionals.
                 <br /><br />
-                Austin Texas is a dream destination for many people. Yet the homes here do not always compare well to the weather, sights, and attractions. Few homeowners get to see their dream home become reality. Do not let yours fade away, let Arise Contractors Group handle your whole home remodel. Schedule your complimentary consultation and make your dreams come true today!
+                Austin, Texas is a dream destination for many people. Yet the homes here do not always compare well to the weather, sights, and attractions. Few homeowners get to see their dream home become reality. Do not let yours fade away, let Arise Contractors Group handle your whole home remodel. Schedule your complimentary consultation and make your dreams come true today!
                 </p>
                 <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
             </section>
@@ -209,7 +210,7 @@ const Bathroom = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section>

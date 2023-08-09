@@ -28,13 +28,15 @@ const kitchen = () => {
             </section>
             <section className="sects sSect1">
                 <p className="subheading">Kitchen Remodels</p>
-                <h2>Classic kitchen makeovers for your Austin Texas Home</h2><br />
+                <h2>Classic kitchen makeovers for your Austin, Texas home</h2><br />
                 <p className="body">
-                    Arise Contractors Group is the best in the Austin Texas kitchen remodeling business. We are a full-service design and remodeling company that specializes in custom kitchen cabinets, tile installation, islands, high end design and much more. Our commitment to quality and prestige is unmatched.
+                    Arise Contractors Group is the best in the Austin, Texas kitchen remodeling business. We are a full-service design and remodeling company that specializes in custom kitchen cabinets, tile installation, islands, high end design and much more. Our commitment to quality and prestige is unmatched.
                     <br /><br />
-                    Owning a home in Austin Texas opens up unique opportunities to showcase amazing kitchen designs. You want a company that can create your dream kitchen and stay on budget, with proper communication and high-quality work. Our goal is to make your home beautiful, while still maintaining its functionality. Arise Contractors Group offers kitchen remodeling in Austin Texas. Our team is the best remodeling company in Austin Texas because we finish projects on time and on budget. Contact our office today to set up your complimentary consultation!
+                    Owning a home in Austin, Texas opens up unique opportunities to showcase amazing kitchen designs. You want a company that can create your dream kitchen and stay on budget, with proper communication and high-quality work. Our goal is to make your home beautiful, while still maintaining its functionality. Arise Contractors Group offers kitchen remodeling in Austin, Texas. Our team is the best remodeling company in Austin, Texas because we finish projects on time and on budget. Contact our office today to set up your complimentary consultation!
                     <br /><br />
-                    You may think the living room is the most “lived in” space in your house, but the truth is, it’s usually your kitchen. From family gatherings to dinner parties, it is the heart of your home. You want it to be warm and inviting but functional, so you can show off your impressive cooking skills. If you’re looking to make changes, you want a company that specializes in Austin Texas kitchen remodeling to ensure quality work. Our Unparalleled Austin Texas Kitchen Remodeling Services Include:
+                    You may think the living room is the most “lived in” space in your house, but the truth is, it’s usually your kitchen. From family gatherings to dinner parties, it is the heart of your home. You want it to be warm and inviting but functional, so you can show off your impressive cooking skills. If you’re looking to make changes, you want a company that specializes in Austin, Texas kitchen remodeling to ensure quality work.
+                    <br/><br/>
+                    Our Unparalleled Austin, Texas Kitchen Remodeling Services Include:
                     <br /><br />
                     <li>Free Consultation</li>
                     <li>Complete Kitchen Design</li>
@@ -53,19 +55,19 @@ const kitchen = () => {
             </section>
             <section className="sects">
                  <p className="subheading">KITCHEN REMODELS</p>
-                <h3>Why should you remodel your Austin Texas kitchen?</h3><br />
+                <h3>Why should you remodel your Austin, Texas kitchen?</h3><br />
                 <p className="body">
                     Most of our customers who want to remodel choose to do so for one of the following reasons:
                     <br /><br />
-                    They are unhappy with the amount of storage space. <br />
-                    It is hard to access the storage space they already have. <br />
-                    They are unsatisfied with the amount of floor and counter space. <br />
-                    The current layout does not fit their lifestyle. <br />
-                    They feel like the area is too small and needs to be opened up. <br />
-                    They love to entertain but need more social interaction between their kitchen and other rooms. <br />
-                    The fixtures, fittings and décor is outdated and in need of replacement. 
+                    <li>They are unhappy with the amount of storage space.</li><br />
+                    <li>It is hard to access the storage space they already have.</li><br />
+                    <li>They are unsatisfied with the amount of floor and counter space. </li><br />
+                    <li>The current layout does not fit their lifestyle.</li><br />
+                    <li>They feel like the area is too small and needs to be opened up.</li><br />
+                    <li>They love to entertain but need more social interaction between their kitchen and other rooms.</li><br />
+                    <li>The fixtures, fittings and décor is outdated and in need of replacement. </li>              
                     <br /><br />
-                    Arise Contractors Group has helped countless people remodel their kitchens in Austin Texas. We offer a complete, one-stop service not only for your kitchen, but we also are the best company around for Austin Texas whole home remodeling.
+                    Arise Contractors Group has helped countless people remodel their kitchens in Austin, Texas. We offer a complete, one-stop service not only for your kitchen, but we also are the best company around for Austin, Texas whole home remodeling.
                     Choosing a project partner is no simple choice, which is why our knowledgeable team is more than happy to answer all your questions before you make the final decision. We want to make sure you remain comfortable throughout the entire process. From your initial consultation to design and planning, and the entire remodeling process, you can rest assured your project will be completed on time, on budget, and will be completed with your full satisfaction.
                 </p>                
             </section><br />
@@ -97,14 +99,14 @@ const kitchen = () => {
                 <br /><br />
                 <b>9. Enjoy your New Kitchen:</b> At this point, your makeover is complete, and you can begin enjoying it. Plan a dinner party, cook for the family, or order in to keep it spotless. The possibilities are endless!
                 </p>                
-            </section><br /><br />
-            <section className='sectLeft'>
+            </section>
+            <section id='ksectLeft' className='sectLeft' style={{marginTop:80}}>
                 <img src={kleft} alt="Kitchen Remodel" />
                 <div className="sSectTxt">
                     <p className="subheading">KITCHEN REMODELS</p>
                     <h3>Kitchen designs: Renovating the most important room in your house</h3>
                     <p className="body">
-                        Over the last few decades, the evolution of design has accelerated, which makes working with Austin Texas’s best kitchen remodeling company even more important. Since your kitchen is one of the busiest and most important rooms in your home, a worthy design is a must. It’s a gathering place, an entertainment room, and a place of inspiration for ambitious home-cooked meals. Because of this, you need a kitchen contractor who pays attention to detail.
+                        Over the last few decades, the evolution of design has accelerated, which makes working with Austin, Texas’s best kitchen remodeling company even more important. Since your kitchen is one of the busiest and most important rooms in your home, a worthy design is a must. It’s a gathering place, an entertainment room, and a place of inspiration for ambitious home-cooked meals. Because of this, you need a kitchen contractor who pays attention to detail.
                             <br /><br />
                         Your kitchen should always be comfortable, welcoming and efficiently designed, all while reflecting the individual homeowner’s unique personality. Products are continuously reengineered, updated, and redesigned to meet the needs of the consumers. For example, the needs of multigenerational or age-in-place remodels are markedly different. Our team has knowledge of the latest products on the market and will help you make the right selections to fit your lifestyle.
                     </p>
@@ -117,7 +119,7 @@ const kitchen = () => {
                     <p className="body">
                         The triangle is a layout that architects and designers use when working on residential projects. The idea is to create an efficient space between key appliances such as the oven, sink, and refrigerator. There are specific principles that designers follow, including measurements between workstations, amount of traffic flow between them, and how much counter space should be on either side of each appliance. Have questions about the efficiency of your cooking area? We will be happy to answer any of them! Throughout the project, we will thoroughly explain our process and how that affects the functionality.
                         <br /><br />
-                        Layout changes are an important aspect of all kitchen renovations. This involves replacing flooring, kitchen countertops, appliances, lighting fixtures, wall placement, and more to create a space that is truly transformed. Remodeling your Austin Texas home’s kitchen is that you choose where you want your oven, your sink, and your refrigerator to be placed. We take into account how you wish your kitchen to be designed and transfer those dreams into plans. Our team can make it happen for you. Arise Contractors Group is the best choice for all your kitchen renovation needs.
+                        Layout changes are an important aspect of all kitchen renovations. This involves replacing flooring, kitchen countertops, appliances, lighting fixtures, wall placement, and more to create a space that is truly transformed. Remodeling your Austin, Texas home’s kitchen is that you choose where you want your oven, your sink, and your refrigerator to be placed. We take into account how you wish your kitchen to be designed and transfer those dreams into plans. Our team can make it happen for you. Arise Contractors Group is the best choice for all your kitchen renovation needs.
                     </p>
                 </div>
                 <img src={kright} alt="Kitchen Remodel" />
@@ -141,9 +143,9 @@ const kitchen = () => {
                 <b> 6. Easy Cleanup:</b> Are the appliances easy to clean? Do they show fingerprints easily? Though these may not seem like important questions to ask, an appliance that is easy to clean can make your life a little easier, too
                 </p>                
             </section>
-            <section className='sectLeft'>
+            <section id='ksectLeft' className='sectLeft'>
                 <img src={kleft2} alt="Kitchen Remodel" />
-                <div className="sSectTxt">
+                <div className="sSectTxt" id='kitrighttxt'>
                     <p className="subheading">KITCHEN REMODELS</p>
                     <h3>Galley Kitchen</h3>
                     <p className="body">
@@ -183,8 +185,8 @@ const kitchen = () => {
                     <br /><br />
                     <b>4. Not Being Sure of What You Want:</b>  When you approve a design and o.k. work, be sure that you are comfortable and happy with it. Changing your mind mid-project or at the end can lead to costly delays, new work orders, and put a huge strain on your budget.
                 </p>                
-            </section><br /><br />
-            <section className="sects sSect3">
+            </section>
+            <section style={{marginTop:75}} className="sects sSect3">
                 <p className="subheading">KITCHEN REMODELS</p>
                 <h3>Common kitchen remodeling mistakes</h3><br />
                 <p className="body">
@@ -194,7 +196,7 @@ const kitchen = () => {
                     <b>How long does it take to remodel a kitchen?</b><br />
                     The scope of the project and the size of your kitchen can also affect the time it takes for this project to be completed. Ripping out the guts of your kitchen and installing new pipes and electricity will take more time than simply redoing the floors and fixtures. Simple cosmetic updates to your kitchen are likely to take less time than structural changes. It is important to note that it is not uncommon for appliances and materials to be on back order which will add to the timeline to complete your kitchen remodel.
                     <br /><br />
-                    <b>Do you need a permit to remodel your kitchen?</b>    
+                    <b>Do you need a permit to remodel your kitchen?</b><br />  
                     Generally, yes. Whether you need a permit for this remodeling project does, however, depend on where you live and the type of remodeling project. Installing new cabinets generally do not require permits whereas plumbing, electrical and structural changes do require permits. Arise Contractors Group has the experience and knowledge to know what permits you need for your project. Let us take care of the details, including all your permitting needs.
                     <br /><br />
                     <b>How much value does a kitchen remodel add to your home?</b><br />
@@ -215,7 +217,7 @@ const kitchen = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section></div><Footer/>

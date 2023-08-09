@@ -29,12 +29,12 @@ const ADU = () => {
             </section>
             <section className="sects sSect1">
                 <p className="subheading">ADU / GRANNY FLATS</p>
-                <h2>What Is An ADU Or Casita?</h2><br />
+                <h2>What is an ADU or Casita?</h2><br />
                 <p className="body">
                     An ADU (Accessory Dwelling Unit) refers to a secondary residential unit that is typically added to a single-family residential property. It is also known by other names such as "granny flat," "in-law suite," or "backyard cottage." ADUs are considered additional housing units on a property and are designed to accommodate independent living. They are typically smaller in size compared to the primary dwelling and can be attached or detached from the main house. ADUs can provide additional living space, offer rental income opportunities, or serve as housing for family members or caregivers. ADUs have gained popularity as a means to address housing shortages, increase housing density, and provide flexible living arrangements.
                     <br /><br />
                     Sometimes the space you currently have does not fit your family’s needs. Your family may be growing, or your parents may be moving in, and they want their own, private space. You may also simply want to expand the square footage of your home and start renting to people without giving up your privacy. An accessory dwelling unit, or ADU, is the perfect solution.
-                    Accessory dwelling units, or ADUs, are one of the smartest investments you can make as a Austin Texas homeowner. You might also hear them referred to as granny flats, in-law suites, and casitas. A new ADU can solve many problems while adding value to your property.
+                    Accessory dwelling units, or ADUs, are one of the smartest investments you can make as a Austin, Texas homeowner. You might also hear them referred to as granny flats, in-law suites, and casitas. A new ADU can solve many problems while adding value to your property.
                 </p><br />
                 <div className="sGallery">
                     <img src={gal1} alt="service gallery preview" className="sgalImg" />
@@ -44,15 +44,15 @@ const ADU = () => {
                 </div>
                 <br /><br />
                 <button className="btnPrimary" id="adubtn"> <HashLink to="/gallery/Whole Home Remodels/64a596b7cd6d78422904e94c#top">View our ADU Gallery</HashLink>  </button>
-            </section><br /><br />
+            </section>
             <section className="sects">
                 <p className="subheading">ADU / GRANNY FLATS</p>
-                <h2>Should You Build an ADU in Austin Texas?</h2><br />
+                <h2>Should you build an ADU in Austin, Texas?</h2><br />
                 <p className="body">
-                    With its beautiful weather and the number of things to do in the area, finding a new home in Austin Texas can be very difficult and expensive. Growing families require more space, though. You should not have to give up your current property just to find another, bigger space to accommodate your needs. This just brings unnecessary stress into your life. Rather than looking for a new place, why not upgrade the property you already have? An accessory dwelling unit can be the answer. Arise Contractors Group will build the ADU of your dreams. The high demand and low supply for residences in Austin Texas is a problem for many people. ADUs can be a major opportunity for you to earn some extra income. When you build and rent out a granny flat, you have the option to add a significant new source of income to your wallet. You can spend that money on your mortgage, pay off loans, save up for retirement, or go on a vacation.
+                    With its beautiful weather and the number of things to do in the area, finding a new home in Austin, Texas can be very difficult and expensive. Growing families require more space, though. You should not have to give up your current property just to find another, bigger space to accommodate your needs. This just brings unnecessary stress into your life. Rather than looking for a new place, why not upgrade the property you already have? An accessory dwelling unit can be the answer. Arise Contractors Group will build the ADU of your dreams. The high demand and low supply for residences in Austin, Texas is a problem for many people. ADUs can be a major opportunity for you to earn some extra income. When you build and rent out a granny flat, you have the option to add a significant new source of income to your wallet. You can spend that money on your mortgage, pay off loans, save up for retirement, or go on a vacation.
                     <br /><br />
                     For multigenerational families, finding a safe place for your parents to stay as they grow old can be especially difficult. You need somewhere close to you, but specifically designed with their safety and abilities in mind. A brand new ADU can be customized for aging in place, and having your parents live nearby is a win for everyone. There is nothing more valuable than their safety, so get a space that is designed for them. A project of this size requires the right people to do it. Converting an existing structure into an ADU may allow you to use the plumbing and electrical that already runs through your house but building a detached ADU requires new plumbing systems or adjustments to your existing system. This takes a skilled hand, and without a great team behind you, your ADU may not last as long as it should. Arise Contractors Group has the tools, skills, and team to make your accessory dwelling unit great. Our design team can take key factors you want and include them in the final design, so your ADU feels like an extension of your existing property. Increase the value of your property and fall back in love with your home! Call us today so we can give you a free consultation.
-                </p><br />
+                </p>
             </section>
             <div className="skitchen sects">
                 <img src={skit1} alt="kitchen pics" />
@@ -117,7 +117,7 @@ const ADU = () => {
                     </div>
                 </div>
             </section>
-            <section className='sectLeft'>
+            <section id='adusectLeft' className='sectLeft' style={{marginTop:10}}>
                 <img src={remod1} alt="random picture" id="aduleftimg" />
                 <div className="sSectTxt" id="adulefttxt">
                     <p className="subheading">FREQUENTLY ASKED QUESTIONS</p>
@@ -130,7 +130,7 @@ const ADU = () => {
                 </div>
             </section>
             <section className='sectRight'>
-                <div className="sSectTxt">
+                <div id='adurighttxt' className="sSectTxt">
                     <p className="subheading">FREQUENTLY ASKED QUESTIONS</p>
                     <h3>Can a casita (or any detached structure) be included as part of my home’s square footage?</h3>
                     <p className="body">
@@ -143,11 +143,11 @@ const ADU = () => {
             </section>
             <section className="sects sSect4">
                 <p className="subheading">ADU / GRANNY FLATS</p>
-                <h2>Can i build my own ADU?</h2><br />
+                <h2>Can I build my own ADU?</h2><br />
                 <p className="body">
                     The smaller, simpler design of ADUs may lead some homeowners to try to take on the project themselves, going the DIY route. However, it is far more complicated than it sounds.  County requires an Owner-Builder Declaration to get a building permit; this document puts you in charge of enormous liability. It also clears your homeowner’s insurance of covering injuries such as falling off a ladder, potentially leaving you with massive medical bills. Going the DIY route puts others at risk, too. The law considers anyone who helps you on any project that costs more than $500 to be your employee. You will be required to pay for disability insurance, unemployment, have taxes withheld, and register for an EIN on the state and federal level. Also, if you sell your property, future homeowners can hold you liable for injuries and damages that occur due to your construction.
                     <br /><br />
-                    This is why having a quality construction company is so important when you are looking to add an ADU to your property. At Arise Contractors Group, we specialize in delivering ADUs quickly and efficiently, so you don’t have to spend extra money on renewing permits or additional inspections. We build all our buildings with high-quality materials and skill while ensuring we keep costs in check and the project within budget. Because ADUs are often standalone structures, they require new foundations, new walls, plumbing, electric, heating and cooling and a separate roof. As such, it’s extremely important to hire a company with significant experience building stand-alone structures like casitas. Arise Contractors Group is one of Austin Texas’s leading full service remodeling companies. Remember, every project is different, and you should not accept cookie cutter options for any home addition. Call the experts at Arise Contractors Group today.
+                    This is why having a quality construction company is so important when you are looking to add an ADU to your property. At Arise Contractors Group, we specialize in delivering ADUs quickly and efficiently, so you don’t have to spend extra money on renewing permits or additional inspections. We build all our buildings with high-quality materials and skill while ensuring we keep costs in check and the project within budget. Because ADUs are often standalone structures, they require new foundations, new walls, plumbing, electric, heating and cooling and a separate roof. As such, it’s extremely important to hire a company with significant experience building stand-alone structures like casitas. Arise Contractors Group is one of Austin, Texas’s leading full service remodeling companies. Remember, every project is different, and you should not accept cookie cutter options for any home addition. Call the experts at Arise Contractors Group today.
                 </p><br /><br />
                 <button className="btnPrimary"> <Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link>  </button>
             </section>
@@ -158,7 +158,7 @@ const ADU = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link>e</button>
                     </form>
                 </div>
             </section>

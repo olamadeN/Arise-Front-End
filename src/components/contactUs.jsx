@@ -32,8 +32,7 @@ const ContactUs = () => {
                             <div className='soTxt'>
                                 <h4>Phone Number</h4>
                                 <p className="lead">
-                                    +1 512-588 3997 <br />
-                                    +1 512-588 3997
+                                    +1 512-588-3997                                
                                 </p>
                             </div>
                         </div>
@@ -52,8 +51,8 @@ const ContactUs = () => {
                             <div className='soTxt'>
                                 <h4>Office Address</h4>
                                 <p className="lead">
-                                    13359 N Hwy 183 #406-1024, <br />
-                                    Austin Texas 78750.
+                                    13359 N Hwy 183, #406-1024 <br />
+                                    Austin, Texas 78750
                                 </p>
                             </div>
                         </div>

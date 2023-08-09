@@ -11,6 +11,7 @@ import outleft from '../../img/service/oleft.jpg';
 import news from '../../img/home/news.png';
 import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
+import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 const Outdoor = () => {
     return(<div><Nav/>
@@ -25,9 +26,9 @@ const Outdoor = () => {
             </section>
             <section className="sects sSect1">
                 <p className="subheading">OUTDOOR LIVING</p>
-                <h2>Outdoor living designs and spaces in Austin Texas</h2><br />
+                <h2>Outdoor living designs and spaces in Austin, Texas</h2><br />
                 <p className="body">
-                    In Austin Texas, our outdoor space is as much a part of our home as inside the walls. Why not make it part of your personal sanctuary? Austin Texas has gorgeous weather nearly every day of the year, so you want a yard or outdoor area in which to spend all those lovely days and nights. No matter the size of your space, the possibilities are nearly endless.
+                    In Austin, Texas, our outdoor space is as much a part of our home as inside the walls. Why not make it part of your personal sanctuary? Austin, Texas has gorgeous weather nearly every day of the year, so you want a yard or outdoor area in which to spend all those lovely days and nights. No matter the size of your space, the possibilities are nearly endless.
                     <br /><br />
                     Your outdoor space can be used for dining and recreational activities alongside your house. Not only does it serve as a comfortable living space outside of your house, but it is also a great place to entertain friends and relatives. Are you dying to experience that luxurious outdoor living of your dreams? Dream no more! Arise Contractors Group only designs the best functional outdoor living spaces. From outdoor kitchens to stony fireplaces, pool cabanas to decks and patios, your wish is our command.
                 </p><br /><br />
@@ -68,7 +69,7 @@ const Outdoor = () => {
                 <p className="subheading">OUTDOOR LIVING</p>
                 <h3>Pools, cabanas and water features</h3><br />
                 <p className="body">
-                    Having a pool in the Austin Texas climate automatically makes you a popular neighbor. Adding a pool cabana can provide a restroom and changing area for guests, eliminating the trail of wet footprints across your living room floor. It can also function as an additional gathering place if you choose to include a kitchenette and comfortable seating in the cabana. Surround the cabana with colorful flowers and pay close attention to its placement. It should utilize natural shade from trees and be easily accessible for everyone. Or course, there is no sense in having a pool cabana if you don’t have a pool. Arise Contractors Group can help add a truly custom pool to give your outdoor space a resort feel. Already decided to add a pool? While every situation is different, here is what you can expect for the typical pool building process:
+                    Having a pool in the Austin, Texas climate automatically makes you a popular neighbor. Adding a pool cabana can provide a restroom and changing area for guests, eliminating the trail of wet footprints across your living room floor. It can also function as an additional gathering place if you choose to include a kitchenette and comfortable seating in the cabana. Surround the cabana with colorful flowers and pay close attention to its placement. It should utilize natural shade from trees and be easily accessible for everyone. Or course, there is no sense in having a pool cabana if you don’t have a pool. Arise Contractors Group can help add a truly custom pool to give your outdoor space a resort feel. Already decided to add a pool? While every situation is different, here is what you can expect for the typical pool building process:
                     <br /><br />
                     Design the Pool: We’ll help create a lavish pool design that makes the most of your space.
                     Permitting: Any project of this magnitude will require city and, often, HOA permits and inspections. We will contact utility companies to make sure there are now gas, power or water lines in the area. Our team will handle this for you.
@@ -82,7 +83,7 @@ const Outdoor = () => {
                     Pools aren’t the only way to bring water into your yard. A water feature, such as a stream, pond or even a waterfall can be a great way to add the beauty and tranquility of running water. Adding something as simple like a bird bath is a pretty straight forward DIY project, but a large and complex water feature may require permits, careful planning and excavation. The experts at Arise Contractors Group handle all the planning and execution leaving you to enjoy your new pool or water feature.
                 </p>
             </section>
-            <section className='sectRight'>
+            <section className='sectRight' id='outdoorright'>
                 <div className="sSectTxt">
                     <p className="subheading">OUTDOOR LIVING</p>
                     <h3>Xeriscape Vs. Landscape</h3>
@@ -94,9 +95,9 @@ const Outdoor = () => {
                 </div>
                 <img src={outright} alt="Outdoor Living" />               
             </section>
-            <section className='sectLeft'>
+            <section id='outdoorLeft' className='sectLeft '>
                 <img src={outleft} alt="Outdoor Living" />
-                <div className="sSectTxt">
+                <div className="sSectTxt" id='outdoorLeftTxt'>
                     <p className="subheading">OUTDOOR LIVING</p>
                     <h3>Fireplace vs firepit</h3>
                     <p className="body">
@@ -114,7 +115,7 @@ const Outdoor = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section></div><Footer/>

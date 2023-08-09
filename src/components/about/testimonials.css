@@ -33,6 +33,15 @@
     width: 15%;
 }
 
+@media screen and (max-width:900px) {
+    .Testimony .sSect1 .aboutTestimony{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4%;
+        row-gap: 18px;
+    
+    }
+}
 @media screen and (max-width:480px) {
     .Testimony .sSect1 .aboutTestimony{
         display: grid;

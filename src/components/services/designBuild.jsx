@@ -36,7 +36,7 @@ const Design = () => {
                     <br /><br />
                     In the traditional design-bid-build method, homeowners have to deal with multiple contractors, depending on the scope of the project. This leads to long delays as the owner tries to find reputable contractors to do the work needed, adding extra costs to the homeowner in time and money. Under the design-build delivery method, there is a dedicated project manager. They are in charge of coordinating all aspects of the job and communicating with the homeowner. This helps ease the stress of managing multiple contracts at once by merging them into one contract and one point of contact.
                     <br /><br />
-                    When it comes to home construction, a design-build firm is one of the best ways to ensure your project is completed on time and to your satisfaction. You only need to explain your vision to one point of contact rather than multiple general contractors. This is the case throughout the process, too. If a change needs to be made, you only have one point of contact, who can relay it to the contractors. No one wants to spend all their time finding and choosing general contractors. When you consider all the factors that go into building the space of your dreams, it can become overwhelming. Avoid the stress by hiring a local Austin Texas company that specializes in design-build construction instead.
+                    When it comes to home construction, a design-build firm is one of the best ways to ensure your project is completed on time and to your satisfaction. You only need to explain your vision to one point of contact rather than multiple general contractors. This is the case throughout the process, too. If a change needs to be made, you only have one point of contact, who can relay it to the contractors. No one wants to spend all their time finding and choosing general contractors. When you consider all the factors that go into building the space of your dreams, it can become overwhelming. Avoid the stress by hiring a local Austin, Texas company that specializes in design-build construction instead.
                 </p><br /><br />
                 <div className="sGallery">
                     <img src={designgal1} alt="service bathlery preview" className="sgalImg" />
@@ -137,7 +137,7 @@ const Design = () => {
                 </p>
             </section>
             <section className='sectRight'>
-                <div className="sSectTxt">
+                <div className="sSectTxt" id='adurighttxt'>
                     <p className="subheading">DESIGN - BUILD</p>
                     <h3>Our design - build services</h3>
                     <p className="body">
@@ -148,7 +148,7 @@ const Design = () => {
                         We offer a free consultation so we can discuss your vision for the project and begin the process of making your home work for you
                     </p>
                 </div>
-                <img src={dRight} alt="Design Build" />               
+                <img id='dbuildRight' src={dRight} alt="Design Build" />               
             </section>
             <div className="sects sSect3">
             <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
@@ -160,7 +160,7 @@ const Design = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section><Footer/>

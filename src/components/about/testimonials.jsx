@@ -4,6 +4,7 @@ import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import banner from '../../img/service/sbanner.png';
 import quoteB from '../../img/home/vector/quoteBlack.png';
+import { Link } from "react-router-dom";
 const Testimonials = () => {
     return(<div ><Nav/>
         <div className="sectStart Testimony">
@@ -143,7 +144,7 @@ const Testimonials = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section></div><Footer/>

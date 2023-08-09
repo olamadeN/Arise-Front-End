@@ -12,9 +12,24 @@
 #adubtn{
     margin: 0 auto;
 }
+#adusectLeft{
+    gap: 29%;
+}
 
-@media screen and (min-width:1740px) {
+@media screen and (min-width:1900px) {
 
+ 
+    #adurighttxt{
+        margin-top: 110px;
+    }
+    #adulefttxt{
+        margin-top: 110px;
+    }
+
+}
+@media screen and (min-width:1750px) {
+
+ 
     #adulefttxt{
         margin-left: -13%;
     }

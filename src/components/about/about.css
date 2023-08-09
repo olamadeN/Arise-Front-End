@@ -5,6 +5,7 @@
     margin-top:0px;
     margin-bottom: 5px;
 }
+
 #sR{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -31,11 +32,13 @@
 .aboutLeft div{
     margin-top: 60px;
 }
+.ablist{
+    list-style: outside;
+}
 @media screen and (min-width:1740px) {
-/*     #abL{
-        margin-top:90px;
-        margin-bottom: 5px;
-    } */
+    #abL{
+      gap:20%;
+    }
     #sR .sSectTxt .body{
         line-height: 33px;
     }
@@ -63,6 +66,34 @@
         margin-left: 52%;
         margin-right:0;
     }
+}
+@media screen and (max-width:850px){
+/*     #abL{
+        grid-template-columns: 1fr;
+    }
+    #sR{
+        grid-template-columns: 1fr;
+    } */
+    #aleft1{
+        /* width: 100%; */
+        overflow: visible;
+        margin: none;
+    }
+
+    #aboutBtn{
+        margin-top: 40px;
+    }
+    #aboutNews{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:780px) {
+   #aright1{
+        display: none;
+    }
+    #aright2{
+       display: none;
+    } 
 }
 @media screen and (max-width:480px) {
     .aboutLeft img{

@@ -10,17 +10,17 @@ const Footer = () =>{
             <section className="footer">
                 <div className="sect1">
                     <img className='footImg' src={logoW} alt="white logo" /> <br /> <br />
-                    <p className="address body">13359 N Hwy 183 #406-1024,<br />Austin Texas 78750.</p>
+                    <p className="address body">13359 N Hwy, 183 #406-1024<br />Austin, Texas 78750</p>
                     <hr className="footerline" />
                     <ul>
-                        <li className="footContact body">+1 512-588 3997 </li>
+                        <li className="footContact body">+1 512-588-3997 </li>
                         <li className="footContact body">info@arisecontractors.com</li>
                     </ul>
                 </div>
                 <div className="sect2">
                     <h3>EXPLORE</h3>
                     <ul>
-                        <HashLink smooth to='/'><li id='fmenu' className="body">Home </li></HashLink>
+                        <HashLink smooth to='/#top'><li id='fmenu' className="body">Home </li></HashLink>
                         <HashLink smooth to='/service#top'><li id='fmenu' className="body">Services</li></HashLink>
                         <HashLink smooth to='/about#top'><li id='fmenu' className="body">About Us</li></HashLink>
                         <HashLink smooth to='/gallery#top'><li id='fmenu' className="body">Gallery</li></HashLink>
@@ -53,7 +53,7 @@ const Footer = () =>{
             </section>
             <div className="copyright">
                 <hr />
-                <p className="lead">Copyright (C) 2023. ARISE CONTRACTORS GROUP. All Rights Reserved.</p>
+                <p className="lead">Copyright &copy; 2023. ARISE CONTRACTORS GROUP. All Rights Reserved.</p>
             </div>            
         </div>        
     )

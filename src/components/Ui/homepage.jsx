@@ -39,7 +39,7 @@ const Homepage = () => {
             <Nav />
             <div className="Hbanner">
                 <div className="bannertxt1">
-                    <h3>Austin Texas Award-Winning Design, Construction & Remodeling Company</h3>
+                    <h3>Austin, Texas Award-Winning Design, Construction & Remodeling Company</h3>
                 </div>
                 <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false} interval={2500} autoPlay={true} infiniteLoop={false}>
                     
@@ -72,48 +72,61 @@ const Homepage = () => {
             </div>
 
             <section className="service">
-                <div className="panel">
-                    <img src={luxury} alt="" className="vector" />
-                    <h4>Whole Home Remodels</h4>
-                    <p className="lead">
-                        luxury living is more than just a beautiful space. We help you create an environment that matches your lifestyle and meets your needs.
-                    </p>
-                </div>
-                <div className="panel">
-                    <img src={bathroom} alt="" className="vector" />
-                    <h4>Bathroom Remodels</h4>
-                    <p className="lead">
-                        We offer comprehensive architectural design consultation services tailored to your unique needs and preferences. 
-                    </p>
-                </div>
-                <div className="panel">
-                    <img src={kitchen} alt="" className="vector" />
-                    <h4>Kitchen Remodels</h4>
-                    <p className="lead">
-                    We are dedicated to transforming your kitchen space into a functional, beautiful, and inviting place that meets your unique needs and preferences.
-                    </p>                    
-                </div>
-                <div className="panel">
-                    <img src={office} alt="" className="vector" />
-                    <h4>Commercial Remodeling</h4>
-                    <p className="lead">
-                    Let us help you transform your office, work or outdoor space into a functional, beautiful, and inviting one that suits your particular need.
-                    </p>
-                </div>
-                <div className="panel">
-                    <img src={construction} alt="" className="vector" />
-                    <h4>New Construction</h4>
-                    <p className="lead">
-                    Whether you are looking to renovate your conference room, upgrade your reception area, or create additional workspace(s), our team is here to help.
-                    </p>
-                </div>
-                <div className="panel">
-                    <img src={landscape} alt="" className="vector" id='vectorDB' />
-                    <h4>Design-Build</h4>
-                    <p className="lead">
-                    Our Design-build services are tailored to your unique requirements, whether you are looking for a complete overhaul or a few finishing touches.
-                    </p>
-                </div>
+                <HashLink to="/service#top">
+                    <div className="panel">
+                        <img src={luxury} alt="" className="vector" />
+                        <h4>Whole Home Remodels</h4>
+                        <p className="lead">
+                            Luxury living is more than just a beautiful space. We help you create an environment that matches your lifestyle and meets your needs.
+                        </p>
+                    </div>
+                </HashLink>
+                <HashLink to="/service/Bathroom#top">
+                    <div className="panel">
+                        <img src={bathroom} alt="" className="vector" />
+                        <h4>Bathroom Remodels</h4>
+                        <p className="lead">
+                            We offer comprehensive architectural design consultation services tailored to your unique needs and preferences. 
+                        </p>
+                    </div> 
+                </HashLink>
+                <HashLink to="/service/Kitchen#top">
+                    <div className="panel">
+                        <img src={kitchen} alt="" className="vector" />
+                        <h4>Kitchen Remodels</h4>
+                        <p className="lead">
+                        We are dedicated to transforming your kitchen space into a functional, beautiful, and inviting place that meets your unique needs and preferences.
+                        </p>                    
+                    </div>
+                </HashLink>
+                <HashLink to="/service/commercial#top">
+                    <div className="panel">
+                        <img src={office} alt="" className="vector" />
+                        <h4>Commercial Remodeling</h4>
+                        <p className="lead">
+                        Let us help you transform your office, work or outdoor space into a functional, beautiful, and inviting one that suits your particular need.
+                        </p>
+                    </div>
+                </HashLink>
+                <HashLink to="/service/design#top">
+                    <div className="panel">
+                        <img src={construction} alt="" className="vector" />
+                        <h4>New Construction</h4>
+                        <p className="lead">
+                        Whether you are looking to renovate your conference room, upgrade your reception area, or create additional workspace(s), our team is here to help.
+                        </p>
+                    </div>                    
+                </HashLink>
+                <HashLink to="/service/design#top">
+                    <div className="panel">
+                        <img src={landscape} alt="" className="vector" id='vectorDB' />
+                        <h4>Design-Build</h4>
+                        <p className="lead">
+                        Our design-build services are tailored to your unique requirements, whether you are looking for a complete overhaul or a few finishing touches.
+                        </p>
+                    </div>
+                </HashLink>
+
             </section>
             <section id="portfolioGal" className="sects portfolioGal">
                 <p className="subheading">PORTFOLIO GALLERY</p>
@@ -188,7 +201,7 @@ const Homepage = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="Hnews">
                         <input id="newsInput" placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section>

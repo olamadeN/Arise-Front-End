@@ -9,28 +9,32 @@
     width: inherit;
 }
 .sSect1 button{
-    margin: 0 33%;
+    margin: 0 auto;
 }
 
 
 .skitchen{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1%;
+    gap: 6.5%;
     width: 100%;
+}
+#ksectLeft{
+    gap: 22%;
 }
 .skitchen img{
     width: 100%;
 }
 .sSect3 button{
-    margin: 0 38%;
+    margin: 0 auto;
 }
 .sSect4 button{
-    margin: 0 38%;
+    margin: 0 auto;
 }
 
 #outBtn{
     margin:0 auto;
+    text-align: center;
 }
 
 .sectNews{
@@ -77,11 +81,68 @@ form.news button{
 .sectNews #p{
     font-weight: 400;
 }
-
-
-
+#whsSectTxt{
+    gap: 27%;
+}
+#dbuildRight{
+    width: 110%;
+}
+/* outdoor living*/
+#outdoorLeft{
+    gap:29.5%;
+}
+#outdoorLeftTxt{
+    margin-top: 90px;
+}
 /* media query */
-
+@media screen and (max-width:1950px) {
+    #ksectLeft{
+        gap: 14%;
+    }
+    #whsSectTxt{
+        gap: 12%;
+    }
+    #outdoorLeft{
+        gap:13%;
+    }
+    #kitrighttxt{
+        margin-top: 85px;
+    }
+    #uniTxtRight{
+        margin-top: 130px;
+ 
+    }
+}
+@media screen and (max-width:1750px) {
+    #ksectLeft{
+        gap: 21%;
+    }
+    #whsSectTxt{
+        gap: 22%;
+    }
+    #kitrighttxt{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:1650px) {
+    #ksectLeft{
+        gap: 21%;
+    }
+    #outdoorLeft{
+        gap:21%;
+    }
+}
+@media screen and (max-width:1420px) {
+    #ksectLeft{
+        gap: 27%;
+    }
+    #whsSectTxt{
+        gap: 26%;
+    }
+    #outdoorLeft{
+        gap:28%;
+    }
+}
 /*medium devices*/
 @media screen and (max-width:1024px) {
     
@@ -118,10 +179,26 @@ form.news button{
         width: 35%;
         margin-left: 8px;
     }
+    #uniTxtRight{
+        margin-top: 80px;
+ 
+    }
+    #ksectLeft{
+        margin-top: 0;
+    }
+    #ksectLeft .sSectTxt{
+        margin-top: 20px;
+    }
     
 }
 /*tab devices*/
 @media screen and (max-width:768px) {
+    #ksectLeft{
+        margin-top: 0;
+    }
+    #ksectLeft img{
+        margin-top: 0;
+    }
     .Service .banner img{
         height: 330px;
     }
@@ -133,16 +210,16 @@ form.news button{
         width: 100%;
     }
     .sSect1 button{
-        margin: 0 13%;
+        margin: 0 auto;
     }
     .skitchen{
         display:none;
     }
     .sSect3 button{
-        margin: 0 13%;
+        margin: 0 auto;
     }
     .sSect4 button{
-        margin: 0 13%;
+        margin: 0 auto;
     }
     .sectNews{
         grid-template-columns: 1fr;
@@ -151,7 +228,18 @@ form.news button{
     .newsImg{
         display: none;
     }
-
+    #outdoorLeft, #outdoorright{
+        display: block;
+        margin: 80px auto;
+    }
+    #outdoorLeft img, #outdoorright img{
+        width: 100%;
+    }
+    
+    #uniTxtRight{
+        margin-top: 80px;
+ 
+    }
 }
 /*mobile devices*/
 @media screen and (max-width:480px) {

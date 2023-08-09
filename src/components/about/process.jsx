@@ -38,7 +38,7 @@ const Process = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <img className="apImg" src={ap2} alt="" />
+                    <img id='nos2' className="apImg" src={ap2} alt="" />
                     <div className="aptxt">
                         <h4>2. Design retainer presentation</h4>
                         <p className="body">
@@ -78,7 +78,7 @@ const Process = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <img className="apImg" src={ap6} alt="" />
+                    <img id='nos6' className="apImg" src={ap6} alt="" />
                     <div className="aptxt">
                         <h4>6.  Architectural engineering</h4>
                         <p className="body">
@@ -109,7 +109,7 @@ const Process = () => {
             </div>
             <div className="processSect sects">
                 <div className="left">
-                    <img className="apImg" src={ap9} alt="" />
+                    <img id='nos9' className="apImg" src={ap9} alt="" />
                     <div className="aptxt">
                         <h4>9. Project in construction</h4>
                         <p className="body">
@@ -135,7 +135,7 @@ const Process = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section>

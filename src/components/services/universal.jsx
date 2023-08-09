@@ -47,7 +47,7 @@ const Universal = () => {
                 </p>
             </section>
             <section className='sectRight'>
-                <div className="sSectTxt">
+                <div className="sSectTxt" id='uniTxtRight'>
                     <p className="subheading">UNIVERSAL DESIGN</p>
                     <h3>Universal design elements</h3>
                     <p className="body">
@@ -74,7 +74,7 @@ const Universal = () => {
                     <p className="body" id='p'> Get the latest news and insights from us directly in your inbox!</p>
                     <form action="" className="news">
                         <input placeholder='Enter your email address' type="text" />
-                        <button>Subscribe</button>
+                        <button><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Subscribe</Link></button>
                     </form>
                 </div>
             </section></div><Footer/>

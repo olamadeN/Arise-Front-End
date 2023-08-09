@@ -48,7 +48,7 @@ const Navigation = () => {
               </NavDropdown>
               <NavDropdown title="About Us" id="aboutus-dropdown">
                 <NavDropdown.Item as={Link} to="/about">
-                  About US
+                  About Us
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/about/process">
                   Our Process
@@ -62,7 +62,7 @@ const Navigation = () => {
             </Nav>
             <Nav>
               <div className="navSchedule">
-                <p>+1  512  588  3997</p>
+                <p>+1 512-588-3997</p>
                 <Nav.Link style={{color:`#FFF`}} className="navBtn" href="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">
                   Schedule your consultation
                 </Nav.Link>
