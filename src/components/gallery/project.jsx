@@ -33,6 +33,7 @@ const Project = () => {
   };
 
   useEffect(() => {
+    /* fetch(`http://127.0.0.1:5001/arise-backend/us-central1/app/admin/all_projects/${category}/${_id}`) */
     fetch(`https://ariseapi.onrender.com/admin/all_projects/${category}/${_id}`)
       .then((res) => res.json())
       .then((data) => {

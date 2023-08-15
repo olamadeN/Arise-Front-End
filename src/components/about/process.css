@@ -32,6 +32,13 @@
         width: 30%;
     }
 }
+@media screen and (max-width:1800px) {
+    .processSect{
+       
+        margin-top:420px;
+        
+    }
+}
 @media screen and (max-width:1524px) {
     #nos2{
         width:39%;

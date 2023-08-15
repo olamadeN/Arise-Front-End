@@ -23,7 +23,7 @@ const Universal = () => {
             </section>
             <section className="sects sSect1">
                 <p className="subheading">UNIVERSAL DESIGN</p>
-                <h2>Universal design remodeling</h2><br />
+                <h2>Universal design</h2><br />
                 <p className="body">
                     Your home is your castle. It’s where your children have grown up. It’s where countless memories have been made. It’s where you go to relax and unwind. As we age it’s important that our homes continue to meet our physical needs so we can retain all of those special moments. In fact, ninety percent of retirees want to remain in their homes for the rest of their lives. In order for that to happen, updates should be made to your home to ensure safety and accessibility. Enter Universal Design.
                     <br /><br />
@@ -46,8 +46,8 @@ const Universal = () => {
                     Through technological advances universal design is able to use personal assistance and sensors for even more adaptations. For example, sensors can be added to rooms that track how long it takes to enter a room and trip another sensor. This will allow loved ones to be alerted quickly in the event of a fall. Being able to get help for your family quickly is the best way to protect and keep them safe.
                 </p>
             </section>
-            <section className='sectRight'>
-                <div className="sSectTxt" id='uniTxtRight'>
+            <section className='sectRight' style={{marginTop:40}}>
+                <div className="sSectTxt" >
                     <p className="subheading">UNIVERSAL DESIGN</p>
                     <h3>Universal design elements</h3>
                     <p className="body">
@@ -65,7 +65,7 @@ const Universal = () => {
                         </ul>
                     </p>
                 </div>
-                <img src={uniRight} alt="universal design picture" />               
+                <img src={uniRight} id='uniRightImg' alt="universal design picture" />               
             </section>
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" id='newsImg' />

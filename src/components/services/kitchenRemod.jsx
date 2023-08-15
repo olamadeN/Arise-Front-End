@@ -59,22 +59,22 @@ const kitchen = () => {
                 <p className="body">
                     Most of our customers who want to remodel choose to do so for one of the following reasons:
                     <br /><br />
-                    <li>They are unhappy with the amount of storage space.</li><br />
-                    <li>It is hard to access the storage space they already have.</li><br />
-                    <li>They are unsatisfied with the amount of floor and counter space. </li><br />
-                    <li>The current layout does not fit their lifestyle.</li><br />
-                    <li>They feel like the area is too small and needs to be opened up.</li><br />
-                    <li>They love to entertain but need more social interaction between their kitchen and other rooms.</li><br />
+                    <li>They are unhappy with the amount of storage space.</li>
+                    <li>It is hard to access the storage space they already have.</li>
+                    <li>They are unsatisfied with the amount of floor and counter space. </li>
+                    <li>The current layout does not fit their lifestyle.</li>
+                    <li>They feel like the area is too small and needs to be opened up.</li>
+                    <li>They love to entertain but need more social interaction between their kitchen and other rooms.</li>
                     <li>The fixtures, fittings and décor is outdated and in need of replacement. </li>              
-                    <br /><br />
+                    <br />
                     Arise Contractors Group has helped countless people remodel their kitchens in Austin, Texas. We offer a complete, one-stop service not only for your kitchen, but we also are the best company around for Austin, Texas whole home remodeling.
                     Choosing a project partner is no simple choice, which is why our knowledgeable team is more than happy to answer all your questions before you make the final decision. We want to make sure you remain comfortable throughout the entire process. From your initial consultation to design and planning, and the entire remodeling process, you can rest assured your project will be completed on time, on budget, and will be completed with your full satisfaction.
                 </p>                
-            </section><br />
+            </section>
             <div className="skitchen sects">
                 <img src={kdouble1} alt="kitchen pics" />
                 <img src={kdouble2} alt="kitchen pics" />
-            </div><br />
+            </div>
             <section className="sects">
                  <p className="subheading">KITCHEN REMODELS</p>
                 <h3>The kitchen remodeling process</h3><br />
@@ -128,19 +128,22 @@ const kitchen = () => {
                  <p className="subheading">KITCHEN REMODELS</p>
                 <h3>The kitchen remodeling process</h3><br />
                 <p className="body">
-                For many home cooks, appliances are one of the most important parts of kitchen. However, there exists a seemingly endless variety of options. It can be overwhelming for a homeowner. Here are some features to look for when choosing your appliances.
-                <br /><br />
-                <b>1. Energy Efficiency:</b>  Save money and reduce your environmental footprint by looking for appliances with the Energy Star rating.
-                <br /><br />
-                <b>2. Burner Heat Output:</b>  Professional or commercial grade appliances typically have a better range of high and low heat, allowing you to raise temperatures quickly or maintain a nice, even simmer.
-                <br /><br />
-                <b>3. Aesthetic:</b>  Depending on your kitchen design and style choices, the look of your appliances will differ.
-                <br /><br />
-                <b>4. Ease of Use:</b>  Are the buttons, knobs, and handles easily identifiable and intuitively located? Or are you constantly searching for them? If it takes an engineering degree to operate your stove, you may want to look for a different option.
-                <br /><br />
-                <b>5. Safety Features:</b>  This may be number one if you have young children. Safety features can prevent dangerous accidents from happening.
-                <br /><br />
-                <b> 6. Easy Cleanup:</b> Are the appliances easy to clean? Do they show fingerprints easily? Though these may not seem like important questions to ask, an appliance that is easy to clean can make your life a little easier, too
+                    For many home cooks, appliances are one of the most important parts of kitchen. However, there exists a seemingly endless variety of options. It can be overwhelming for a homeowner. Here are some features to look for when choosing your appliances:
+                    <br /><br />                
+                    <ul>
+                        <li><b>Energy Efficiency:</b>  Save money and reduce your environmental footprint by looking for appliances with the Energy Star rating.</li>
+                        <br />
+                        <li><b>Burner Heat Output:</b>  Professional or commercial grade appliances typically have a better range of high and low heat, allowing you to raise temperatures quickly or maintain a nice, even simmer.</li>
+                        <br />
+                        <li><b>Aesthetic:</b>  Depending on your kitchen design and style choices, the look of your appliances will differ.</li>
+                        <br />
+                        <li><b>Ease of Use:</b>  Are the buttons, knobs, and handles easily identifiable and intuitively located? Or are you constantly searching for them? If it takes an engineering degree to operate your stove, you may want to look for a different option.</li>
+                        <br />
+                        <li><b>Safety Features:</b>  This may be number one if you have young children. Safety features can prevent dangerous accidents from happening.</li>
+                        <br />
+                        <li><b> 6. Easy Cleanup:</b> Are the appliances easy to clean? Do they show fingerprints easily? Though these may not seem like important questions to ask, an appliance that is easy to clean can make your life a little easier, too</li>
+                        <br />
+                    </ul>                
                 </p>                
             </section>
             <section id='ksectLeft' className='sectLeft'>
@@ -175,7 +178,7 @@ const kitchen = () => {
                 <p className="subheading">KITCHEN REMODELS</p>
                 <h3>Common kitchen remodeling mistakes</h3><br />
                 <p className="body">
-                    A full kitchen remodel is a big undertaking and should be treated as such. Here is a list of common mistakes people make.
+                    A full kitchen remodel is a big undertaking and should be treated as such. Here is a list of common mistakes people make:
                     <br /><br />
                     <b> 1. Do it yourself:</b> There are plenty of DIY and home improvement projects you can do, but unless you’re qualified, a full renovation shouldn’t be one of them. A full remodel is one of the biggest, most expensive, and complicated home projects you can do to your home. A qualified and licensed contractor or remodeling company should always be involved.
                     <br /><br />
@@ -188,25 +191,25 @@ const kitchen = () => {
             </section>
             <section style={{marginTop:75}} className="sects sSect3">
                 <p className="subheading">KITCHEN REMODELS</p>
-                <h3>Common kitchen remodeling mistakes</h3><br />
+                <h3>Frequently asked questions</h3><br />
                 <p className="body">
-                    <b>How much does it cost to remodel a kitchen?</b><br />
-                    As with many remodeling projects, kitchen remodels come in a range of prices depending on the size of your kitchen, the design, the materials and appliances you want to use, and the scope of what you want remodeled. A kitchen remodel can easily run from tens of thousands into the hundreds of thousands of dollars.
+                    <b>Q: How much does it cost to remodel a kitchen?</b><br />
+                    <b>A:</b> As with many remodeling projects, kitchen remodels come in a range of prices depending on the size of your kitchen, the design, the materials and appliances you want to use, and the scope of what you want remodeled. A kitchen remodel can easily run from tens of thousands into the hundreds of thousands of dollars.
                     <br /><br />
-                    <b>How long does it take to remodel a kitchen?</b><br />
-                    The scope of the project and the size of your kitchen can also affect the time it takes for this project to be completed. Ripping out the guts of your kitchen and installing new pipes and electricity will take more time than simply redoing the floors and fixtures. Simple cosmetic updates to your kitchen are likely to take less time than structural changes. It is important to note that it is not uncommon for appliances and materials to be on back order which will add to the timeline to complete your kitchen remodel.
+                    <b>Q: How long does it take to remodel a kitchen?</b><br />
+                    <b>A: </b>The scope of the project and the size of your kitchen can also affect the time it takes for this project to be completed. Ripping out the guts of your kitchen and installing new pipes and electricity will take more time than simply redoing the floors and fixtures. Simple cosmetic updates to your kitchen are likely to take less time than structural changes. It is important to note that it is not uncommon for appliances and materials to be on back order which will add to the timeline to complete your kitchen remodel.
                     <br /><br />
-                    <b>Do you need a permit to remodel your kitchen?</b><br />  
-                    Generally, yes. Whether you need a permit for this remodeling project does, however, depend on where you live and the type of remodeling project. Installing new cabinets generally do not require permits whereas plumbing, electrical and structural changes do require permits. Arise Contractors Group has the experience and knowledge to know what permits you need for your project. Let us take care of the details, including all your permitting needs.
+                    <b>Q: Do you need a permit to remodel your kitchen?</b><br />
+                     <b>A:</b> Generally, yes. Whether you need a permit for this remodeling project does, however, depend on where you live and the type of remodeling project. Installing new cabinets generally do not require permits whereas plumbing, electrical and structural changes do require permits. Arise Contractors Group has the experience and knowledge to know what permits you need for your project. Let us take care of the details, including all your permitting needs.
                     <br /><br />
-                    <b>How much value does a kitchen remodel add to your home?</b><br />
-                    The industry standard for the ROI (return on investment) for a kitchen remodel will vary based on the scope and depth of your remodel. The amount of value a kitchen remodel adds to your home also depends on where you live. The national average can be as low as 50% of the total budget, whereas higher end upgrades to homes that are on the Pacific can be upwards of 93%.
+                    <b>Q: How much value does a kitchen remodel add to your home?</b><br />
+                     <b>A:</b> The industry standard for the ROI (return on investment) for a kitchen remodel will vary based on the scope and depth of your remodel. The amount of value a kitchen remodel adds to your home also depends on where you live. The national average can be as low as 50% of the total budget, whereas higher end upgrades to homes that are on the Pacific can be upwards of 93%.
                     <br /><br />
-                    <b>What is the most expensive part of a kitchen remodel?</b><br />   
-                    The cabinetry is the generally the most expensive portion of a kitchen remodeling project. Making sure your cabinets are flush, level, and support the weight of whatever you put inside is also time-consuming, adding to the total cost. If you are opting for high end appliances these can also be a significant factor in the total price.
+                    <b>Q: What is the most expensive part of a kitchen remodel?</b> <br />
+                    <b>A:</b> The cabinetry is the generally the most expensive portion of a kitchen remodeling project. Making sure your cabinets are flush, level, and support the weight of whatever you put inside is also time-consuming, adding to the total cost. If you are opting for high end appliances these can also be a significant factor in the total price.
                     <br /><br />
-                    <b>What makes a good kitchen remodeling contractor?</b><br />    
-                    Simply put, a good remodeling company has the skill and experience to complete any project that comes their way on schedule and within budget. They should also be transparent and communicate with the homeowner throughout the whole process. Arise Contractors Group keeps you updated and involved throughout the whole design and remodel process, and we have the experience to keep your project on budget and on schedule.
+                    <b>Q: What makes a good kitchen remodeling contractor?</b>  <br />
+                    <b>A:</b> Simply put, a good remodeling company has the skill and experience to complete any project that comes their way on schedule and within budget. They should also be transparent and communicate with the homeowner throughout the whole process. Arise Contractors Group keeps you updated and involved throughout the whole design and remodel process, and we have the experience to keep your project on budget and on schedule.
                 </p><br /><br />
                 <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>               
             </section>

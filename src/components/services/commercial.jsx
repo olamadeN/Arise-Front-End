@@ -52,37 +52,41 @@ const Commercial = () => {
                 <p className="subheading">COMMERCIAL REMODELING</p>
                 <h3>Pros of commercial remodeling?</h3><br />
                 <p className="body">
-                    <b>Increased Property Value:</b> Commercial remodeling can increase the value of a property by making it more attractive and functional. This can be especially important if the owner is considering selling or leasing the property in the future.
-                    <br /><br />
-                    <b>Improved Functionality:</b> Remodeling can improve the functionality of a space, making it more efficient and productive for employees or more welcoming and comfortable for customers. This can lead to improved sales, productivity, and tenant satisfaction.
-                    <br /><br />
-                    <b>Enhanced Aesthetics:</b> A commercial remodeling project can enhance the visual appeal of a space, making it more modern, stylish, and welcoming. This can help businesses stand out from the competition and attract new customers or tenants.
-                    <br /><br />
-                    <b>Addressing Safety Concerns:</b> Commercial remodeling can address important safety concerns, such as outdated electrical or plumbing systems, or inadequate fire protection measures. This can help keep occupants safe and reduce liability risks.
-                    <br /><br />    
-                    <b>Energy Efficiency:</b> Remodeling can also include upgrades to energy-efficient systems and materials, such as LED lighting or insulated windows. This can lead to significant cost savings over time and reduce the building's carbon footprint. Overall, commercial remodeling can be a worthwhile investment for businesses looking to improve the functionality, aesthetics, and value of their commercial space.
+                    <ul>
+                        <li><b>Increased Property Value:</b> Commercial remodeling can increase the value of a property by making it more attractive and functional. This can be especially important if the owner is considering selling or leasing the property in the future.</li>
+                        <br />
+                        <li><b>Improved Functionality:</b> Remodeling can improve the functionality of a space, making it more efficient and productive for employees or more welcoming and comfortable for customers. This can lead to improved sales, productivity, and tenant satisfaction.</li>
+                        <br />
+                        <li><b>Enhanced Aesthetics:</b> A commercial remodeling project can enhance the visual appeal of a space, making it more modern, stylish, and welcoming. This can help businesses stand out from the competition and attract new customers or tenants.</li>
+                        <br />
+                        <li><b>Addressing Safety Concerns:</b> Commercial remodeling can address important safety concerns, such as outdated electrical or plumbing systems, or inadequate fire protection measures. This can help keep occupants safe and reduce liability risks.</li>
+                        <br /> 
+                        <li><b>Energy Efficiency:</b> Remodeling can also include upgrades to energy-efficient systems and materials, such as LED lighting or insulated windows. This can lead to significant cost savings over time and reduce the building's carbon footprint. Overall, commercial remodeling can be a worthwhile investment for businesses looking to improve the functionality, aesthetics, and value of their commercial space.</li>
+                    </ul>  
                 </p>
             </section>
             <div className="skitchen sects">
                 <img src={comD1} alt="outdoor pics" />
                 <img src={comD2} alt="outdoor pics" />
-            </div><br />
+            </div>
             <section className="sects">
                 <p className="subheading">COMMERCIAL REMODELING</p>
                 <h3>Why choose Arise Contractors Group for your commercial remodeling?</h3><br />
                 <p className="body">
                     Our team has the excellence, experience, and expertise to truly make your space a place you are proud to be a commercial center. We offer exemplary service and commitment to our clients. We will work with you closely at every step of your commercial remodeling project.
                     <br /><br />
-                    <b>Experience:</b> Arise Contractors Group has extensive experience in commercial remodeling projects of all types and sizes. Our team of professionals has the skills and expertise needed to successfully manage your project from start to finish.
-                    <br /><br />
-                    <b>Design-Build Services:</b> Arise Contractors Group offers design-build services, which means we can handle every aspect of your project, from initial design to final construction. This can help streamline the process and ensure a seamless transition between the design and construction phases.
-                    <br /><br />
-                    <b>Quality Workmanship:</b> At Arise Contractors Group, we are committed to providing high-quality workmanship on every project we undertake. We use only the best materials and equipment, and our team is dedicated to delivering superior results that exceed your expectations.
-                    <br /><br />
-                    <b>Customer Service:</b> We believe in putting our customers first and providing personalized service throughout the project. Our team is always available to answer your questions and address your concerns, and we work closely with you to ensure that your vision for the project is realized.
-                    <br /><br />
-                    <b>Competitive Pricing:</b> At Arise Contractors Group, we believe that high-quality work shouldn't come at a premium. We offer competitive pricing for our commercial remodeling services, ensuring that you get the best value for your investment.
-                    <br /><br />
+                    <ul>
+                        <li><b>Experience:</b> Arise Contractors Group has extensive experience in commercial remodeling projects of all types and sizes. Our team of professionals has the skills and expertise needed to successfully manage your project from start to finish.</li>
+                        <br />
+                        <li><b>Design-Build Services:</b> Arise Contractors Group offers design-build services, which means we can handle every aspect of your project, from initial design to final construction. This can help streamline the process and ensure a seamless transition between the design and construction phases.</li>
+                        <br />
+                        <li><b>Quality Workmanship:</b> At Arise Contractors Group, we are committed to providing high-quality workmanship on every project we undertake. We use only the best materials and equipment, and our team is dedicated to delivering superior results that exceed your expectations.</li>
+                        <br />
+                        <li><b>Customer Service:</b> We believe in putting our customers first and providing personalized service throughout the project. Our team is always available to answer your questions and address your concerns, and we work closely with you to ensure that your vision for the project is realized.</li>
+                        <br />
+                        <li><b>Competitive Pricing:</b> At Arise Contractors Group, we believe that high-quality work shouldn't come at a premium. We offer competitive pricing for our commercial remodeling services, ensuring that you get the best value for your investment.</li>
+                        <br />    
+                    </ul>
                     Arise Contractors Group is a trusted and reliable partner for your commercial remodeling needs, offering a range of services and expertise to help you achieve your goals. Let us handle your commercial remodel project. Schedule your consultation and make your dreams come true today!
                 </p><br />
                 <button className="btnPrimary" id='outBtn'><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
@@ -92,16 +96,16 @@ const Commercial = () => {
                     <p className="subheading">COMMERCIAL REMODELING</p>
                     <h3>Frequently asked questions</h3>
                     <p className="body">
-                        <b>Q:</b> What is the typical timeline for a commercial remodeling project?<br /><br />
+                        <b>Q: What is the typical timeline for a commercial remodeling project?</b> <br />
                         <b>A:</b> The timeline for a commercial remodeling project can vary depending on the scope and complexity of the project. Smaller projects may take several weeks, while larger projects can take several months or longer. We’re sure to meet all remodel design standards timely.
                         <br /><br />
-                        <b>Q:</b> How much does commercial remodeling cost?<br /><br />
+                        <b>Q: How much does commercial remodeling cost?</b><br />
                         <b>A:</b> The cost of commercial remodeling can vary widely depending on factors such as the size of the space, the level of renovation required, and the materials used. It is best to consult with us immediately at Arise Contractors Group to get an accurate estimate for your specific project.
                         <br /><br />
-                        <b>Q:</b> Will I need permits for my commercial remodeling project?<br /><br />
+                        <b>Q: Will I need permits for my commercial remodeling project?</b><br />
                         <b>A:</b> Depending on the scope of the project, you may need permits from your local building department. A professional contractor or design-build firm can help you navigate the permitting process.
                         <br /><br /> 
-                        <b>Q:</b> What should I consider when designing my commercial remodeling project?<br /><br />
+                        <b>Q: What should I consider when designing my commercial remodeling project?</b><br />
                         <b>A:</b> When designing your commercial remodeling project, you should consider factors such as the function of the space, the needs of your business, and the preferences of your customers or tenants. You should also consider any building codes or zoning regulations that may affect the design of the project.
                     </p>
                 </div>

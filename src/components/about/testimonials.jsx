@@ -16,7 +16,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </section>
-            <section className="sects sSect1">
+            <section id='testiStart' className="sects sSect1">
                 <p className="subheading">TESTIMONIALS</p>
                 <h2>What our customers are saying about us</h2><br />
                 <div className="aboutTestimony">

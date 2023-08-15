@@ -102,6 +102,11 @@
     background: #00000094;
     border-top: 0;
 }
+@media screen and (min-width:1700px) {
+    #galSects{
+        margin-top: 120px;
+    }
+}
 @media screen and (max-width:820px) {
     #g{
         margin-top: 180px;

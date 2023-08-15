@@ -50,50 +50,56 @@ const Design = () => {
                 <p className="subheading">DESIGN - BUILD</p>
                 <h3>Pros of design - build construction</h3><br />
                 <p className="body">
-                · <b>Fast Build Times:</b> Construction processes overlap and are typically fast-tracked due to increased collaboration and communication between the design and build teams. Any changes in the design plans can be easily accounted for, rather than creating further delays. In addition, this delivery method helps to cut down on sudden design changes, except those made by the homeowner.
-                    <br /><br />
-                · <b>No middleman:</b> With this method, there are only two parties involved: the owner and the firm. This fixes the problem of the homeowner acting as middleman between the design and construction teams. It also makes it easier for the owner to voice any concerns or input they may have, ensuring they are pleased with the final product.
-                    <br /><br />
-                · <b>One contract:</b> When working with the company, the owner only has to worry about a single contract, which includes everyone assigned the job. This reduces the stress of looking over and handling two or more different contracts for one project.
-                    <br /><br />
-                · <b>Cost efficient:</b> Because the contractors and designers are working together throughout the entire process, there is a smaller chance of sudden changes to the design. The chances of litigation between the two parties are also minimized. All of this amounts to fewer costly delays for the duration of the entire process.
-                    <br /><br />
-                · <b>Increased Owner Involvement:</b>  The owner is completely engaged in the process because this method encourages thoughtful consideration of the design, schedule, and budget. There is also only one relationship the owner must worry about. It makes it easier for the owner to convey any concerns about the design and make adjustments.
+                    <ul>
+                        <li><b>Fast Build Times:</b> Construction processes overlap and are typically fast-tracked due to increased collaboration and communication between the design and build teams. Any changes in the design plans can be easily accounted for, rather than creating further delays. In addition, this delivery method helps to cut down on sudden design changes, except those made by the homeowner.</li>
+                        <br />
+                        <li><b>No middleman:</b> With this method, there are only two parties involved: the owner and the firm. This fixes the problem of the homeowner acting as middleman between the design and construction teams. It also makes it easier for the owner to voice any concerns or input they may have, ensuring they are pleased with the final product.</li>
+                        <br />
+                        <li><b>One contract:</b> When working with the company, the owner only has to worry about a single contract, which includes everyone assigned the job. This reduces the stress of looking over and handling two or more different contracts for one project.</li>
+                        <br />
+                        <li><b>Cost efficient:</b> Because the contractors and designers are working together throughout the entire process, there is a smaller chance of sudden changes to the design. The chances of litigation between the two parties are also minimized. All of this amounts to fewer costly delays for the duration of the entire process.</li>
+                        <br />
+                        <li><b>Increased Owner Involvement:</b>  The owner is completely engaged in the process because this method encourages thoughtful consideration of the design, schedule, and budget. There is also only one relationship the owner must worry about. It makes it easier for the owner to convey any concerns about the design and make adjustments.</li>
+                    </ul>
                 </p>
             </section>
             <div className="skitchen sects">
                 <img src={designD1} alt="design-build pics" />
                 <img src={designD2} alt="design-build pics" />
-            </div><br />
+            </div>
             <section className="sects">
                  <p className="subheading">DESIGN - BUILD</p>
                 <h3>Why choose us?</h3><br />
                 <p className="body">
                     Our customers choose us for one of the following reasons:
                     <br /><br />
-                    · They valued accountability in the contractors they hired. <br />
-                    · They were working within a strict timeframe.<br />
-                    · They preferred fixed guidelines.<br />
-                    · They needed professional guidance on their plans.<br />
-                    · They wanted to be more involved in the process.
-                    <br /><br />
+                    <ul>
+                        <li>They valued accountability in the contractors they hired.</li>
+                        <li>They were working within a strict timeframe.</li>
+                        <li>They preferred fixed guidelines.</li>
+                        <li>They needed professional guidance on their plans.</li>
+                        <li>They wanted to be more involved in the process.</li>
+                    </ul>
+                    <br />
                     If any of the above applies to you, contact us today! We offer one point of contact with your project’s team, so you can easily communicate any changes or concerns you might have before and during the process. This also helps increase our accountability. We don’t want to disappoint! Our dedicated team of design-build contractors will make sure to complete your project within the budget and on time. You’ll also have access to our knowledgeable staff, who can walk you through the process and answer any questions you might have. Unlike other companies, we don’t mind if you’re more involved. We believe your involvement can help us complete the job to your satisfaction.
                     <br /><br />
                     Our approach is simple. We want to meet our customers’ functional needs while designing a space that reflects their personality and lifestyle. Our staff will ask questions, listen, make suggestions, and take the time to learn about you and your project. Great designs come from a group of professionals who know how to listen to their clients. Your input and feedback are vital to achieving the home of your dreams. We want to know what you’re trying to fix or remodel in your home, learn more about your priorities and goals, and discover what option is right for you. Choosing to renovate or completely rebuild your home is no easy choice. We want to make sure you’re comfortable and confident in your decisions, from start to finish. We offer:
                     <br /><br />
-                    · A free consultation<br />
-                    · Complete design for your space or entire home<br />
-                    · Detailed work description and contract with no hidden fees or charges<br />
-                    · Permit processing<br />
-                    · Start-to-finish complete remodel or build
-                    <br /><br />
+                    <ul>
+                        <li>A free consultation</li>
+                        <li>Complete design for your space or entire home</li>
+                        <li>Detailed work description and contract with no hidden fees or charges</li>
+                        <li>Permit processing</li>
+                        <li>Start-to-finish complete remodel or build</li>
+                    </ul>
+                    <br />
                     Call us for your free consultation and our staff can help you on your journey to realizing the space of your dreams.
                 </p>
             </section>
             <div className="skitchen sects">
                 <img src={designD3} alt="design-build pics" />
                 <img src={designD4} alt="design-build pics" />
-            </div><br />
+            </div>
             <section className="sects">
                  <p className="subheading">DESIGN - BUILD</p>
                 <h3>Our design-build process</h3><br />
@@ -114,7 +120,7 @@ const Design = () => {
             <div className="skitchen sects">
                 <img src={designD5} alt="design-build pics" />
                 <img src={designD6} alt="design-build pics" />
-            </div><br />
+            </div>
             <section className="sects">
                  <p className="subheading">DESIGN - BUILD</p>
                 <h3>Common myths</h3><br />
@@ -136,7 +142,7 @@ const Design = () => {
                     While assembling a new home can take a long time, with this delivery method, the timeframe is shortened. Instead of the years it can take a homeowner to source an architect, a designer, and individual contractors, it may take a little over a year. Your new home won’t be done instantaneously but having a team already available will save you all the time and money it takes to assemble a team on your own
                 </p>
             </section>
-            <section className='sectRight'>
+            <section className='sectRight' id='designRight'>
                 <div className="sSectTxt" id='adurighttxt'>
                     <p className="subheading">DESIGN - BUILD</p>
                     <h3>Our design - build services</h3>
@@ -148,11 +154,12 @@ const Design = () => {
                         We offer a free consultation so we can discuss your vision for the project and begin the process of making your home work for you
                     </p>
                 </div>
-                <img id='dbuildRight' src={dRight} alt="Design Build" />               
+                <img id='dbuildRight' src={dRight} alt="Design Build" /> 
+                {/* <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>               */}
             </section>
-            <div className="sects sSect3">
-            <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
-            </div>
+            
+            
+            
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" />
                 <div className="newsTxt">

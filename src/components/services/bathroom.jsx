@@ -59,18 +59,20 @@ const Bathroom = () => {
                  <p className="subheading">BATHROOM REMODELS</p>
                 <h3>The bathroom remodeling process</h3><br />
                 <p className="body">
-                    Every renovation is as unique as a fingerprint. There are also general steps that apply to every remodel. We have created a step-by-step guide so you can see what your Austin, Texas custom bathroom renovation will look like.
+                    Every renovation is as unique as a fingerprint. There are also general steps that apply to every remodel. We have created a step-by-step guide so you can see what your Austin, Texas custom bathroom renovation will look like:
                     <br /><br />
-                    <b>In-Home Consultation</b> <br /> We work together to get an understanding of what your general remodel will look like and give you an estimate of what the project could cost.
-                    <br /><br />
-                    <b>Design and Bid Presentation</b><br /> We go over your ideas and come up with a unique and custom remodel that caters to your wants and needs.
-                    <br /><br />
-                    <b>Remodel Plans and Permits</b><br /> Using state-of-the-art computer imaging, we generate the exact end look of your space. We also seek any necessary permits from the city.
-                    <br /><br />
-                    <b>Demolition</b><br /> We remove the old toilet, sink, bath, and cabinets to begin the remodeling process.
-                    <br /><br />
-                    <b>Construction</b><br /> We install new fixtures, fix wiring issues, install new pipes, and make other repairs. We also apply our discussed design during this phase and ensure your makeover is everything you want it to be!
-                    <br /><br />
+                    <ul>
+                        <li><b>In-Home Consultation: </b>We work together to get an understanding of what your general remodel will look like and give you an estimate of what the project could cost.</li>
+                        <br />
+                        <li><b>Design and Bid Presentation: </b> We go over your ideas and come up with a unique and custom remodel that caters to your wants and needs.</li>
+                        <br />
+                        <li><b>Remodel Plans and Permits:</b> Using state-of-the-art computer imaging, we generate the exact end look of your space. We also seek any necessary permits from the city.</li>
+                        <br />
+                        <li><b>Demolition:</b> We remove the old toilet, sink, bath, and cabinets to begin the remodeling process.</li>
+                        <br />
+                        <li><b>Construction:</b> We install new fixtures, fix wiring issues, install new pipes, and make other repairs. We also apply our discussed design during this phase and ensure your makeover is everything you want it to be!</li>
+                    </ul>
+                    
                     Enjoy your new room! Once we ensure proper installation and cleanliness, it is ready to use!
                 </p>
             </section>
@@ -92,6 +94,7 @@ const Bathroom = () => {
                         Bathmats can only prevent slippage in specific areas. Install slip-resistant flooring to protect your children anywhere in the space. Textured stone tile and ceramic flooring are also great for preventing slips.
                         <br /><br />
                         Small children often have a tough time seeing above the counter or stepping into a bathtub. Small plastic stools may not stay in place very well, but installing steps is a simple solution. A lift-out step attached to a drawer or cabinet under the sink is more durable and reliable for preventing falls. A mounted step into the basin, as well as a rail to hold on to can also make it easier for them to climb in and out. Other things to consider include:
+                        <br /><br />
                         <ul>
                             <li>Choosing faucets and handles that are easy to use and rounded with no sharp corners or edges.</li>
                             <li>Adding more storage with locking cabinets to keep dangerous items out of reach.</li>
@@ -187,21 +190,21 @@ const Bathroom = () => {
                 <p className="subheading">BATHROOM REMODELS</p>
                 <h3>Frequently asked questions</h3><br />
                 <p className="body">
-                    <b>What determines the cost of your new bathroom?</b><br />
-                    Remodeling a bathroom can be a complex process. There are many different things to consider when determining the price. The materials you want for your bathroom, the cost of installing new floors or putting on a fresh coat of paint, etc. Cabinets usually take up half of the cost of a bathroom remodeling project. What you want altered and what you need re-done will help us find out the total cost of your remodeling project.
+                    <b>Q: What determines the cost of your new bathroom?</b><br />
+                    <b>A:</b> Remodeling a bathroom can be a complex process. There are many different things to consider when determining the price. The materials you want for your bathroom, the cost of installing new floors or putting on a fresh coat of paint, etc. Cabinets usually take up half of the cost of a bathroom remodeling project. What you want altered and what you need re-done will help us find out the total cost of your remodeling project.
                     <br /><br />
-                    <b>How long does it take to remodel a bathroom?</b><br />
-                    Under ideal circumstances, a bathroom remodel can take around 3-4 weeks. The exact time, though, depends on the scope of the project. If your bathroom needs new piping or wiring, the timeline will look different than more superficial updates to the room’s look. We make sure that your remodel will be finished within the timeframe agreed upon prior to start of the project.
+                    <b>Q: How long does it take to remodel a bathroom?</b><br />
+                    <b>A: </b>Under ideal circumstances, a bathroom remodel can take around 3-4 weeks. The exact time, though, depends on the scope of the project. If your bathroom needs new piping or wiring, the timeline will look different than more superficial updates to the room’s look. We make sure that your remodel will be finished within the timeframe agreed upon prior to start of the project.
                     <br /><br />
-                    <b>Do you need permits to remodel your bathroom?</b><br />
-                    You need the proper permits if your remodeling project requires changes to the structure of your home, installation of new wiring, or redoing piping. For smaller aesthetic changes, such as fresh paint and changing out sinks, you do not need permits.
+                    <b>Q: Do you need permits to remodel your bathroom?</b><br />
+                    <b>A: </b>You need the proper permits if your remodeling project requires changes to the structure of your home, installation of new wiring, or redoing piping. For smaller aesthetic changes, such as fresh paint and changing out sinks, you do not need permits.
                     <br /><br />
-                    <b>Can you remodel your own bathroom?</b><br />
-                    While it is possible to remodel your own bathroom, it is not recommended beyond small superficial changes to the paint and fixtures. Re-doing piping and electrical requires training and experience, and proper permits to complete. In many cases doing remodeling projects will take longer to complete without the experience of professionals.
+                    <b>Q: Can you remodel your own bathroom?</b><br />
+                    <b>A: </b>While it is possible to remodel your own bathroom, it is not recommended beyond small superficial changes to the paint and fixtures. Re-doing piping and electrical requires training and experience, and proper permits to complete. In many cases doing remodeling projects will take longer to complete without the experience of professionals.
                 <br /><br />
                 Austin, Texas is a dream destination for many people. Yet the homes here do not always compare well to the weather, sights, and attractions. Few homeowners get to see their dream home become reality. Do not let yours fade away, let Arise Contractors Group handle your whole home remodel. Schedule your complimentary consultation and make your dreams come true today!
                 </p>
-                <button className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
+                <button id="bathBtn" className="btnPrimary"><Link to="https://www.honeybook.com/widget/arise_contractors_group_250096/cf_id/640231f32ec3cc0c94007001">Schedule your consultation</Link></button>
             </section>
             <section className="sectNews">
                 <img src={news} alt="news" className="newsImg" id='newsImg' />

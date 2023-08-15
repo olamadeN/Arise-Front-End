@@ -107,16 +107,14 @@ const Homepage = () => {
                         Let us help you transform your office, work or outdoor space into a functional, beautiful, and inviting one that suits your particular need.
                         </p>
                     </div>
-                </HashLink>
-                <HashLink to="/service/design#top">
-                    <div className="panel">
-                        <img src={construction} alt="" className="vector" />
-                        <h4>New Construction</h4>
-                        <p className="lead">
-                        Whether you are looking to renovate your conference room, upgrade your reception area, or create additional workspace(s), our team is here to help.
-                        </p>
-                    </div>                    
-                </HashLink>
+                </HashLink>                
+                <div className="panel">
+                    <img src={construction} alt="" className="vector" />
+                    <h4>New Construction</h4>
+                    <p className="lead">
+                    Whether you are looking to renovate your conference room, upgrade your reception area, or create additional workspace(s), our team is here to help.
+                    </p>
+                </div>              
                 <HashLink to="/service/design#top">
                     <div className="panel">
                         <img src={landscape} alt="" className="vector" id='vectorDB' />

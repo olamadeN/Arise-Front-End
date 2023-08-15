@@ -31,7 +31,7 @@ const Outdoor = () => {
                     In Austin, Texas, our outdoor space is as much a part of our home as inside the walls. Why not make it part of your personal sanctuary? Austin, Texas has gorgeous weather nearly every day of the year, so you want a yard or outdoor area in which to spend all those lovely days and nights. No matter the size of your space, the possibilities are nearly endless.
                     <br /><br />
                     Your outdoor space can be used for dining and recreational activities alongside your house. Not only does it serve as a comfortable living space outside of your house, but it is also a great place to entertain friends and relatives. Are you dying to experience that luxurious outdoor living of your dreams? Dream no more! Arise Contractors Group only designs the best functional outdoor living spaces. From outdoor kitchens to stony fireplaces, pool cabanas to decks and patios, your wish is our command.
-                </p><br /><br />
+                </p>
                 <div className="sGallery">
                     <img src={outdoorgal1} alt="service bathlery preview" className="sgalImg" />
                     <img src={outdoorgal2} alt="service gallery preview" className="sgalImg" />
@@ -39,7 +39,7 @@ const Outdoor = () => {
                     <img src={outdoorgal4} alt="service gallery preview" className="sgalImg" />
                 </div><br /><br />              
                 <button className="btnPrimary" id='outBtn'> <HashLink to="/gallery/Whole Home Remodels/64a59a4fcd6d78422904ea9e#top">View our outdoor living gallery</HashLink> </button>
-            </section><br />
+            </section>
             <section className="sects doublePage">
                 <div>
                     <p className="subheading">OUTDOOR LIVING</p>
@@ -64,22 +64,24 @@ const Outdoor = () => {
             <div className="skitchen sects">
                 <img src={outdouble} alt="outdoor pics" />
                 <img src={outdouble2} alt="outdoor pics" />
-            </div><br />
+            </div>
             <section className="sects">
                 <p className="subheading">OUTDOOR LIVING</p>
                 <h3>Pools, cabanas and water features</h3><br />
                 <p className="body">
                     Having a pool in the Austin, Texas climate automatically makes you a popular neighbor. Adding a pool cabana can provide a restroom and changing area for guests, eliminating the trail of wet footprints across your living room floor. It can also function as an additional gathering place if you choose to include a kitchenette and comfortable seating in the cabana. Surround the cabana with colorful flowers and pay close attention to its placement. It should utilize natural shade from trees and be easily accessible for everyone. Or course, there is no sense in having a pool cabana if you don’t have a pool. Arise Contractors Group can help add a truly custom pool to give your outdoor space a resort feel. Already decided to add a pool? While every situation is different, here is what you can expect for the typical pool building process:
                     <br /><br />
-                    Design the Pool: We’ll help create a lavish pool design that makes the most of your space.
-                    Permitting: Any project of this magnitude will require city and, often, HOA permits and inspections. We will contact utility companies to make sure there are now gas, power or water lines in the area. Our team will handle this for you.
-                    Excavation: Large construction equipment – such as a backhoe or excavator – will be used to dig out the area where your future pool will be.
-                    Grading: In this step, we’ll level the ground and create any sloping that the design requires.
-                    Framing: We’ll frame the walls and floors of your new pool – typically with metal rebar.
-                    Plumbing and Electrical: In this step, we’d add the filtration system, plumbing, lighting, and any electrical lines needed for power.
-                    Pour the floor and Build the Walls: Concrete is poured, smoothed and graded to create the floor and walls of your pool.
-                    Finishing: The walls, floor and pool deck area are finished with the materials that your chosen. Fill the pool and enjoy!
-                    <br /><br />
+                    <ul>
+                        <li><b>Design the Pool: </b>We’ll help create a lavish pool design that makes the most of your space.</li>
+                        <li><b>Permitting:</b> Any project of this magnitude will require city and, often, HOA permits and inspections. We will contact utility companies to make sure there are now gas, power or water lines in the area. Our team will handle this for you.</li>
+                        <li><b>Excavation:</b> Large construction equipment – such as a backhoe or excavator – will be used to dig out the area where your future pool will be.</li>
+                        <li><b>Grading:</b> In this step, we’ll level the ground and create any sloping that the design requires.</li>
+                        <li><b>Framing:</b> We’ll frame the walls and floors of your new pool – typically with metal rebar.</li>
+                        <li><b>Plumbing and Electrical:</b> In this step, we’d add the filtration system, plumbing, lighting, and any electrical lines needed for power.</li>
+                        <li><b>Pour the floor and Build the Walls:</b> Concrete is poured, smoothed and graded to create the floor and walls of your pool.</li>
+                        <li><b>Finishing:</b> The walls, floor and pool deck area are finished with the materials that your chosen. Fill the pool and enjoy!</li>
+                    </ul>                    
+                    <br />
                     Pools aren’t the only way to bring water into your yard. A water feature, such as a stream, pond or even a waterfall can be a great way to add the beauty and tranquility of running water. Adding something as simple like a bird bath is a pretty straight forward DIY project, but a large and complex water feature may require permits, careful planning and excavation. The experts at Arise Contractors Group handle all the planning and execution leaving you to enjoy your new pool or water feature.
                 </p>
             </section>

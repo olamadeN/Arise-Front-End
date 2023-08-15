@@ -4,11 +4,13 @@ import Nav from "../Ui/nav/nav";
 import Footer from "../Ui/footer/footer"
 import news from '../../img/home/news.png';
 import { Link, useParams } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { useEffect, useState } from "react";
 const GalleryProjects = () => {
     const [Project, setProject] = useState([])
     const {category} = useParams()
     useEffect(() => {
+        /* fetch("http://127.0.0.1:5001/arise-backend/us-central1/app/admin/all_projects/"+ category) */
         fetch("https://ariseapi.onrender.com/admin/all_projects/"+ category)
         .then(res => {
           return res.json()
@@ -40,14 +42,14 @@ const GalleryProjects = () => {
                         {
                             Project.map((proj) => {
                                 return <div className="galGrid" key={proj.id}>
-                                    <Link to={`/gallery/${proj.category}/${proj.id}`}>
+                                    <HashLink to={`/gallery/${proj.category}/${proj.id}#top`}>
                                         <img src={proj.thumb} alt="whole home category" className="galPics" />
                                         <div className="category">
                                             <h4>{proj.name}</h4>
                                             
                                             <button className="btnPrimary">View</button>
                                         </div>
-                                    </Link>
+                                    </HashLink>
                                 </div>
                             })
                         }

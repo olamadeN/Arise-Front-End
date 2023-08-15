@@ -57,7 +57,7 @@ const ADU = () => {
             <div className="skitchen sects">
                 <img src={skit1} alt="kitchen pics" />
                 <img src={skit2} alt="kitchen pics" />
-            </div><br />
+            </div>
             <section className="sects">
                 <div className="doublePage">
                     <div className='aduList'>
@@ -124,7 +124,7 @@ const ADU = () => {
                     <h3>How much does an ADU cost?</h3>
                     <p className="body">
                     Compared to buying or building a new home, accessory dwelling units cost far less to create. A portion of those costs is made up of fees. Various licenses, taxes, utility fees, building codes, and city-required property upgrades must be taken into account. Permits, especially, can become costly if not handled correctly. All permits have an expiration date; you must apply for a new permit if construction is not completed in time. Inspections are also required every 180 days until completion. Failing an inspection requires you to start the permit process all over again. Expedited permits and after-hours inspections also add additional costs.
-                    <br/>
+                    <br/> <br />
                     Construction costs can rise dramatically with the wrong team handling your project. While some homeowners think hiring an architect is a good idea, the price for doing so is high. Having a separate architect, designer and construction team is virtually guaranteed to cost more than an all-in-one design-build firm such as Arise Contractors Group. Separate teams also mean more opportunity for mistakes and miscommunication that can lead to delays and additional costs
                     </p>
                 </div>

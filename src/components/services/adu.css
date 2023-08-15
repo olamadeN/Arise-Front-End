@@ -37,3 +37,29 @@
         width: 150%;
     }
 }
+@media screen and (min-width:1590px) {
+
+    #adulefttxt{
+        margin-top: 80px;
+    }
+    #adulefttxt{
+        margin-left:-18%;
+    } 
+/*     #adusectLeft{
+        gap: 2%;
+    } */
+    
+}
+@media screen and (min-width:1300px) {
+    #adusectLeft img{
+        margin-left: -22%;
+    }
+    #adusectLeft {
+        gap:21%;
+    }
+    
+    #adulefttxt{
+        margin-top: 30px;
+    }
+
+}

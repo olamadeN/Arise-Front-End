@@ -39,8 +39,8 @@
 
 .sectNews{
     width: 82.8%;
-    margin:130px 9%;
-    margin-top: 200px;
+    margin:50px 9%;
+    margin-top: 180px;
     border-radius: 37px;
     background: #006AAA;
     padding-inline: 4%;
@@ -87,12 +87,24 @@ form.news button{
 #dbuildRight{
     width: 110%;
 }
+#designRight{
+    margin-top: 0;
+}
 /* outdoor living*/
 #outdoorLeft{
     gap:29.5%;
+    margin-top: 0;
+}
+#outdoorright{
+    /* gap:29.5%; */
+    margin-top: 0;
+    margin-bottom:60px;
 }
 #outdoorLeftTxt{
     margin-top: 90px;
+}
+#uniRightImg{
+    width:110%;
 }
 /* media query */
 @media screen and (max-width:1950px) {
@@ -104,6 +116,7 @@ form.news button{
     }
     #outdoorLeft{
         gap:13%;
+        margin-top: 0;
     }
     #kitrighttxt{
         margin-top: 85px;
@@ -134,13 +147,20 @@ form.news button{
 }
 @media screen and (max-width:1420px) {
     #ksectLeft{
-        gap: 27%;
+        gap: 22%;
+    }
+    #ksectLeft img{
+        margin-left: -18%;
     }
     #whsSectTxt{
         gap: 26%;
     }
     #outdoorLeft{
-        gap:28%;
+        gap:22%;
+    }
+    #outdoorLeft img{
+        margin-left: -18%;
+        
     }
 }
 /*medium devices*/
@@ -244,7 +264,7 @@ form.news button{
 /*mobile devices*/
 @media screen and (max-width:480px) {
     .sSect1 button{
-        margin: 0 15%;
+        margin: 0 auto;
     }
     .sSect1 .sGallery{
         display: grid;
