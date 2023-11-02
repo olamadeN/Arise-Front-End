@@ -29,6 +29,7 @@ nav .AnavBtn{
     padding: 12px 32px;
     background: #006AAA;
     color: #FFFFFF;
+    cursor: pointer;
 }
   
 /*medium devices*/

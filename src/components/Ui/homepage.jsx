@@ -33,8 +33,14 @@ import './homepage.css';
 import '../services/service.css'
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { InstagramEmbed } from 'react-social-media-embed';
+import InstagramFeed  from 'react-ig-feed'
+import 'react-ig-feed/dist/index.css'
+import '../../'
 const Homepage = () => {
+
     return (
+       
         <div className="">
             <Nav />
             <div className="Hbanner">
@@ -236,10 +242,20 @@ const Homepage = () => {
                     </div>
                 </div>
                 <button className="btnPrimary tBtn" id='tBtn'><HashLink to="/about/testimonials#top">Read more</HashLink></button>
+    
             </section>
-            <section className="chair">
+            <section className="sects testimonial" style={{marginTop:90}} >
+                <p className="subheading" style={{fontSize:20}}>FOLLOW US ON INSTAGRAM</p>             
+                                 
+                <div style={{ display: 'flex', justifyContent: 'center'}}>
+                    <InstagramFeed token={process.env.REACT_APP_TOKEN}  counter="12"/> 
+                </div>
+                
+                
+            </section>
+{/*             <section className="chair">
                 <img src={couch} alt="just a chair" />
-            </section>
+            </section> */}
             <Footer />
         </div>
     );

@@ -32,7 +32,7 @@ const Nav = (props) => {
             <div className="Alinks">
               <li onClick={CatCreateClick}  className="AnavLink">Gallery</li>
               <li onClick={projCreateClick} className="AnavLink">Projects</li>
-              <div className="AnavBtn" onClick={handleLogout}>Log Out</div>
+              <div className="AnavBtn" style={{ cursor:'pointer'}} onClick={handleLogout}>Log Out</div>
             </div>
             
           </nav>        

@@ -107,7 +107,7 @@ const Category = (props) => {
                                         ) */
                                         
                                     }} 
-                                    style={{color:'red',marginLeft:8, marginTop:1}} 
+                                    style={{color:'red',marginLeft:8, marginTop:1, cursor:'pointer'}} 
                                     >Delete</h4>
                                 </div>
                             </div>

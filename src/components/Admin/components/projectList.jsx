@@ -93,7 +93,7 @@ const ProjectList = (props) => {
                                         )*/
                                         
                                         }}  
-                                        style={{color:'red',marginLeft:8}} 
+                                        style={{color:'red',marginLeft:8, cursor:'pointer'}} 
                                     >Delete</h4>
                                 </div>
                             </div>
